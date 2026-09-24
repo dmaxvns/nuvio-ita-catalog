@@ -17,9 +17,35 @@ try {
   console.error("Impossibile leggere catalog.json:", error.message);
 }
 
-const byPopularity = (a, b) => (b.popularity || 0) - (a.popularity || 0);
-const movies = [...(catalog.movies || [])].sort(byPopularity);
-const series = [...(catalog.series || [])].sort(byPopularity);
+const movies = catalog.movies || [];
+const series = catalog.series || [];
+
+// Ordine casuale "pesato": ogni volta che si apre un catalogo (skip = 0)
+// i titoli vengono rimescolati, ma i più popolari hanno più probabilità
+// di finire in alto. Le pagine successive usano lo stesso ordine.
+const orders = new Map();
+
+function shuffledByPopularity(list) {
+  return list
+    .map(item => {
+      const weight = Math.sqrt(Math.max(item.popularity || 0, 0)) + 1;
+      return { item, key: Math.random() ** (1 / weight) };
+    })
+    .sort((a, b) => b.key - a.key)
+    .map(x => x.item);
+}
+
+function getOrder(type, genre, fresh) {
+  const cacheKey = `${type}:${genre}`;
+  if (fresh || !orders.has(cacheKey)) {
+    const source = type === "movie" ? movies : series;
+    const list = source.filter(
+      item => Array.isArray(item.genreKeys) && item.genreKeys.includes(genre)
+    );
+    orders.set(cacheKey, shuffledByPopularity(list));
+  }
+  return orders.get(cacheKey);
+}
 
 function toMeta(item) {
   const meta = {
@@ -92,13 +118,11 @@ app.get(["/catalog/:type/:id.json", "/catalog/:type/:id/:extra.json"], (req, res
   if (!GENRE_NAMES[genre]) return res.json({ metas: [] });
 
   const skip = Number(new URLSearchParams(extra || "").get("skip")) || 0;
-  const source = type === "movie" ? movies : series;
+  const ordered = getOrder(type, genre, skip === 0);
 
-  const metas = source
-    .filter(item => Array.isArray(item.genreKeys) && item.genreKeys.includes(genre))
-    .slice(skip, skip + PAGE_SIZE)
-    .map(toMeta);
+  const metas = ordered.slice(skip, skip + PAGE_SIZE).map(toMeta);
 
+  res.set("Cache-Control", "no-store");
   res.json({ metas });
 });
 

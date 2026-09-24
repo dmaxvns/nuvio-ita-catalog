@@ -334,6 +334,7 @@ async function main() {
 
   let processed = 0;
   let active = 0;
+  let lastLogged = 0;
 
   const persist = async () => {
     cache.__crawl = { seen: [...seen], queue };
@@ -389,7 +390,8 @@ async function main() {
 
       await sleep(150);
 
-      if (processed % 200 === 0) {
+      if (processed - lastLogged >= 200) {
+        lastLogged = processed;
         await persist();
         const works = [...seen].filter(isWork).length;
         console.log(`--- pagine: ${processed}, in coda: ${queue.length}, opere trovate: ${works} ---`);
