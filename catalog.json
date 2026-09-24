@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-24T20:07:35.202Z",
+  "updatedAt": "2026-09-24T20:19:43.197Z",
   "source": "Vix Vocal + TMDB",
   "movies": [
     {
@@ -241,6 +241,105 @@
         "western"
       ],
       "sourceUrl": "https://vixvocal.it/opere/winchester-73"
+    },
+    {
+      "tmdbId": 1228710,
+      "imdbId": "tt30825738",
+      "type": "movie",
+      "name": "Star Wars: The Mandalorian and Grogu",
+      "overview": "L’Impero è caduto e i signori della guerra imperiali sono ancora sparsi per la galassia. Mentre la nascente Nuova Repubblica cerca di proteggere tutto ciò per cui l’Alleanza Ribelle ha combattuto, ha arruolato l’aiuto del leggendario cacciatore di taglie mandaloriano Din Djarin e del suo giovane apprendista Grogu.",
+      "poster": "/4v442cNP1nOhjjmf2l4Id2oWeR.jpg",
+      "year": 2026,
+      "rating": 7.475,
+      "popularity": 80.1976,
+      "genreKeys": [
+        "action",
+        "adventure",
+        "scifi"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/star-wars-the-mandalorian-and-grogu"
+    },
+    {
+      "tmdbId": 1263012,
+      "imdbId": "tt15181326",
+      "type": "movie",
+      "name": "Il filo del ricatto -  Dead Man's Wire",
+      "overview": "La mattina dell’8 febbraio 1977, Anthony G. “Tony” Kiritsis, quarantaquattro anni, entrò nell’ufficio di Richard O. Hall, presidente della Meridian Mortgage Company, e lo prese in ostaggio con un fucile a canne mozze calibro 12 collegato con un “dead man’s wire”, un cavo teso dal grilletto al collo di Hall. Questa è la vera storia del confronto che sconvolse il mondo: Tony chiese cinque milioni di dollari, di non essere né accusato né processato, e delle scuse personali da parte degli Hall per averlo truffato di ciò che gli era “dovuto”.",
+      "poster": "/oJ6NJSGFvhwlzFebNy5oMyW61Fv.jpg",
+      "year": 2026,
+      "rating": 6.525,
+      "popularity": 8.6764,
+      "genreKeys": [
+        "crime",
+        "drama",
+        "thriller"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/ilfilodelricatto2026"
+    },
+    {
+      "tmdbId": 1049471,
+      "imdbId": "tt23724682",
+      "type": "movie",
+      "name": "Outcome - Hollywood non dimentica",
+      "overview": "Reef Hawk, star di Hollywood dall’età di sei anni, non sta bene. Quando viene a sapere di un ricatto legato a un video misterioso, Reef decide di intraprendere un tour di scuse preventivo per fare ammenda, affrontare i suoi demoni ed evitare di essere boicottato.",
+      "poster": "/ln6AxyDbXI8UrH3CjR2XFo8wcdF.jpg",
+      "year": 2026,
+      "rating": 5.383,
+      "popularity": 11.3982,
+      "genreKeys": [
+        "comedy",
+        "drama"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/outcome2026"
+    },
+    {
+      "tmdbId": 1325734,
+      "imdbId": "tt33071426",
+      "type": "movie",
+      "name": "The Drama - Un segreto è per sempre",
+      "overview": "Una coppia, nei giorni che precedono le nozze, attraversa una profonda crisi scaturita da una serie di rivelazioni inaspettate, che smentiscono quello che uno dei due futuri coniugi pensava di sapere dell'altro.",
+      "poster": "/3zdr031LjTG71QyeC7mWdyU19bE.jpg",
+      "year": 2026,
+      "rating": 6.907,
+      "popularity": 33.0878,
+      "genreKeys": [
+        "romance",
+        "comedy",
+        "drama"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/the-drama-2026"
+    },
+    {
+      "tmdbId": 1357449,
+      "imdbId": "tt27590933",
+      "type": "movie",
+      "name": "Idoli - Fino all’ultima corsa",
+      "overview": "Edu è un giovane pilota motociclistico particolarmente aggressivo di cui nessuna squadra si fida. Eli, team leader dell’ Aspar Team in Moto2, gli offre un’opportunità a condizione che sia suo padre, Antonio Belardi, ad allenarlo. Edu non vede il padre da molti anni, un ex pilota che si è ritirato dalle piste dopo aver causato la morte di un altro pilota durante una gara. Sebbene Edu odi il padre per averlo abbandonato, sa che solo con lui potrà aiutarlo a realizzare il suo sogno.  Edu decide quindi di sottoporsi alla rigida disciplina che Antonio gli impone, che prevede tra l’altro di mettere da parte l’amore… Fino a quando non incontra Luna, una giovane artista che ha appena aperto uno studio di tatuaggi proprio sotto casa sua.",
+      "poster": "/nwljoHP01Q12VLnNq4UnXRDDHui.jpg",
+      "year": 2026,
+      "rating": 6.8,
+      "popularity": 3.3488,
+      "genreKeys": [
+        "drama",
+        "romance"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/idoli-ultima-corsa-2026"
+    },
+    {
+      "tmdbId": 687163,
+      "imdbId": "tt12042730",
+      "type": "movie",
+      "name": "L'ultima missione: Project Hail Mary",
+      "overview": "L’insegnante di scienze Ryland Grace si sveglia su un’astronave lontano anni luce da casa senza alcun ricordo di chi sia o di come sia arrivato lì. Con il riaffiorare della sua memoria, torna alla luce lo scopo della sua missione: risolvere l’enigma della misteriosa sostanza che sta causando il collasso del Sole. Dovrà fare affidamento sulle sue conoscenze scientifiche e sulle sue capacità di pensare fuori dagli schemi per salvare dall’estinzione la vita sulla Terra, mentre un'inaspettata amicizia gli farà capire che non è solo in questa impresa.",
+      "poster": "/gPC1X3mwqwX50Ye3qwwPt7iW3Ma.jpg",
+      "year": 2026,
+      "rating": 8.6,
+      "popularity": 103.7227,
+      "genreKeys": [
+        "scifi",
+        "adventure"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/project-hail-mary-2026"
     }
   ],
   "series": [
