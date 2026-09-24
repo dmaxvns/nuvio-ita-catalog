@@ -1,0 +1,34 @@
+name: Aggiorna catalogo
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Test: numero massimo di opere (vuoto = tutte)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install
+      - name: Genera catalogo
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          LIMIT: ${{ inputs.limit }}
+        run: npm run sync -- ${LIMIT:+--limit=$LIMIT} --maxMinutes=320
+      - name: Salva catalogo
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add catalog.json cache.json
+          git diff --cached --quiet || (git commit -m "Aggiorna catalogo" && git push)
