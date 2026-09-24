@@ -19,6 +19,15 @@ jobs:
     timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
+      - name: Backup prima del sync
+        uses: actions/upload-artifact@v4
+        with:
+          name: backup-catalogo-${{ github.run_number }}
+          path: |
+            catalog.json
+            cache.json
+          retention-days: 90
+          if-no-files-found: ignore
       - uses: actions/setup-node@v4
         with:
           node-version: 20
