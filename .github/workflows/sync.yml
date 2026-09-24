@@ -1,10 +1,12 @@
 name: Aggiorna catalogo
 
 on:
+  schedule:
+    - cron: "0 3 * * 1"
   workflow_dispatch:
     inputs:
       limit:
-        description: "Test: numero massimo di opere (vuoto = tutte)"
+        description: "Test: numero massimo di opere (lascia vuoto per tutte)"
         required: false
         default: ""
 
