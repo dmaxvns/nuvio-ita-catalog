@@ -1,0 +1,17 @@
+{
+  "name": "nuvio-ita-catalog",
+  "version": "1.0.0",
+  "description": "Cataloghi film e serie con doppiaggio italiano per Nuvio",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "sync": "node sync.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "express": "^5.1.0"
+  }
+}
