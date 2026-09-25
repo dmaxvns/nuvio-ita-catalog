@@ -145,6 +145,33 @@ app.get(["/catalog/:type/:id.json", "/catalog/:type/:id/:extra.json"], (req, res
   res.json({ metas });
 });
 
+app.get("/stats", (_req, res) => {
+  const countByGenre = (source, key, names) =>
+    Object.fromEntries(
+      Object.keys(names).map(g => [
+        names[g],
+        source.filter(item => Array.isArray(item[key]) && item[key].includes(g)).length
+      ])
+    );
+
+  res.json({
+    movies: {
+      totale: movies.length,
+      generi: countByGenre(movies, "genreKeys", GENRE_NAMES)
+    },
+    serie: {
+      totale: series.length,
+      generi: Object.fromEntries(
+        SERIES_GENRE_KEYS.map(g => [
+          SERIES_GENRE_NAMES[g],
+          series.filter(item => Array.isArray(item.genreKeys) && item.genreKeys.includes(g)).length
+        ])
+      ),
+      generi_extra: countByGenre(series, "extraGenreKeys", EXTRA_SERIES_GENRE_NAMES)
+    }
+  });
+});
+
 app.get("/health", (_req, res) => {
   res.json({
     ok: true,
