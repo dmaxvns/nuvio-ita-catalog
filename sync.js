@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import * as cheerio from "cheerio";
-import { TMDB_GENRES } from "./genres.js";
+import { TMDB_GENRES, EXTRA_SERIES_KEYWORDS } from "./genres.js";
 
 // ---------- Configurazione ----------
 
@@ -234,12 +234,21 @@ async function resolveTMDB(work) {
   if (s < 90) return null; // match troppo incerto: meglio scartare
 
   const kind = best.media_type === "movie" ? "movie" : "tv";
-  const d = await tmdb(`/${kind}/${best.id}`, { append_to_response: "external_ids" });
+  const d = await tmdb(`/${kind}/${best.id}`, { append_to_response: "external_ids,keywords" });
   if (!d) return null;
 
   const genreKeys = [
     ...new Set((d.genres || []).map(g => TMDB_GENRES[g.id]).filter(Boolean))
   ];
+
+  let extraGenreKeys = [];
+  if (kind === "tv") {
+    const rawKeywords = d.keywords?.results || d.keywords?.keywords || [];
+    const names = rawKeywords.map(k => (k.name || "").toLowerCase());
+    extraGenreKeys = Object.entries(EXTRA_SERIES_KEYWORDS)
+      .filter(([, terms]) => terms.some(term => names.some(n => n.includes(term))))
+      .map(([key]) => key);
+  }
 
   const date = d.release_date || d.first_air_date || "";
 

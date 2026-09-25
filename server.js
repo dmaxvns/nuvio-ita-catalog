@@ -2,7 +2,7 @@ import express from "express";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { GENRE_NAMES } from "./genres.js";
+import { GENRE_NAMES, SERIES_GENRE_KEYS, SERIES_GENRE_NAMES } from "./genres.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_FILE = path.join(__dirname, "catalog.json");
@@ -57,23 +57,33 @@ function toMeta(item) {
   if (item.overview) meta.description = item.overview;
   if (item.year) meta.releaseInfo = String(item.year);
   if (item.rating) meta.imdbRating = Number(item.rating).toFixed(1);
-  const genres = (item.genreKeys || []).map(k => GENRE_NAMES[k]).filter(Boolean);
+  const names = item.type === "series" ? SERIES_GENRE_NAMES : GENRE_NAMES;
+  const genres = (item.genreKeys || []).map(k => names[k]).filter(Boolean);
   if (genres.length) meta.genres = genres;
   return meta;
 }
 
 function createManifest() {
   const catalogs = [];
-  for (const [type, label] of [["movie", "Film"], ["series", "Serie"]]) {
-    for (const [key, name] of Object.entries(GENRE_NAMES)) {
-      catalogs.push({
-        type,
-        id: `ita_${type}_${key}`,
-        name: `🇮🇹 ${label} — ${name}`,
-        extra: [{ name: "skip" }]
-      });
-    }
+
+  for (const [key, name] of Object.entries(GENRE_NAMES)) {
+    catalogs.push({
+      type: "movie",
+      id: `ita_movie_${key}`,
+      name: `🇮🇹 Film — ${name}`,
+      extra: [{ name: "skip" }]
+    });
   }
+
+  for (const key of SERIES_GENRE_KEYS) {
+    catalogs.push({
+      type: "series",
+      id: `ita_series_${key}`,
+      name: `🇮🇹 Serie — ${SERIES_GENRE_NAMES[key]}`,
+      extra: [{ name: "skip" }]
+    });
+  }
+
   return {
     id: "com.nuvio.italian.catalog",
     version: "1.0.0",
@@ -108,17 +118,26 @@ app.get("/manifest.json", (_req, res) => {
 
 app.get(["/catalog/:type/:id.json", "/catalog/:type/:id/:extra.json"], (req, res) => {
   const { type, id, extra } = req.params;
-  const prefix = `ita_${type}_`;
-
-  if ((type !== "movie" && type !== "series") || !id.startsWith(prefix)) {
-    return res.json({ metas: [] });
-  }
-
-  const genre = id.slice(prefix.length);
-  if (!GENRE_NAMES[genre]) return res.json({ metas: [] });
+  if (type !== "movie" && type !== "series") return res.json({ metas: [] });
 
   const skip = Number(new URLSearchParams(extra || "").get("skip")) || 0;
-  const ordered = getOrder(type, genre, skip === 0);
+  const extraPrefix = `ita_${type}_extra_`;
+  const prefix = `ita_${type}_`;
+
+  let ordered;
+
+  if (type === "series" && id.startsWith(extraPrefix)) {
+    const key = id.slice(extraPrefix.length);
+    if (!(key in EXTRA_SERIES_GENRE_NAMES)) return res.json({ metas: [] });
+    ordered = getExtraOrder(key, skip === 0);
+  } else if (id.startsWith(prefix)) {
+    const genre = id.slice(prefix.length);
+    const validGenres = type === "series" ? SERIES_GENRE_KEYS : Object.keys(GENRE_NAMES);
+    if (!validGenres.includes(genre)) return res.json({ metas: [] });
+    ordered = getOrder(type, genre, skip === 0);
+  } else {
+    return res.json({ metas: [] });
+  }
 
   const metas = ordered.slice(skip, skip + PAGE_SIZE).map(toMeta);
 
