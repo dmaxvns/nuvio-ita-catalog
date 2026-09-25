@@ -263,6 +263,7 @@ async function resolveTMDB(work) {
     rating: d.vote_average || null,
     popularity: d.popularity || 0,
     genreKeys,
+    extraGenreKeys,
     sourceUrl: work.sourceUrl
   };
 }
