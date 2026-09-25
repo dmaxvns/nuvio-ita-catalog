@@ -40,6 +40,17 @@ function shuffledByPopularity(list) {
     .map(x => x.item);
 }
 
+function getExtraOrder(key, fresh) {
+  const cacheKey = `extra:${key}`;
+  if (fresh || !orders.has(cacheKey)) {
+    const list = series.filter(
+      item => Array.isArray(item.extraGenreKeys) && item.extraGenreKeys.includes(key)
+    );
+    orders.set(cacheKey, shuffledByPopularity(list));
+  }
+  return orders.get(cacheKey);
+}
+
 function getOrder(type, genre, fresh) {
   const cacheKey = `${type}:${genre}`;
   if (fresh || !orders.has(cacheKey)) {
