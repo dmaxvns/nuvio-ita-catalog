@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-24T21:53:48.625Z",
+  "updatedAt": "2026-09-25T05:46:10.758Z",
   "source": "Vix Vocal + TMDB",
   "movies": [
     {
@@ -257303,6 +257303,23 @@
         "comedy"
       ],
       "sourceUrl": "https://vixvocal.it/opere/una-famiglia-si-fa-per-dire"
+    },
+    {
+      "tmdbId": 12971,
+      "imdbId": "tt0121220",
+      "type": "series",
+      "name": "Dragon Ball Z",
+      "overview": "Dragon Ball Z narra le avventure di Goku, ormai divenuto adulto, il quale si è sposato con Chichi e da cui ha avuto due figli, Gohan e, successivamente, Goten. Con il proseguire della serie e delle avventure, aumentano sia gli avversari sia la loro potenza, e le battaglie che ne derivano causano un allontanamento sempre maggiore da quella che era la base della storia in Dragon Ball, ovvero la ricerca delle sfere del drago. Si privilegiano così la crescita dei personaggi e il susseguirsi degli scontri, affidandosi a una trama rivelatasi di enorme successo. La serie copre un arco narrativo di 22 anni, partendo dall'attacco di Radish e concludendosi con la partenza di Goku allo scopo di allenare Ub in occasione del 28º Torneo Tenkaichi.",
+      "poster": "/b5JAc3LgLLO4KPivkQa6v2haDIg.jpg",
+      "year": 1989,
+      "rating": 8.379,
+      "popularity": 106.9831,
+      "genreKeys": [
+        "animation",
+        "scifi",
+        "action"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/dbz-anime"
     }
   ]
 }
