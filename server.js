@@ -2,7 +2,12 @@ import express from "express";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { GENRE_NAMES, SERIES_GENRE_KEYS, SERIES_GENRE_NAMES } from "./genres.js";
+import {
+  GENRE_NAMES,
+  SERIES_GENRE_KEYS,
+  SERIES_GENRE_NAMES,
+  EXTRA_SERIES_GENRE_NAMES
+} from "./genres.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_FILE = path.join(__dirname, "catalog.json");
