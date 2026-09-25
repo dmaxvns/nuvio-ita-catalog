@@ -316,6 +316,23 @@ async function main() {
   console.log("\n🇮🇹 NUVIO ITA CATALOG SYNC\n");
 
   const cache = await loadCache();
+
+  // Migrazione una tantum: le serie salvate prima dell'introduzione dei
+  // generi extra non hanno "extraGenreKeys". Le rimuoviamo dalla cache
+  // così vengono ricollegate a TMDB e questa volta calcoliamo anche quelli.
+  // I film non vengono toccati: non usano le parole chiave.
+  let migrated = 0;
+  for (const [url, item] of Object.entries(cache)) {
+    if (url === "__crawl") continue;
+    if (item && item.type === "series" && item.extraGenreKeys === undefined) {
+      delete cache[url];
+      migrated++;
+    }
+  }
+  if (migrated > 0) {
+    console.log(`Migrazione: ${migrated} serie da ricollegare per i generi extra.\n`);
+  }
+
   const state = cache.__crawl || { seen: [], queue: [] };
   const seen = new Set(state.seen);
   const queue = [...state.queue];
