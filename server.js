@@ -89,6 +89,15 @@ function createManifest() {
     });
   }
 
+  for (const [key, name] of Object.entries(EXTRA_SERIES_GENRE_NAMES)) {
+    catalogs.push({
+      type: "series",
+      id: `ita_series_extra_${key}`,
+      name: `🇮🇹 Serie — ${name}`,
+      extra: [{ name: "skip" }]
+    });
+  }
+
   return {
     id: "com.nuvio.italian.catalog",
     version: "1.0.0",
