@@ -260,6 +260,7 @@ async function resolveTMDB(work) {
     overview: d.overview || "",
     poster: d.poster_path || null,
     year: date ? Number(date.slice(0, 4)) : null,
+    releaseDate: date || null,
     rating: d.vote_average || null,
     popularity: d.popularity || 0,
     genreKeys,
@@ -332,6 +333,22 @@ async function main() {
   }
   if (migrated > 0) {
     console.log(`Migrazione: ${migrated} serie da ricollegare per i generi extra.\n`);
+  }
+
+  // Migrazione una tantum: nessuna opera salvata finora ha la data
+  // completa (solo l'anno). Le rimuoviamo tutte dalla cache così vengono
+  // ricollegate a TMDB e questa volta salviamo anche la data esatta.
+  // Riguarda sia film che serie: è la migrazione più grande fatta finora.
+  let migratedDate = 0;
+  for (const [url, item] of Object.entries(cache)) {
+    if (url === "__crawl") continue;
+    if (item && item.releaseDate === undefined) {
+      delete cache[url];
+      migratedDate++;
+    }
+  }
+  if (migratedDate > 0) {
+    console.log(`Migrazione: ${migratedDate} opere da ricollegare per la data esatta.\n`);
   }
 
   const state = cache.__crawl || { seen: [], queue: [] };

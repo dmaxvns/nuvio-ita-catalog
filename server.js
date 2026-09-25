@@ -51,6 +51,22 @@ function getExtraOrder(key, fresh) {
   return orders.get(cacheKey);
 }
 
+const latestOrders = new Map();
+
+function getLatestOrder(type) {
+  if (!latestOrders.has(type)) {
+    const source = type === "movie" ? movies : series;
+    // Finché non tutte le opere hanno la data esatta (dopo la migrazione),
+    // quelle che hanno solo l'anno vengono messe in fondo al loro anno.
+    const sortKey = item => item.releaseDate || (item.year ? `${item.year}-00-00` : "0000-00-00");
+    const list = [...source]
+      .filter(item => item.releaseDate || item.year)
+      .sort((a, b) => sortKey(b).localeCompare(sortKey(a)) || ((b.popularity || 0) - (a.popularity || 0)));
+    latestOrders.set(type, list);
+  }
+  return latestOrders.get(type);
+}
+
 function getOrder(type, genre, fresh) {
   const cacheKey = `${type}:${genre}`;
   if (fresh || !orders.has(cacheKey)) {
@@ -82,6 +98,13 @@ function toMeta(item) {
 function createManifest() {
   const catalogs = [];
 
+  catalogs.push({
+    type: "movie",
+    id: "ita_movie_latest",
+    name: "🇮🇹 Film — Ultime uscite",
+    extra: [{ name: "skip" }]
+  });
+
   for (const [key, name] of Object.entries(GENRE_NAMES)) {
     catalogs.push({
       type: "movie",
@@ -99,6 +122,13 @@ function createManifest() {
       extra: [{ name: "skip" }]
     });
   }
+
+  catalogs.push({
+    type: "series",
+    id: "ita_series_latest",
+    name: "🇮🇹 Serie — Ultime uscite",
+    extra: [{ name: "skip" }]
+  });
 
   for (const [key, name] of Object.entries(EXTRA_SERIES_GENRE_NAMES)) {
     catalogs.push({
@@ -151,7 +181,9 @@ app.get(["/catalog/:type/:id.json", "/catalog/:type/:id/:extra.json"], (req, res
 
   let ordered;
 
-  if (type === "series" && id.startsWith(extraPrefix)) {
+  if (id === `ita_${type}_latest`) {
+    ordered = getLatestOrder(type);
+  } else if (type === "series" && id.startsWith(extraPrefix)) {
     const key = id.slice(extraPrefix.length);
     if (!(key in EXTRA_SERIES_GENRE_NAMES)) return res.json({ metas: [] });
     ordered = getExtraOrder(key, skip === 0);
@@ -182,10 +214,12 @@ app.get("/stats", (_req, res) => {
   res.json({
     movies: {
       totale: movies.length,
+      con_anno: movies.filter(m => m.year).length,
       generi: countByGenre(movies, "genreKeys", GENRE_NAMES)
     },
     serie: {
       totale: series.length,
+      con_anno: series.filter(s => s.year).length,
       generi: Object.fromEntries(
         SERIES_GENRE_KEYS.map(g => [
           SERIES_GENRE_NAMES[g],
