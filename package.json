@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "sync": "node sync.js"
+    "sync": "node sync.js",
+    "sync:providers": "node providers-sync.js"
   },
   "engines": {
     "node": ">=20"

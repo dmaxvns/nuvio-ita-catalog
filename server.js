@@ -11,6 +11,7 @@ import {
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_FILE = path.join(__dirname, "catalog.json");
+const PROVIDERS_FILE = path.join(__dirname, "providers-catalog.json");
 const PORT = process.env.PORT || 10000;
 const PAGE_SIZE = 100;
 
@@ -21,6 +22,17 @@ try {
 } catch (error) {
   console.error("Impossibile leggere catalog.json:", error.message);
 }
+
+// Catalogo per piattaforma streaming, indipendente da Vix Vocal.
+// Se il file non esiste ancora (prima del primo providers-sync), l'addon
+// funziona comunque: semplicemente non compare nessun catalogo extra.
+let providersData = { updatedAt: null, providers: [] };
+try {
+  providersData = JSON.parse(fs.readFileSync(PROVIDERS_FILE, "utf8"));
+} catch (error) {
+  console.log("providers-catalog.json non trovato: cataloghi per piattaforma disattivati.");
+}
+const providers = providersData.providers || [];
 
 const movies = catalog.movies || [];
 const series = catalog.series || [];
@@ -52,6 +64,57 @@ function getExtraOrder(key, fresh) {
 }
 
 const latestOrders = new Map();
+
+const providerOrders = new Map();
+
+function getProviderOrder(providerId, type) {
+  const cacheKey = `${providerId}:${type}`;
+  if (!providerOrders.has(cacheKey)) {
+    const provider = providers.find(p => String(p.id) === String(providerId));
+    const source = provider ? (type === "movie" ? provider.movies : provider.series) || [] : [];
+    // Non mescoliamo: qui l'ordine riflette la popolarità attuale sulla
+    // piattaforma, non serve varietà come nei cataloghi Vix Vocal.
+    const list = [...source].sort((a, b) => (b.popularity || 0) - (a.popularity || 0));
+    providerOrders.set(cacheKey, list);
+  }
+  return providerOrders.get(cacheKey);
+}
+
+// Cataloghi "per genere, da tutte le piattaforme insieme": un film o una
+// serie disponibile su più servizi compare una sola volta, con l'elenco
+// di dove si trova.
+let combinedStreaming = null;
+
+function getCombinedStreaming(type) {
+  if (!combinedStreaming) combinedStreaming = { movie: new Map(), series: new Map() };
+  if (combinedStreaming[type].size === 0) {
+    for (const provider of providers) {
+      const source = (type === "movie" ? provider.movies : provider.series) || [];
+      for (const item of source) {
+        const key = item.tmdbId;
+        if (combinedStreaming[type].has(key)) {
+          combinedStreaming[type].get(key).platforms.push(provider.name);
+        } else {
+          combinedStreaming[type].set(key, { ...item, platforms: [provider.name] });
+        }
+      }
+    }
+  }
+  return [...combinedStreaming[type].values()];
+}
+
+const streamingGenreOrders = new Map();
+
+function getStreamingGenreOrder(type, genre) {
+  const cacheKey = `${type}:${genre}`;
+  if (!streamingGenreOrders.has(cacheKey)) {
+    const list = getCombinedStreaming(type)
+      .filter(item => Array.isArray(item.genreKeys) && item.genreKeys.includes(genre))
+      .sort((a, b) => (b.popularity || 0) - (a.popularity || 0));
+    streamingGenreOrders.set(cacheKey, list);
+  }
+  return streamingGenreOrders.get(cacheKey);
+}
 
 function getLatestOrder(type) {
   if (!latestOrders.has(type)) {
@@ -86,7 +149,10 @@ function toMeta(item) {
     name: item.name
   };
   if (item.poster) meta.poster = `https://image.tmdb.org/t/p/w500${item.poster}`;
-  if (item.overview) meta.description = item.overview;
+  if (item.overview || item.platforms) {
+    const platformLine = item.platforms?.length ? `\n\n📺 Disponibile su: ${item.platforms.join(", ")}` : "";
+    meta.description = (item.overview || "") + platformLine;
+  }
   if (item.year) meta.releaseInfo = String(item.year);
   if (item.rating) meta.imdbRating = Number(item.rating).toFixed(1);
   const names = item.type === "series" ? SERIES_GENRE_NAMES : GENRE_NAMES;
@@ -139,6 +205,51 @@ function createManifest() {
     });
   }
 
+  // Un catalogo film e uno serie per ogni piattaforma streaming disponibile
+  // in Italia (dati da TMDB/JustWatch, non da Vix Vocal).
+  for (const provider of providers) {
+    if (provider.movies?.length) {
+      catalogs.push({
+        type: "movie",
+        id: `prov_movie_${provider.id}`,
+        name: `🇮🇹 ${provider.name} — Film`,
+        extra: [{ name: "skip" }]
+      });
+    }
+    if (provider.series?.length) {
+      catalogs.push({
+        type: "series",
+        id: `prov_series_${provider.id}`,
+        name: `🇮🇹 ${provider.name} — Serie`,
+        extra: [{ name: "skip" }]
+      });
+    }
+  }
+
+  // Cataloghi per genere che uniscono tutte le piattaforme insieme
+  // (stesso titolo su più servizi appare una volta sola).
+  for (const [key, name] of Object.entries(GENRE_NAMES)) {
+    if (getStreamingGenreOrder("movie", key).length > 0) {
+      catalogs.push({
+        type: "movie",
+        id: `str_movie_${key}`,
+        name: `🇮🇹 In streaming — Film — ${name}`,
+        extra: [{ name: "skip" }]
+      });
+    }
+  }
+
+  for (const key of SERIES_GENRE_KEYS) {
+    if (getStreamingGenreOrder("series", key).length > 0) {
+      catalogs.push({
+        type: "series",
+        id: `str_series_${key}`,
+        name: `🇮🇹 In streaming — Serie — ${SERIES_GENRE_NAMES[key]}`,
+        extra: [{ name: "skip" }]
+      });
+    }
+  }
+
   return {
     id: "com.nuvio.italian.catalog",
     version: "1.0.0",
@@ -178,10 +289,20 @@ app.get(["/catalog/:type/:id.json", "/catalog/:type/:id/:extra.json"], (req, res
   const skip = Number(new URLSearchParams(extra || "").get("skip")) || 0;
   const extraPrefix = `ita_${type}_extra_`;
   const prefix = `ita_${type}_`;
+  const providerPrefix = `prov_${type}_`;
+  const streamingGenrePrefix = `str_${type}_`;
 
   let ordered;
 
-  if (id === `ita_${type}_latest`) {
+  if (id.startsWith(providerPrefix)) {
+    const providerId = id.slice(providerPrefix.length);
+    ordered = getProviderOrder(providerId, type);
+  } else if (id.startsWith(streamingGenrePrefix)) {
+    const genre = id.slice(streamingGenrePrefix.length);
+    const validGenres = type === "series" ? SERIES_GENRE_KEYS : Object.keys(GENRE_NAMES);
+    if (!validGenres.includes(genre)) return res.json({ metas: [] });
+    ordered = getStreamingGenreOrder(type, genre);
+  } else if (id === `ita_${type}_latest`) {
     ordered = getLatestOrder(type);
   } else if (type === "series" && id.startsWith(extraPrefix)) {
     const key = id.slice(extraPrefix.length);
@@ -211,15 +332,34 @@ app.get("/stats", (_req, res) => {
       ])
     );
 
+  const yearStats = source => {
+    const years = source.map(item => item.year).filter(Boolean);
+    if (!years.length) return { min: null, max: null, per_decennio: {} };
+
+    const perDecade = {};
+    for (const y of years) {
+      const decade = `${Math.floor(y / 10) * 10}s`;
+      perDecade[decade] = (perDecade[decade] || 0) + 1;
+    }
+    // Ordina i decenni dal più recente al più vecchio
+    const ordered = Object.fromEntries(
+      Object.entries(perDecade).sort((a, b) => b[0].localeCompare(a[0]))
+    );
+
+    return { min: Math.min(...years), max: Math.max(...years), per_decennio: ordered };
+  };
+
   res.json({
     movies: {
       totale: movies.length,
       con_anno: movies.filter(m => m.year).length,
+      anni: yearStats(movies),
       generi: countByGenre(movies, "genreKeys", GENRE_NAMES)
     },
     serie: {
       totale: series.length,
       con_anno: series.filter(s => s.year).length,
+      anni: yearStats(series),
       generi: Object.fromEntries(
         SERIES_GENRE_KEYS.map(g => [
           SERIES_GENRE_NAMES[g],
@@ -227,6 +367,13 @@ app.get("/stats", (_req, res) => {
         ])
       ),
       generi_extra: countByGenre(series, "extraGenreKeys", EXTRA_SERIES_GENRE_NAMES)
+    },
+    piattaforme: {
+      aggiornato: providersData.updatedAt,
+      totale: providers.length,
+      dettaglio: Object.fromEntries(
+        providers.map(p => [p.name, { film: p.movies?.length || 0, serie: p.series?.length || 0 }])
+      )
     }
   });
 });
@@ -237,7 +384,9 @@ app.get("/health", (_req, res) => {
     source: catalog.source,
     updatedAt: catalog.updatedAt,
     movies: movies.length,
-    series: series.length
+    series: series.length,
+    piattaforme: providers.length,
+    piattaforme_aggiornate: providersData.updatedAt
   });
 });
 
