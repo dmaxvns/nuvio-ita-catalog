@@ -1,0 +1,30 @@
+name: Aggiorna catalogo piattaforme
+
+on:
+  schedule:
+    - cron: "0 4 * * 3"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 320
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install
+      - name: Genera catalogo piattaforme
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: npm run sync:providers
+      - name: Salva catalogo piattaforme
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add providers-catalog.json
+          git diff --cached --quiet || (git commit -m "Aggiorna catalogo piattaforme" && git push)
