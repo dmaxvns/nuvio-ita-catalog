@@ -189,7 +189,21 @@ async function getExtraGenreKeys(tmdbId) {
 // Lingue originali da escludere sempre dai cataloghi per piattaforma:
 // tolgono i titoli cinesi che TMDB segna disponibili in Italia ma che
 // non hanno nulla a che fare con un doppiaggio italiano documentato.
-const EXCLUDED_ORIGINAL_LANGUAGES = new Set(["zh", "cn"]);
+// Cinese + le lingue principali dell'India (hindi, telugu e le altre
+// lingue indiane più comuni su TMDB), così finiscono fuori anche i film
+// non hindi/telugu ma comunque indiani.
+const EXCLUDED_ORIGINAL_LANGUAGES = new Set([
+  "zh", "cn",              // cinese
+  "hi",                    // hindi
+  "te",                    // telugu
+  "ta",                    // tamil
+  "ml",                    // malayalam
+  "kn",                    // kannada
+  "bn",                    // bengali
+  "mr",                    // marathi
+  "pa",                    // punjabi
+  "gu"                     // gujarati
+]);
 
 // Rilevamento lingua molto semplice, senza librerie esterne: confronta
 // quante parole comuni italiane e inglesi compaiono nella trama. Se la
@@ -232,6 +246,7 @@ async function discoverCatalog(kind, providerId) {
   let totalPages = TMDB_MAX_PAGES;
   let skippedForLanguage = 0;
   let skippedForEnglishOverview = 0;
+  let skippedForNoOverview = 0;
 
   for (let page = 1; page <= Math.min(TMDB_MAX_PAGES, totalPages); page++) {
     const data = await tmdb(`/discover/${kind}`, {
@@ -248,6 +263,10 @@ async function discoverCatalog(kind, providerId) {
     for (const raw of data.results) {
       if (EXCLUDED_ORIGINAL_LANGUAGES.has(raw.original_language)) {
         skippedForLanguage++;
+        continue;
+      }
+      if (!raw.overview || !raw.overview.trim()) {
+        skippedForNoOverview++;
         continue;
       }
       if (looksEnglish(raw.overview)) {
@@ -267,7 +286,10 @@ async function discoverCatalog(kind, providerId) {
   }
 
   if (skippedForLanguage > 0) {
-    console.log(`  (${skippedForLanguage} titoli in cinese esclusi)`);
+    console.log(`  (${skippedForLanguage} titoli in lingue escluse: cinese/indiane)`);
+  }
+  if (skippedForNoOverview > 0) {
+    console.log(`  (${skippedForNoOverview} titoli senza trama esclusi)`);
   }
   if (skippedForEnglishOverview > 0) {
     console.log(`  (${skippedForEnglishOverview} titoli con trama in inglese esclusi)`);
