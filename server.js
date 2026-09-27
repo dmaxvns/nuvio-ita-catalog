@@ -116,6 +116,18 @@ function getStreamingGenreOrder(type, genre) {
   return streamingGenreOrders.get(cacheKey);
 }
 
+const streamingAllOrders = new Map();
+
+function getStreamingAllOrder(type) {
+  if (!streamingAllOrders.has(type)) {
+    const list = [...getCombinedStreaming(type)].sort(
+      (a, b) => (b.popularity || 0) - (a.popularity || 0)
+    );
+    streamingAllOrders.set(type, list);
+  }
+  return streamingAllOrders.get(type);
+}
+
 function getLatestOrder(type) {
   if (!latestOrders.has(type)) {
     const source = type === "movie" ? movies : series;
@@ -226,6 +238,25 @@ function createManifest() {
     }
   }
 
+  // Un unico catalogo con tutti i titoli di tutte le 34 piattaforme
+  // insieme, senza filtro di genere (stesso titolo appare una sola volta).
+  if (getStreamingAllOrder("movie").length > 0) {
+    catalogs.push({
+      type: "movie",
+      id: "str_movie_all",
+      name: "🇮🇹 In streaming — Tutti i film",
+      extra: [{ name: "skip" }]
+    });
+  }
+  if (getStreamingAllOrder("series").length > 0) {
+    catalogs.push({
+      type: "series",
+      id: "str_series_all",
+      name: "🇮🇹 In streaming — Tutte le serie",
+      extra: [{ name: "skip" }]
+    });
+  }
+
   // Cataloghi per genere che uniscono tutte le piattaforme insieme
   // (stesso titolo su più servizi appare una volta sola).
   for (const [key, name] of Object.entries(GENRE_NAMES)) {
@@ -297,6 +328,8 @@ app.get(["/catalog/:type/:id.json", "/catalog/:type/:id/:extra.json"], (req, res
   if (id.startsWith(providerPrefix)) {
     const providerId = id.slice(providerPrefix.length);
     ordered = getProviderOrder(providerId, type);
+  } else if (id === `str_${type}_all`) {
+    ordered = getStreamingAllOrder(type);
   } else if (id.startsWith(streamingGenrePrefix)) {
     const genre = id.slice(streamingGenrePrefix.length);
     const validGenres = type === "series" ? SERIES_GENRE_KEYS : Object.keys(GENRE_NAMES);
