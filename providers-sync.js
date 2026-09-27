@@ -67,17 +67,79 @@ async function getProviders(kind) {
   }));
 }
 
+// Solo queste piattaforme, in questo ordine esatto. Gli ID sono quelli
+// veri di TMDB (presi dal tuo manifest reale), non nomi da indovinare:
+// non c'è ambiguità possibile, ogni ID identifica una piattaforma precisa.
+const PLATFORM_WHITELIST = [
+  { id: 119, name: "Amazon Prime Video" },
+  { id: 8, name: "Netflix" },
+  { id: 350, name: "Apple TV" },
+  { id: 2, name: "Apple TV Store" },
+  { id: 2149, name: "CG TV STREAMING" },
+  { id: 40, name: "CHILI" },
+  { id: 283, name: "Crunchyroll" },
+  { id: 524, name: "Discovery+" },
+  { id: 337, name: "Disney Plus" },
+  { id: 3, name: "Google Play Movies" },
+  { id: 1899, name: "HBO Max" },
+  { id: 110, name: "Infinity+" },
+  { id: 359, name: "Mediaset Infinity" },
+  { id: 11, name: "Mubi" },
+  { id: 2483, name: "MYmovies One" },
+  { id: 39, name: "NOW TV" },
+  { id: 531, name: "Paramount Plus" },
+  { id: 538, name: "Plex" },
+  { id: 222, name: "Rai Play" },
+  { id: 35, name: "Rakuten TV" },
+  { id: 29, name: "Sky Go" },
+  { id: 109, name: "Timvision" },
+  { id: 2680, name: "Anni Duemila Amazon Channel" },
+  { id: 1727, name: "CG Collection Amazon channel" },
+  { id: 1730, name: "Cine Comico Amazon Channel" },
+  { id: 2717, name: "CINE Dark Amazon Channel" },
+  { id: 2389, name: "Eagle Magic Amazon Channel" },
+  { id: 2388, name: "Eagle No Limits Amazon Channel" },
+  { id: 1729, name: "Full Action Amazon Channel" },
+  { id: 1728, name: "iWonder Full Amazon channel" },
+  { id: 2358, name: "Lionsgate+ Amazon Channels" },
+  { id: 2141, name: "MGM Plus Amazon Channel" },
+  { id: 1897, name: "MIDNIGHT FACTORY Amazon Channel" },
+  { id: 2747, name: "The Film Club Amazon Channel" }
+];
+
 async function discoverAllProviders() {
+  // Scarichiamo l'elenco solo per recuperare i loghi; la selezione delle
+  // piattaforme non dipende più da questo elenco, solo dagli ID fissi sopra.
   const [moviesProviders, seriesProviders] = await Promise.all([
     getProviders("movie"),
     getProviders("tv")
   ]);
-
   const byId = new Map();
   for (const p of [...moviesProviders, ...seriesProviders]) {
     if (!byId.has(p.id)) byId.set(p.id, p);
   }
-  return [...byId.values()].sort((a, b) => a.name.localeCompare(b.name));
+
+  const result = [];
+  const missing = [];
+
+  for (const entry of PLATFORM_WHITELIST) {
+    const raw = byId.get(entry.id);
+    if (!raw) {
+      // La piattaforma potrebbe essere sparita da TMDB nel frattempo: lo
+      // segnaliamo, ma continuiamo comunque a provare a interrogarla per id.
+      missing.push(entry.name);
+    }
+    result.push({ id: entry.id, name: entry.name, logo: raw?.logo || null });
+  }
+
+  console.log(`Piattaforme richieste: ${PLATFORM_WHITELIST.length}`);
+  if (missing.length) {
+    console.log(`⚠️  Non presenti nell'elenco attuale di TMDB (verranno comunque provate):`);
+    for (const name of missing) console.log(`   - ${name}`);
+  }
+  console.log("");
+
+  return result;
 }
 
 // ---------- Titoli per piattaforma ----------
@@ -110,10 +172,6 @@ async function discoverCatalog(kind, providerId) {
     const data = await tmdb(`/discover/${kind}`, {
       watch_region: "IT",
       with_watch_providers: providerId,
-      // Solo abbonamento (flatrate): esclude noleggio e acquisto, così
-      // negozi come Apple TV, Google Play, Chili... spariscono da soli
-      // se non offrono nulla in abbonamento (restano con 0 risultati).
-      with_watch_monetization_types: "flatrate",
       sort_by: "popularity.desc",
       include_adult: false,
       page
