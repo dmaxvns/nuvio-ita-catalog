@@ -191,10 +191,47 @@ async function getExtraGenreKeys(tmdbId) {
 // non hanno nulla a che fare con un doppiaggio italiano documentato.
 const EXCLUDED_ORIGINAL_LANGUAGES = new Set(["zh", "cn"]);
 
+// Rilevamento lingua molto semplice, senza librerie esterne: confronta
+// quante parole comuni italiane e inglesi compaiono nella trama. Se la
+// trama sembra inglese, vuol dire che TMDB non ha una traduzione italiana
+// per quel titolo: segnale che probabilmente non è ben localizzato.
+const ITALIAN_STOPWORDS = new Set([
+  "di", "la", "il", "e", "che", "un", "una", "per", "con", "del", "della",
+  "sono", "non", "dei", "alla", "nel", "le", "gli", "si", "da", "in", "tra",
+  "fra", "dopo", "quando", "mentre", "suo", "sua", "loro", "questo", "questa",
+  "ma", "piu", "dove", "anche", "come", "ha", "hanno", "era", "lui", "lei",
+  "suoi", "dovra", "deve", "essere", "stato", "stata"
+]);
+const ENGLISH_STOPWORDS = new Set([
+  "the", "and", "of", "in", "to", "is", "that", "with", "for", "on", "are",
+  "was", "this", "his", "her", "their", "when", "after", "while", "but",
+  "where", "also", "as", "has", "have", "had", "he", "she", "must", "be",
+  "been", "from", "by", "an", "a"
+]);
+
+function looksEnglish(text) {
+  const words = String(text || "")
+    .toLowerCase()
+    .replace(/[^a-zàèéìòù\s]/gi, " ")
+    .split(/\s+/)
+    .filter(Boolean);
+
+  if (words.length < 8) return false; // trama troppo corta per essere affidabile
+
+  let itCount = 0;
+  let enCount = 0;
+  for (const w of words) {
+    if (ITALIAN_STOPWORDS.has(w)) itCount++;
+    if (ENGLISH_STOPWORDS.has(w)) enCount++;
+  }
+  return enCount > itCount && enCount >= 3;
+}
+
 async function discoverCatalog(kind, providerId) {
   const items = [];
   let totalPages = TMDB_MAX_PAGES;
   let skippedForLanguage = 0;
+  let skippedForEnglishOverview = 0;
 
   for (let page = 1; page <= Math.min(TMDB_MAX_PAGES, totalPages); page++) {
     const data = await tmdb(`/discover/${kind}`, {
@@ -213,6 +250,10 @@ async function discoverCatalog(kind, providerId) {
         skippedForLanguage++;
         continue;
       }
+      if (looksEnglish(raw.overview)) {
+        skippedForEnglishOverview++;
+        continue;
+      }
 
       const item = toItem(raw, kind);
       if (kind === "tv") {
@@ -227,6 +268,9 @@ async function discoverCatalog(kind, providerId) {
 
   if (skippedForLanguage > 0) {
     console.log(`  (${skippedForLanguage} titoli in cinese esclusi)`);
+  }
+  if (skippedForEnglishOverview > 0) {
+    console.log(`  (${skippedForEnglishOverview} titoli con trama in inglese esclusi)`);
   }
 
   return items;
