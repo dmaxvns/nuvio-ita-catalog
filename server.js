@@ -128,6 +128,18 @@ function getStreamingAllOrder(type) {
   return streamingAllOrders.get(type);
 }
 
+const streamingExtraOrders = new Map();
+
+function getStreamingExtraOrder(key) {
+  if (!streamingExtraOrders.has(key)) {
+    const list = getCombinedStreaming("series")
+      .filter(item => Array.isArray(item.extraGenreKeys) && item.extraGenreKeys.includes(key))
+      .sort((a, b) => (b.popularity || 0) - (a.popularity || 0));
+    streamingExtraOrders.set(key, list);
+  }
+  return streamingExtraOrders.get(key);
+}
+
 function getLatestOrder(type) {
   if (!latestOrders.has(type)) {
     const source = type === "movie" ? movies : series;
@@ -281,6 +293,17 @@ function createManifest() {
     }
   }
 
+  for (const [key, name] of Object.entries(EXTRA_SERIES_GENRE_NAMES)) {
+    if (getStreamingExtraOrder(key).length > 0) {
+      catalogs.push({
+        type: "series",
+        id: `str_series_extra_${key}`,
+        name: `🇮🇹 In streaming — Serie — ${name}`,
+        extra: [{ name: "skip" }]
+      });
+    }
+  }
+
   return {
     id: "com.nuvio.italian.catalog",
     version: "1.0.0",
@@ -321,6 +344,7 @@ app.get(["/catalog/:type/:id.json", "/catalog/:type/:id/:extra.json"], (req, res
   const extraPrefix = `ita_${type}_extra_`;
   const prefix = `ita_${type}_`;
   const providerPrefix = `prov_${type}_`;
+  const streamingExtraPrefix = `str_${type}_extra_`;
   const streamingGenrePrefix = `str_${type}_`;
 
   let ordered;
@@ -330,6 +354,10 @@ app.get(["/catalog/:type/:id.json", "/catalog/:type/:id/:extra.json"], (req, res
     ordered = getProviderOrder(providerId, type);
   } else if (id === `str_${type}_all`) {
     ordered = getStreamingAllOrder(type);
+  } else if (type === "series" && id.startsWith(streamingExtraPrefix)) {
+    const key = id.slice(streamingExtraPrefix.length);
+    if (!(key in EXTRA_SERIES_GENRE_NAMES)) return res.json({ metas: [] });
+    ordered = getStreamingExtraOrder(key);
   } else if (id.startsWith(streamingGenrePrefix)) {
     const genre = id.slice(streamingGenrePrefix.length);
     const validGenres = type === "series" ? SERIES_GENRE_KEYS : Object.keys(GENRE_NAMES);

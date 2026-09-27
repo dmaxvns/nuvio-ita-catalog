@@ -4,7 +4,7 @@
 // popolari disponibili oggi in quel catalogo (film e serie separati).
 
 import fs from "node:fs/promises";
-import { TMDB_GENRES } from "./genres.js";
+import { TMDB_GENRES, EXTRA_SERIES_KEYWORDS } from "./genres.js";
 
 // ---------- Configurazione ----------
 
@@ -164,6 +164,29 @@ function toItem(raw, kind) {
   };
 }
 
+// Cache condivisa tra tutte le piattaforme: se la stessa serie è su
+// Netflix e Disney+, le parole chiave si scaricano una sola volta.
+const seriesKeywordsCache = new Map();
+
+async function getExtraGenreKeys(tmdbId) {
+  if (seriesKeywordsCache.has(tmdbId)) return seriesKeywordsCache.get(tmdbId);
+
+  let extraGenreKeys = [];
+  try {
+    const data = await tmdb(`/tv/${tmdbId}/keywords`);
+    const names = (data?.results || []).map(k => (k.name || "").toLowerCase());
+    extraGenreKeys = Object.entries(EXTRA_SERIES_KEYWORDS)
+      .filter(([, terms]) => terms.some(term => names.some(n => n.includes(term))))
+      .map(([key]) => key);
+  } catch {
+    // Se la richiesta fallisce per una serie, la lasciamo semplicemente
+    // senza generi extra invece di far fallire tutto il sync.
+  }
+
+  seriesKeywordsCache.set(tmdbId, extraGenreKeys);
+  return extraGenreKeys;
+}
+
 async function discoverCatalog(kind, providerId) {
   const items = [];
   let totalPages = TMDB_MAX_PAGES;
@@ -179,7 +202,15 @@ async function discoverCatalog(kind, providerId) {
     if (!data?.results?.length) break;
 
     totalPages = data.total_pages || 1;
-    for (const raw of data.results) items.push(toItem(raw, kind));
+
+    for (const raw of data.results) {
+      const item = toItem(raw, kind);
+      if (kind === "tv") {
+        item.extraGenreKeys = await getExtraGenreKeys(raw.id);
+        await sleep(120);
+      }
+      items.push(item);
+    }
 
     await sleep(200);
   }
