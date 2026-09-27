@@ -77,7 +77,6 @@ const PLATFORM_WHITELIST = [
   { id: 2, name: "Apple TV Store" },
   { id: 2149, name: "CG TV STREAMING" },
   { id: 40, name: "CHILI" },
-  { id: 283, name: "Crunchyroll" },
   { id: 524, name: "Discovery+" },
   { id: 337, name: "Disney Plus" },
   { id: 3, name: "Google Play Movies" },
@@ -187,9 +186,15 @@ async function getExtraGenreKeys(tmdbId) {
   return extraGenreKeys;
 }
 
+// Lingue originali da escludere sempre dai cataloghi per piattaforma:
+// tolgono i titoli cinesi che TMDB segna disponibili in Italia ma che
+// non hanno nulla a che fare con un doppiaggio italiano documentato.
+const EXCLUDED_ORIGINAL_LANGUAGES = new Set(["zh", "cn"]);
+
 async function discoverCatalog(kind, providerId) {
   const items = [];
   let totalPages = TMDB_MAX_PAGES;
+  let skippedForLanguage = 0;
 
   for (let page = 1; page <= Math.min(TMDB_MAX_PAGES, totalPages); page++) {
     const data = await tmdb(`/discover/${kind}`, {
@@ -204,6 +209,11 @@ async function discoverCatalog(kind, providerId) {
     totalPages = data.total_pages || 1;
 
     for (const raw of data.results) {
+      if (EXCLUDED_ORIGINAL_LANGUAGES.has(raw.original_language)) {
+        skippedForLanguage++;
+        continue;
+      }
+
       const item = toItem(raw, kind);
       if (kind === "tv") {
         item.extraGenreKeys = await getExtraGenreKeys(raw.id);
@@ -213,6 +223,10 @@ async function discoverCatalog(kind, providerId) {
     }
 
     await sleep(200);
+  }
+
+  if (skippedForLanguage > 0) {
+    console.log(`  (${skippedForLanguage} titoli in cinese esclusi)`);
   }
 
   return items;

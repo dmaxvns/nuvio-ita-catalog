@@ -67,15 +67,12 @@ const latestOrders = new Map();
 
 const providerOrders = new Map();
 
-function getProviderOrder(providerId, type) {
+function getProviderOrder(providerId, type, fresh) {
   const cacheKey = `${providerId}:${type}`;
-  if (!providerOrders.has(cacheKey)) {
+  if (fresh || !providerOrders.has(cacheKey)) {
     const provider = providers.find(p => String(p.id) === String(providerId));
     const source = provider ? (type === "movie" ? provider.movies : provider.series) || [] : [];
-    // Non mescoliamo: qui l'ordine riflette la popolarità attuale sulla
-    // piattaforma, non serve varietà come nei cataloghi Vix Vocal.
-    const list = [...source].sort((a, b) => (b.popularity || 0) - (a.popularity || 0));
-    providerOrders.set(cacheKey, list);
+    providerOrders.set(cacheKey, shuffledByPopularity(source));
   }
   return providerOrders.get(cacheKey);
 }
@@ -105,37 +102,34 @@ function getCombinedStreaming(type) {
 
 const streamingGenreOrders = new Map();
 
-function getStreamingGenreOrder(type, genre) {
+function getStreamingGenreOrder(type, genre, fresh) {
   const cacheKey = `${type}:${genre}`;
-  if (!streamingGenreOrders.has(cacheKey)) {
-    const list = getCombinedStreaming(type)
-      .filter(item => Array.isArray(item.genreKeys) && item.genreKeys.includes(genre))
-      .sort((a, b) => (b.popularity || 0) - (a.popularity || 0));
-    streamingGenreOrders.set(cacheKey, list);
+  if (fresh || !streamingGenreOrders.has(cacheKey)) {
+    const list = getCombinedStreaming(type).filter(
+      item => Array.isArray(item.genreKeys) && item.genreKeys.includes(genre)
+    );
+    streamingGenreOrders.set(cacheKey, shuffledByPopularity(list));
   }
   return streamingGenreOrders.get(cacheKey);
 }
 
 const streamingAllOrders = new Map();
 
-function getStreamingAllOrder(type) {
-  if (!streamingAllOrders.has(type)) {
-    const list = [...getCombinedStreaming(type)].sort(
-      (a, b) => (b.popularity || 0) - (a.popularity || 0)
-    );
-    streamingAllOrders.set(type, list);
+function getStreamingAllOrder(type, fresh) {
+  if (fresh || !streamingAllOrders.has(type)) {
+    streamingAllOrders.set(type, shuffledByPopularity(getCombinedStreaming(type)));
   }
   return streamingAllOrders.get(type);
 }
 
 const streamingExtraOrders = new Map();
 
-function getStreamingExtraOrder(key) {
-  if (!streamingExtraOrders.has(key)) {
-    const list = getCombinedStreaming("series")
-      .filter(item => Array.isArray(item.extraGenreKeys) && item.extraGenreKeys.includes(key))
-      .sort((a, b) => (b.popularity || 0) - (a.popularity || 0));
-    streamingExtraOrders.set(key, list);
+function getStreamingExtraOrder(key, fresh) {
+  if (fresh || !streamingExtraOrders.has(key)) {
+    const list = getCombinedStreaming("series").filter(
+      item => Array.isArray(item.extraGenreKeys) && item.extraGenreKeys.includes(key)
+    );
+    streamingExtraOrders.set(key, shuffledByPopularity(list));
   }
   return streamingExtraOrders.get(key);
 }
@@ -152,6 +146,19 @@ function getLatestOrder(type) {
     latestOrders.set(type, list);
   }
   return latestOrders.get(type);
+}
+
+const streamingLatestOrders = new Map();
+
+function getStreamingLatestOrder(type) {
+  if (!streamingLatestOrders.has(type)) {
+    const sortKey = item => item.releaseDate || (item.year ? `${item.year}-00-00` : "0000-00-00");
+    const list = getCombinedStreaming(type)
+      .filter(item => item.releaseDate || item.year)
+      .sort((a, b) => sortKey(b).localeCompare(sortKey(a)) || ((b.popularity || 0) - (a.popularity || 0)));
+    streamingLatestOrders.set(type, list);
+  }
+  return streamingLatestOrders.get(type);
 }
 
 function getOrder(type, genre, fresh) {
@@ -250,13 +257,13 @@ function createManifest() {
     }
   }
 
-  // Un unico catalogo con tutti i titoli di tutte le 34 piattaforme
-  // insieme, senza filtro di genere (stesso titolo appare una sola volta).
+  // Un unico catalogo con tutti i titoli di tutte le piattaforme insieme,
+  // senza filtro di genere (stesso titolo appare una sola volta).
   if (getStreamingAllOrder("movie").length > 0) {
     catalogs.push({
       type: "movie",
       id: "str_movie_all",
-      name: "🇮🇹 In streaming — Tutti i film",
+      name: "🇮🇹 Tutti i film in streaming",
       extra: [{ name: "skip" }]
     });
   }
@@ -264,19 +271,38 @@ function createManifest() {
     catalogs.push({
       type: "series",
       id: "str_series_all",
-      name: "🇮🇹 In streaming — Tutte le serie",
+      name: "🇮🇹 Tutte le serie in streaming",
+      extra: [{ name: "skip" }]
+    });
+  }
+
+  // Ultime uscite in streaming: ordine fisso per data, non casuale.
+  if (getStreamingLatestOrder("movie").length > 0) {
+    catalogs.push({
+      type: "movie",
+      id: "str_movie_latest",
+      name: "🇮🇹 Ultime uscite — Film in streaming",
+      extra: [{ name: "skip" }]
+    });
+  }
+  if (getStreamingLatestOrder("series").length > 0) {
+    catalogs.push({
+      type: "series",
+      id: "str_series_latest",
+      name: "🇮🇹 Ultime uscite — Serie in streaming",
       extra: [{ name: "skip" }]
     });
   }
 
   // Cataloghi per genere che uniscono tutte le piattaforme insieme
-  // (stesso titolo su più servizi appare una volta sola).
+  // (stesso titolo su più servizi appare una volta sola). Il genere va
+  // per primo nel nome, altrimenti Nuvio lo taglia e non si vede.
   for (const [key, name] of Object.entries(GENRE_NAMES)) {
     if (getStreamingGenreOrder("movie", key).length > 0) {
       catalogs.push({
         type: "movie",
         id: `str_movie_${key}`,
-        name: `🇮🇹 In streaming — Film — ${name}`,
+        name: `🇮🇹 ${name} — Film in streaming`,
         extra: [{ name: "skip" }]
       });
     }
@@ -287,7 +313,7 @@ function createManifest() {
       catalogs.push({
         type: "series",
         id: `str_series_${key}`,
-        name: `🇮🇹 In streaming — Serie — ${SERIES_GENRE_NAMES[key]}`,
+        name: `🇮🇹 ${SERIES_GENRE_NAMES[key]} — Serie in streaming`,
         extra: [{ name: "skip" }]
       });
     }
@@ -298,7 +324,7 @@ function createManifest() {
       catalogs.push({
         type: "series",
         id: `str_series_extra_${key}`,
-        name: `🇮🇹 In streaming — Serie — ${name}`,
+        name: `🇮🇹 ${name} — Serie in streaming`,
         extra: [{ name: "skip" }]
       });
     }
@@ -351,18 +377,20 @@ app.get(["/catalog/:type/:id.json", "/catalog/:type/:id/:extra.json"], (req, res
 
   if (id.startsWith(providerPrefix)) {
     const providerId = id.slice(providerPrefix.length);
-    ordered = getProviderOrder(providerId, type);
+    ordered = getProviderOrder(providerId, type, skip === 0);
   } else if (id === `str_${type}_all`) {
-    ordered = getStreamingAllOrder(type);
+    ordered = getStreamingAllOrder(type, skip === 0);
+  } else if (id === `str_${type}_latest`) {
+    ordered = getStreamingLatestOrder(type);
   } else if (type === "series" && id.startsWith(streamingExtraPrefix)) {
     const key = id.slice(streamingExtraPrefix.length);
     if (!(key in EXTRA_SERIES_GENRE_NAMES)) return res.json({ metas: [] });
-    ordered = getStreamingExtraOrder(key);
+    ordered = getStreamingExtraOrder(key, skip === 0);
   } else if (id.startsWith(streamingGenrePrefix)) {
     const genre = id.slice(streamingGenrePrefix.length);
     const validGenres = type === "series" ? SERIES_GENRE_KEYS : Object.keys(GENRE_NAMES);
     if (!validGenres.includes(genre)) return res.json({ metas: [] });
-    ordered = getStreamingGenreOrder(type, genre);
+    ordered = getStreamingGenreOrder(type, genre, skip === 0);
   } else if (id === `ita_${type}_latest`) {
     ordered = getLatestOrder(type);
   } else if (type === "series" && id.startsWith(extraPrefix)) {
