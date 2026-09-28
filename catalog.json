@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-25T21:48:46.628Z",
+  "updatedAt": "2026-09-28T09:57:37.345Z",
   "source": "Vix Vocal + TMDB",
   "movies": [
     {
@@ -239936,6 +239936,251 @@
       ],
       "extraGenreKeys": [],
       "sourceUrl": "https://vixvocal.it/opere/la-storia-di-ruth-donna-americana-1996"
+    },
+    {
+      "tmdbId": 1398486,
+      "imdbId": "tt33509147",
+      "type": "movie",
+      "name": "Maigret - L'amore e la morte",
+      "overview": "Il commissario Maigret viene convocato d’urgenza al Quai d’Orsay (Ministero degli Affari Esteri) in seguito all’omicidio di Monsieur Berthier-Lagès, un celebre ex ambasciatore. Scopre ben presto che Berthier-Lagès aveva intrattenuto per cinquant’anni una corrispondenza amorosa con la principessa de Vuynes, il cui marito, in uno strano scherzo del destino, è appena morto.",
+      "poster": "/gJVCjUPmzRPfrNlLWUcdOZuhuw2.jpg",
+      "year": 2026,
+      "releaseDate": "2026-02-18",
+      "rating": 5.9,
+      "popularity": 6.3055,
+      "genreKeys": [
+        "mystery",
+        "drama",
+        "crime"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/maigret-l-amore-e-la-morte-2026"
+    },
+    {
+      "tmdbId": 1263337,
+      "imdbId": "tt7526136",
+      "type": "movie",
+      "name": "Heart of the Beast - Nel profondo selvaggio",
+      "overview": "Dopo un drammatico incidente aereo, l’ufficiale delle Forze Speciali James Belmont (Brad Pitt) si ritrova disperso nelle terre più remote e inospitali dell’Alaska. Al suo fianco c’è solo Odino, il fedele cane militare con cui ha condiviso missioni estreme e situazioni al limite. Circondati da una natura selvaggia e spietata, tra freddo estremo, predatori e ostacoli imprevedibili, James e Odin dovranno affidarsi l’uno all’altro per sopravvivere. Mentre ogni passo verso la salvezza si trasforma in una sfida, il loro legame verrà messo alla prova come mai prima d’ora.",
+      "poster": "/yiqRtrbY63aSPLinH5IsJwKHzZN.jpg",
+      "year": 2026,
+      "releaseDate": "2026-09-19",
+      "rating": 7.7,
+      "popularity": 188.6639,
+      "genreKeys": [
+        "adventure",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/heart-of-the-beast-nel-profondo-selvaggio-2026"
+    },
+    {
+      "tmdbId": 570292,
+      "imdbId": "tt8157074",
+      "type": "movie",
+      "name": "Un sogno per te",
+      "overview": "Estate 1961. Emil lavora come comparsa allo Studio Babelsberg quando si innamora perdutamente della ballerina francese Milou. I due sono fatti l'uno per l'altra ma vengono separati dalla chiusura dei confini del 13 agosto 1961. Riunirsi sembra a prima vista impossibile finché Emil non forgia un piano piuttosto audace.",
+      "poster": "/a41fJfYeESx3U4O0m6xfRUIFPB2.jpg",
+      "year": 2019,
+      "releaseDate": "2019-07-04",
+      "rating": 7.3,
+      "popularity": 3.2235,
+      "genreKeys": [
+        "drama",
+        "comedy",
+        "romance"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/un-sogno-per-te-2019"
+    },
+    {
+      "tmdbId": 18512,
+      "imdbId": "tt0056470",
+      "type": "movie",
+      "name": "Tre contro tutti",
+      "overview": "Tre sergenti della cavalleria americana sono allegri compagni di baldoria. Sembra che uno voglia lasciare il servizio per sposarsi, ma un altro finisce in mezzo a una tribù indiana ribelle e i due amici partono per salvarlo. Alla fine tutti e tre verranno soccorsi da un nero che voleva a tutti i costi entrare nell'esercito.",
+      "poster": "/ssqEH8z02WDsDUFHWNJrngWAUSC.jpg",
+      "year": 1962,
+      "releaseDate": "1962-02-10",
+      "rating": 5.8,
+      "popularity": 1.692,
+      "genreKeys": [
+        "western",
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/tre-contro-tutti-1962"
+    },
+    {
+      "tmdbId": 62383,
+      "imdbId": "tt0105103",
+      "type": "movie",
+      "name": "Saluti dal caro estinto",
+      "overview": "Al funerale del capofamiglia si riuniscono tutti i parenti. L'occasione non è delle più allegre, ma ciò non toglie che finisca per disseminarsi di avvenimenti bizzarri, sorprese, casi umani: dalla donna che ha le doglie durante il corteo, all'apparizione di una bella ragazza misteriosa, alla crisi di mezza età di Johnny, che non arriverà comunque da nessuna parte e finirà per tornare al porto familiare.",
+      "poster": "/dEkLxeZBLaAz7mcGYXOF4hWr9Mq.jpg",
+      "year": 1992,
+      "releaseDate": "1992-04-24",
+      "rating": 5.4,
+      "popularity": 2.534,
+      "genreKeys": [
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/saluti-dal-caro-estinto-1992"
+    },
+    {
+      "tmdbId": 1380,
+      "imdbId": "tt0097438",
+      "type": "movie",
+      "name": "California Skate",
+      "overview": "Brian pensa solo allo skate-board; suo fratello Vihn, figlio adottivo di origine vietnamita, è invece tutto studio e lavoro. Quando Vihn viene ucciso è Brian a scoprire i colpevoli.",
+      "poster": "/jjzhABMwtGCQRg6KXeKP02I2aAI.jpg",
+      "year": 1989,
+      "releaseDate": "1989-01-13",
+      "rating": 6,
+      "popularity": 2.8151,
+      "genreKeys": [
+        "crime",
+        "thriller",
+        "action"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/california-skate-1989"
+    },
+    {
+      "tmdbId": 82792,
+      "imdbId": "tt0054172",
+      "type": "movie",
+      "name": "Pepe",
+      "overview": "",
+      "poster": "/th8c4sGS5ZAOW7zhyGWyhykuL0M.jpg",
+      "year": 1960,
+      "releaseDate": "1960-12-21",
+      "rating": 6.4,
+      "popularity": 2.3148,
+      "genreKeys": [
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/pepe-1960"
+    },
+    {
+      "tmdbId": 1070802,
+      "imdbId": "tt21391242",
+      "type": "movie",
+      "name": "Confidential Informant",
+      "overview": "",
+      "poster": "/p3MqxGqMdq4eqzWN6H7ugEdYv1W.jpg",
+      "year": 2023,
+      "releaseDate": "2023-06-27",
+      "rating": 5.6,
+      "popularity": 3.3444,
+      "genreKeys": [
+        "thriller",
+        "action",
+        "mystery",
+        "crime"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/confidential-informant-2023"
+    },
+    {
+      "tmdbId": 16972,
+      "imdbId": "tt0079180",
+      "type": "movie",
+      "name": "Scusi, dov'è il West?",
+      "overview": "Nel 1850 durante un movimentato viaggio verso San Francisco, terra di missione, un rabbino polacco fa amicizia con un incallito rapinatore, ma entra in crisi quando per salvarlo deve uccidere un uomo. Definito il primo western ebraico, è il tentativo, riuscito in parte, di commedia da parte di un R. Aldrich che non prende più niente sul serio, nemmeno la violenza.",
+      "poster": "/6JJoQsKaIlm4LwmvIpjNDAgu0iV.jpg",
+      "year": 1979,
+      "releaseDate": "1979-07-06",
+      "rating": 6.1,
+      "popularity": 3.5859,
+      "genreKeys": [
+        "adventure",
+        "comedy",
+        "western",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/scusi-dov-e-il-west"
+    },
+    {
+      "tmdbId": 33733,
+      "imdbId": "tt0066183",
+      "type": "movie",
+      "name": "Controfigura per un delitto",
+      "overview": "Un uomo ricco viene ucciso misteriosamente. Il suo gemello, povero, ne prende il posto. Vive la sua vita al castello ma scopre i loschi traffici in cui era coinvolto il fratello scomparso.",
+      "poster": "/miMC3Mmy9HGmRQj9aN5lzqitYaQ.jpg",
+      "year": 1970,
+      "releaseDate": "1970-05-27",
+      "rating": 5,
+      "popularity": 1.9782,
+      "genreKeys": [
+        "comedy",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/controfigura-per-un-delitto-1970"
+    },
+    {
+      "tmdbId": 55670,
+      "imdbId": "tt0119903",
+      "type": "movie",
+      "name": "Missione finale",
+      "overview": "Un boss cubano assolda Plato Smith, un ex agente della Cia, affiché recuperi suo figlio dalle prigioni castriste. Il blitz riesce ma la situazione avrà sviluppi del tutto inattesi, che metteranno Plato in grave difficoltà...",
+      "poster": "/mxpJmAbAwvqWluMqL28a4RDoP4C.jpg",
+      "year": 1997,
+      "releaseDate": "1997-05-27",
+      "rating": 6.2,
+      "popularity": 1.738,
+      "genreKeys": [
+        "action",
+        "adventure",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/missione-finale"
+    },
+    {
+      "tmdbId": 466994,
+      "imdbId": "tt4124980",
+      "type": "movie",
+      "name": "Creators - The Past",
+      "overview": "Otto Dei, otto Lord, otto alieni governano e dirigono la nostra galassia: i Creators. Da tempo immemorabile essi custodiscono le memorie dei diversi sistemi stellari all'interno di piccole sfere chiamate Lens, otto Lens per otto Creators. È ora che i Lord si riuniscano per discutere le sorti dei cieli e procedere verso una nuova era ma alcuni pianeti sono usciti dal disegno divino a cui erano stati predestinati, tra cui... la Terra. Un viaggio tra costellazioni e universi paralleli, figure mitiche e reali dove il mondo degli dei si riflette e intreccia con le vicende umane. In una favola interstellare sarà compito di una dea, aiutata da una mortale coraggiosa e tenace, battersi per ristabilire l'ordine del pianeta. Riusciranno a portare a termine la loro missione?",
+      "poster": "/9hjeiUm7gHCWGy1vR6eJNIgmKSM.jpg",
+      "year": 2020,
+      "releaseDate": "2020-10-08",
+      "rating": 3.4,
+      "popularity": 1.7855,
+      "genreKeys": [
+        "scifi",
+        "action",
+        "adventure",
+        "romance",
+        "fantasy",
+        "mystery",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/creators-the-past-2019"
+    },
+    {
+      "tmdbId": 628878,
+      "imdbId": "tt4029412",
+      "type": "movie",
+      "name": "Panama",
+      "overview": "Un ex marine viene assunto per portare a termine un acquisto di armi da Panama ma nel frattempo, durante la trattativa, rimane coinvolto nell'invasione dello stato da parte degli Stati Uniti, imparando a sue spese come funzionano il potere e la politica.",
+      "poster": "/u9DzgsmssidygWuORgYzhi317vj.jpg",
+      "year": 2022,
+      "releaseDate": "2022-03-17",
+      "rating": 5.1,
+      "popularity": 3.9443,
+      "genreKeys": [
+        "thriller",
+        "action"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/panama-2022"
     }
   ],
   "series": [
@@ -290985,6 +291230,25 @@
       ],
       "extraGenreKeys": [],
       "sourceUrl": "https://vixvocal.it/opere/una-famiglia-si-fa-per-dire"
+    },
+    {
+      "tmdbId": 1992,
+      "imdbId": "tt0069637",
+      "type": "series",
+      "name": "Star Trek - La serie animata",
+      "overview": "La serie narra dell'ultimo anno della missione quinquennale comandata dal capitano James T. Kirk, quindi gli avvenimenti descritti si situano cronologicamente tra la serie classica e il primo film di Star Trek.",
+      "poster": "/kvWG0bsLVQt23gZO6DI1mPosLxZ.jpg",
+      "year": 1973,
+      "releaseDate": "1973-09-08",
+      "rating": 6.9,
+      "popularity": 15.2217,
+      "genreKeys": [
+        "animation",
+        "drama",
+        "scifi"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/star-trek-la-serie-animata-1973"
     }
   ]
 }
