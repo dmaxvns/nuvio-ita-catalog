@@ -467,6 +467,102 @@ app.get("/stats", (_req, res) => {
   });
 });
 
+function looksEnglishSimple(text) {
+  const ITALIAN = new Set(["di","la","il","e","che","un","una","per","con","del","della","sono","non","dei","alla","nel","le","gli","si","da","in","tra","fra","dopo","quando","mentre","suo","sua","loro","questo","questa","ma","piu","dove","anche","come","ha","hanno","era","lui","lei"]);
+  const ENGLISH = new Set(["the","and","of","in","to","is","that","with","for","on","are","was","this","his","her","their","when","after","while","but","where","also","as","has","have","had","he","she","must","be","been","from","by","an","a"]);
+  const words = String(text || "").toLowerCase().replace(/[^a-zàèéìòù\s]/gi, " ").split(/\s+/).filter(Boolean);
+  if (words.length < 8) return false;
+  let it = 0, en = 0;
+  for (const w of words) { if (ITALIAN.has(w)) it++; if (ENGLISH.has(w)) en++; }
+  return en > it && en >= 3;
+}
+
+function escapeHtml(text) {
+  return String(text || "").replace(/[&<>"']/g, c => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  }[c]));
+}
+
+function normalizeForSearch(text) {
+  return String(text || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function matchesQuery(item, q) {
+  // Se scrivi solo numeri, cerca per id TMDB (utile se lo conosci già)
+  if (/^\d+$/.test(q) && String(item.tmdbId) === q) return true;
+
+  // Altrimenti tutte le parole cercate devono comparire nel titolo,
+  // in qualsiasi ordine, senza badare ad accenti, apostrofi e punteggiatura.
+  const name = normalizeForSearch(item.name);
+  const words = normalizeForSearch(q).split(" ").filter(Boolean);
+  return words.length > 0 && words.every(w => name.includes(w));
+}
+
+function searchTitles(q) {
+  const risultati = [];
+  for (const item of [...movies, ...series]) {
+    if (matchesQuery(item, q)) {
+      risultati.push({ fonte: "Vix Vocal", piattaforma: null, ...item });
+    }
+  }
+  for (const provider of providers) {
+    for (const item of [...(provider.movies || []), ...(provider.series || [])]) {
+      if (matchesQuery(item, q)) {
+        risultati.push({ fonte: "Piattaforma streaming", piattaforma: provider.name, ...item });
+      }
+    }
+  }
+  return risultati;
+}
+
+app.get("/find", (req, res) => {
+  const q = String(req.query.q || "").toLowerCase().trim();
+  const risultati = q ? searchTitles(q).slice(0, 40) : [];
+
+  const righe = risultati.map(item => {
+    let badge = '<span style="color:#16a34a">✅ trama ok</span>';
+    if (!item.overview) badge = '<span style="color:#dc2626">⚠️ senza trama</span>';
+    else if (looksEnglishSimple(item.overview)) badge = '<span style="color:#d97706">⚠️ trama in inglese</span>';
+
+    const fonte = item.piattaforma ? escapeHtml(item.piattaforma) : "Vix Vocal";
+    return `
+      <div style="padding:12px 0;border-bottom:1px solid #e5e7eb">
+        <div style="font-weight:600">${escapeHtml(item.name)} <span style="font-weight:400;color:#6b7280">(${item.year || "?"})</span></div>
+        <div style="font-size:0.85em;color:#6b7280">${item.type === "movie" ? "Film" : "Serie"} · ${fonte} · tmdbId ${item.tmdbId} · ${badge}</div>
+        <div style="font-size:0.9em;margin-top:4px">${escapeHtml(item.overview) || "<em>(nessuna trama salvata)</em>"}</div>
+      </div>`;
+  }).join("");
+
+  res.type("html").send(`
+    <!DOCTYPE html>
+    <html lang="it">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Cerca un titolo</title>
+      <style>
+        body { font-family: -apple-system, sans-serif; max-width: 640px; margin: 0 auto; padding: 16px; }
+        input[type=text] { width: 70%; padding: 10px; font-size: 1rem; border: 1px solid #ccc; border-radius: 8px; }
+        button { padding: 10px 16px; font-size: 1rem; border: none; background: #2563eb; color: white; border-radius: 8px; }
+      </style>
+    </head>
+    <body>
+      <h2>🔎 Cerca un titolo nel catalogo</h2>
+      <form method="get" action="/find">
+        <input type="text" name="q" value="${escapeHtml(q)}" placeholder="Nome del film o serie" autofocus>
+        <button type="submit">Cerca</button>
+      </form>
+      ${q ? `<p>${risultati.length} risultati per "${escapeHtml(q)}"</p>${righe || "<p>Nessun risultato.</p>"}` : ""}
+    </body>
+    </html>
+  `);
+});
+
 app.get("/health", (_req, res) => {
   res.json({
     ok: true,
