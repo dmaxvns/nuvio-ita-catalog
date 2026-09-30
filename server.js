@@ -161,6 +161,16 @@ function getStreamingLatestOrder(type) {
   return streamingLatestOrders.get(type);
 }
 
+const vixAllOrders = new Map();
+
+function getVixAllOrder(type, fresh) {
+  if (fresh || !vixAllOrders.has(type)) {
+    const source = type === "movie" ? movies : series;
+    vixAllOrders.set(type, shuffledByPopularity(source));
+  }
+  return vixAllOrders.get(type);
+}
+
 function getOrder(type, genre, fresh) {
   const cacheKey = `${type}:${genre}`;
   if (fresh || !orders.has(cacheKey)) {
@@ -194,6 +204,23 @@ function toMeta(item) {
 
 function createManifest() {
   const catalogs = [];
+
+  if (getVixAllOrder("movie").length > 0) {
+    catalogs.push({
+      type: "movie",
+      id: "ita_movie_all",
+      name: "🇮🇹 Tutti i film",
+      extra: [{ name: "skip" }]
+    });
+  }
+  if (getVixAllOrder("series").length > 0) {
+    catalogs.push({
+      type: "series",
+      id: "ita_series_all",
+      name: "🇮🇹 Tutte le serie",
+      extra: [{ name: "skip" }]
+    });
+  }
 
   catalogs.push({
     type: "movie",
@@ -391,6 +418,8 @@ app.get(["/catalog/:type/:id.json", "/catalog/:type/:id/:extra.json"], (req, res
     const validGenres = type === "series" ? SERIES_GENRE_KEYS : Object.keys(GENRE_NAMES);
     if (!validGenres.includes(genre)) return res.json({ metas: [] });
     ordered = getStreamingGenreOrder(type, genre, skip === 0);
+  } else if (id === `ita_${type}_all`) {
+    ordered = getVixAllOrder(type, skip === 0);
   } else if (id === `ita_${type}_latest`) {
     ordered = getLatestOrder(type);
   } else if (type === "series" && id.startsWith(extraPrefix)) {
