@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-28T09:57:37.345Z",
+  "updatedAt": "2026-10-05T10:43:06.708Z",
   "source": "Vix Vocal + TMDB",
   "movies": [
     {
@@ -240181,6 +240181,738 @@
       ],
       "extraGenreKeys": [],
       "sourceUrl": "https://vixvocal.it/opere/panama-2022"
+    },
+    {
+      "tmdbId": 33726,
+      "imdbId": "tt0053690",
+      "type": "movie",
+      "name": "Can-Can",
+      "overview": "Nella Parigi del 1896, il can-can è considerato peccaminoso oltre che illegale, tanto che Simone - proprietaria di un tabarin dove il ballo incriminato va in scena ogni sera - ha dei guai con la giustizia. Ma il giudice moralizzatore si scoprirà tutt'altro che indifferente al fascino della donna e del provocante ballo.",
+      "poster": "/x9QsL3NaNjSWo62e2tDOgtnaD0B.jpg",
+      "year": 1960,
+      "releaseDate": "1960-03-09",
+      "rating": 6.676,
+      "popularity": 2.0295,
+      "genreKeys": [
+        "comedy",
+        "romance"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/can-can-1960"
+    },
+    {
+      "tmdbId": 61041,
+      "imdbId": "tt0062502",
+      "type": "movie",
+      "name": "Sette volte donna",
+      "overview": "Sette mini-storie di adulterio: \"Il funerale in possesso\", una vedova ribelle al funerale del marito; \"Amatoriale notte\", la moglie arrabbiata diventa una marmotta per vendetta; \"Due contro uno\", la ragazza apparentemente prudente risulta diversamente; \"Super Simone\", la moglie tenta invano di distogliere il suo scrittore, troppo preso dal suo marito; \"All'Opera\", una battaglia per un vestito apparentemente esclusivo; \"Suicidi\", un patto di morte; \"Snow,\" aspirante pretendente è in realtà un detective privato ingaggiato dal marito geloso.",
+      "poster": "/bZ56OJY6EiE2kT9ZopapXboHkiQ.jpg",
+      "year": 1967,
+      "releaseDate": "1967-09-29",
+      "rating": 6.3,
+      "popularity": 3.1853,
+      "genreKeys": [
+        "comedy",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/sette-volte-donna-1967"
+    },
+    {
+      "tmdbId": 466411,
+      "imdbId": "tt6749318",
+      "type": "movie",
+      "name": "Speed Kills",
+      "overview": "Campione di velocità nautica, Ben Aronoff conduce una doppia vita che lo metterà nei guai sia con la legge sia con i signori della droga.",
+      "poster": "/f4p18CwxidvznZYMA6m4qv5FCvp.jpg",
+      "year": 2018,
+      "releaseDate": "2018-11-16",
+      "rating": 5.4,
+      "popularity": 5.2597,
+      "genreKeys": [
+        "crime",
+        "drama",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/speed-kills-2018"
+    },
+    {
+      "tmdbId": 1152014,
+      "imdbId": "tt30795948",
+      "type": "movie",
+      "name": "Due ladri in fuga",
+      "overview": "",
+      "poster": "/uIlJ1wOlEt5K3NowJQDG4qscQAC.jpg",
+      "year": 2024,
+      "releaseDate": "2024-04-18",
+      "rating": 7.1,
+      "popularity": 4.0444,
+      "genreKeys": [
+        "comedy",
+        "family"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/alittlesomethingextra-film24"
+    },
+    {
+      "tmdbId": 1469342,
+      "imdbId": "tt36629665",
+      "type": "movie",
+      "name": "Her Private Hell",
+      "overview": "Quando una misteriosa nebbia avvolge una metropoli futuristica, scatenando un'entità mortale e sfuggente, una giovane donna in difficoltà cerca suo padre. La sua ricerca si scontra con un GI americano su un'odissea straziante per salvare sua figlia dall'inferno.",
+      "poster": "/4tdT44N1on3Aj6q0e64ttY60HA4.jpg",
+      "year": 2026,
+      "releaseDate": "2026-07-23",
+      "rating": 5.435,
+      "popularity": 14.6851,
+      "genreKeys": [
+        "scifi",
+        "horror",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/her-private-hell-2026"
+    },
+    {
+      "tmdbId": 1404604,
+      "imdbId": "tt39814688",
+      "type": "movie",
+      "name": "Santiago - Un cammino per ricominciare",
+      "overview": "Adam, un adolescente dalla vita turbolenta e Fred, una professoressa che sta attraversando un periodo difficile, non si conoscono. Eppure, grazie a un’associazione, intraprendono insieme il cammino di Santiago di Compostela. Lei ha bisogno di rimettere ordine nella sua vita, lui di placare la sua rabbia e il suo sentimento di abbandono. Chilometro dopo chilometro, lungo le incantevoli tappe del cammino, tra scontri, stanchezza e momenti felici, i due costruiscono a poco a poco un legame delicato. Di fronte alle difficoltà del cammino, entrambi impareranno che ogni passo può essere una rinascita e che, a volte, gli incontri più improbabili sono quelli che cambiano davvero la vita.",
+      "poster": "/sKkVmciht8qqC0wmAfUdVCTaeMz.jpg",
+      "year": 2026,
+      "releaseDate": "2026-04-01",
+      "rating": 6.826,
+      "popularity": 3.1631,
+      "genreKeys": [
+        "drama",
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/santiago-un-cammino-per-ricominciare-2026"
+    },
+    {
+      "tmdbId": 1083884,
+      "imdbId": "tt21109170",
+      "type": "movie",
+      "name": "Signal One - Primo contatto",
+      "overview": "La storia di uno scienziato informatico, reclutato da un miliardario della tecnologia per lavorare a un progetto che potrebbe cambiare il posto dell'umanità nell'universo.",
+      "poster": "/hYAGvB1GwmkjwWg8Z2ORz96uHlj.jpg",
+      "year": 2026,
+      "releaseDate": "2026-06-05",
+      "rating": 5.993,
+      "popularity": 9.6358,
+      "genreKeys": [
+        "mystery",
+        "scifi"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/signal-one-primo-contatto-2026"
+    },
+    {
+      "tmdbId": 1377237,
+      "imdbId": "tt31349844",
+      "type": "movie",
+      "name": "The Rush - Corsa contro il tempo",
+      "overview": "Mentre sono impegnati in una corsa contro il tempo per portare a termine la consegna dell'unica speranza per salvare la vita di una bambina in pericolo, un ex soldato e il suo improbabile partner diventano il bersaglio di uno spietato cartello che tenta di ucciderli in tutti i modi.",
+      "poster": "/y2JldODg7WqeAZC9MRKshA2hSmq.jpg",
+      "year": 2026,
+      "releaseDate": "2026-09-07",
+      "rating": 8.31,
+      "popularity": 312.3985,
+      "genreKeys": [
+        "action",
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/the-rush-corsa-contro-il-tempo-2026"
+    },
+    {
+      "tmdbId": 424781,
+      "imdbId": "tt5688932",
+      "type": "movie",
+      "name": "Sorry to Bother You",
+      "overview": "In una versione odierna alternativa di Oakland, il nero telemarketer Cassius Green scopre una chiave magica per il successo professionale - che lo spinge in un macabro universo.",
+      "poster": "/peTl1V04E9ppvhgvNmSX0r2ALqO.jpg",
+      "year": 2018,
+      "releaseDate": "2018-07-06",
+      "rating": 6.779,
+      "popularity": 7.2929,
+      "genreKeys": [
+        "fantasy",
+        "scifi",
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/sorry-to-bother-you-2018"
+    },
+    {
+      "tmdbId": 421760,
+      "imdbId": "tt6263260",
+      "type": "movie",
+      "name": "Il mio angelo di Natale",
+      "overview": "Dopo la sua prematura morte, Eve Morgan, una donna ossessionata dal lavoro, viene trasformata in Paradiso in un angelo del Natale. Nonostante sia la peggior recluta tra gli angeli, le viene assegnato un caso da seguire. Mentre sulla Terra dovrà provvedere a risolvere più di un problema, inizierà a scoprire il vero significato del Natale e finirà per innamorarsi.",
+      "poster": "/uNQXWGoXvm8sNy9ty2ThO3tR7At.jpg",
+      "year": 2016,
+      "releaseDate": "2016-11-26",
+      "rating": 6.1,
+      "popularity": 1.7504,
+      "genreKeys": [
+        "drama",
+        "romance",
+        "fantasy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/il-mio-angelo-di-natale-2016"
+    },
+    {
+      "tmdbId": 1755291,
+      "imdbId": "tt44766123",
+      "type": "movie",
+      "name": "NAZA",
+      "overview": "Nel corso di conversazioni segrete sui tetti di Tel Aviv, di notte, i meccanismi alla base della sistematica e calcolata uccisione di massa di civili palestinesi a Gaza a opera di Israele vengono svelati dalle stesse persone che li hanno progettati e gestiti.",
+      "poster": "/qfdNOEmMroHjPLpZhNkORcVzgrQ.jpg",
+      "year": 2026,
+      "releaseDate": "2026-09-25",
+      "rating": 7.971,
+      "popularity": 16.6227,
+      "genreKeys": [
+        "documentary"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/naza-2026"
+    },
+    {
+      "tmdbId": 474982,
+      "imdbId": "tt7370936",
+      "type": "movie",
+      "name": "Quel lungo viaggio di Natale",
+      "overview": "Il giornalista Tom Langdon deve raggiungere Los Angeles da Washington in tempo per Natale. Costretto a viaggiare in treno, attraversando il Paese, riscoprirà sentimenti che credeva persi grazie a incontri speciali che allieteranno il suo cuore.",
+      "poster": "/qX5AJSNKzrQYbM2o7xPuzpo4Och.jpg",
+      "year": 2017,
+      "releaseDate": "2017-11-25",
+      "rating": 6.4,
+      "popularity": 3.2918,
+      "genreKeys": [
+        "family",
+        "drama",
+        "romance"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/quel-lungo-viaggio-di-natale-2017"
+    },
+    {
+      "tmdbId": 27281,
+      "imdbId": "tt0114048",
+      "type": "movie",
+      "name": "Quando gli elefanti volavano",
+      "overview": "Durante la guerra in Vietnam, l'esercito di Ho Chi Minh uccide per rappresaglia l'elefante sacro di un villaggio usato dagli americani come base d'appoggio. Il capitano Sam Cahill si mette a capo di una missione molto particolare: trovare un altro elefante e portarlo al villaggio in tempo per una festa che sarà celebrata nei giorni seguenti...",
+      "poster": "/tJBtZjTMO1TSx9AneDXTCJmZ0dY.jpg",
+      "year": 1995,
+      "releaseDate": "1995-07-28",
+      "rating": 5.2,
+      "popularity": 3.2023,
+      "genreKeys": [
+        "action",
+        "adventure",
+        "comedy",
+        "family"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/quando-gli-elefanti-volavano-1995"
+    },
+    {
+      "tmdbId": 1458215,
+      "imdbId": "tt36415524",
+      "type": "movie",
+      "name": "Cash Out 3: Il ladro gentiluomo",
+      "overview": "Un ladro professionista in pensione deve proteggere il suo impulsivo fratello da un disastro quando il furto di uno yacht da 100 milioni di dollari si trasforma in una pericolosa rete di inganni. Vecchi nemici riemergono man mano che la posta in gioco si alza, costringendolo a usare ogni trucco che conosce per sopravvivere.",
+      "poster": "/dJLz27v39wdrLEsEmNaB6v2sC8z.jpg",
+      "year": 2026,
+      "releaseDate": "2026-07-31",
+      "rating": 5.78,
+      "popularity": 8.7004,
+      "genreKeys": [
+        "action",
+        "crime",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/the-gentleman-thief-2026"
+    },
+    {
+      "tmdbId": 242758,
+      "imdbId": "tt0081080",
+      "type": "movie",
+      "name": "Quattro passi sul lenzuolo",
+      "overview": "",
+      "poster": "/thLNblNxFjYBge7Ue2X0QF4lslE.jpg",
+      "year": 1980,
+      "releaseDate": "1980-10-24",
+      "rating": 4.8,
+      "popularity": 2.0902,
+      "genreKeys": [
+        "comedy",
+        "romance"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/quattro-passi-sul-lenzuolo-1980"
+    },
+    {
+      "tmdbId": 42618,
+      "imdbId": "tt0065054",
+      "type": "movie",
+      "name": "Sweet Charity - Una ragazza che voleva essere amata",
+      "overview": "Charity è una ragazza di vita. Abbandonata dal fidanzato, s'imbatte in Vittorio Vitale, il celebre attore italiano, e passa la notte con lui. Il giorno dopo conosce il complessatissimo Oscar che s'innamora di lei e le chiede di sposarlo, ma poi ci ripensa.",
+      "poster": "/kAUsicUCLbh7fXr2fHDvnAjJ2h2.jpg",
+      "year": 1969,
+      "releaseDate": "1969-02-25",
+      "rating": 6.928,
+      "popularity": 3.0809,
+      "genreKeys": [
+        "comedy",
+        "romance",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/sweet-charity-1969"
+    },
+    {
+      "tmdbId": 83203,
+      "imdbId": "tt0108377",
+      "type": "movie",
+      "name": "Curve pericolose",
+      "overview": "Terzo cortometraggio dedicato a Roger Rabbit nelle vesti di baby sitter. Questa volta dovrà occuparsi di baby Herman mentre sua madre andrà a caccia. I disastri ovviamente cominceranno dopo pochi secondi. Questa volta cambia lo scenario, che si sposta nel mezzo della natura (bellissime le scene che vedono i due passare da un tronco all'altro). Non manca neppure Jessica Rabbit nei panni della sensualissima guardiacaccia.",
+      "poster": "/3PJlh0hh9GOjjYnN5XOwxHdfSND.jpg",
+      "year": 1993,
+      "releaseDate": "1993-03-12",
+      "rating": 7,
+      "popularity": 2.4789,
+      "genreKeys": [
+        "comedy",
+        "animation"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/curve-pericolose-1993"
+    },
+    {
+      "tmdbId": 83200,
+      "imdbId": "tt0100821",
+      "type": "movie",
+      "name": "Una grossa indigestione",
+      "overview": "",
+      "poster": "/mLOqZNasNOUKSNCpAIeHmJWPkvW.jpg",
+      "year": 1989,
+      "releaseDate": "1989-06-23",
+      "rating": 6.7,
+      "popularity": 2.717,
+      "genreKeys": [
+        "comedy",
+        "animation"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/una-grossa-indigestione-1989"
+    },
+    {
+      "tmdbId": 385448,
+      "imdbId": "tt5493944",
+      "type": "movie",
+      "name": "La sirenetta - The Little Mermaid",
+      "overview": "Una nonna racconta alle due nipoti la storia della Sirenetta. Nonostante la giovanissima età, le due non credono alla storia e la nonna decide di raccontarne un'altra: molti anni prima, un giovane reporter di nome Cam Harrison non riusciva a guadagnarsi da vivere quando con la sorella minore Elle ha incontrato in un circo una bellissima sirena intrappolata in una vasca di vetro...",
+      "poster": "/qEM80vqREgfjk7YhIbl4AgfZ47S.jpg",
+      "year": 2018,
+      "releaseDate": "2018-08-02",
+      "rating": 5,
+      "popularity": 4.4677,
+      "genreKeys": [
+        "family",
+        "adventure",
+        "fantasy",
+        "romance",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/la-sirenetta-the-little-mermaid-2018"
+    },
+    {
+      "tmdbId": 76863,
+      "imdbId": "tt0052583",
+      "type": "movie",
+      "name": "Tutte le ragazze lo sanno",
+      "overview": "Tratto dall'omonimo romanzo di Winifred Wolfe, la storia narra le avventure di Meg (interpretata da Shirley MacLaine), una ragazza di provincia, bella, involontariamente buffa e timida, che, arrivata a Manhattan, da un lato riesce a sventare in totale candore tutti i tentativi dei suoi corteggiatori di portarla a letto, dall'altro cerca di conquistare Evan (Gig Young), il fratello del suo capo ufficio Miles Doughton (David Niven), che decide di aiutarla nell'impresa. Meg nel tentativo di conquistare Evan cercherà anche di informarsi su che cosa gli uomini si aspettano dalle donne, tentando di adeguarsi a tale immagine. Ma, alla fine, Meg si renderà conto di essere perdutamente innamorata proprio di Miles,il principale.",
+      "poster": "/fhsQ13Y834jadGsCOHB3jxlaXyb.jpg",
+      "year": 1959,
+      "releaseDate": "1959-08-21",
+      "rating": 6.5,
+      "popularity": 1.8091,
+      "genreKeys": [
+        "comedy",
+        "romance"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/tutte-le-ragazze-lo-sanno-1959"
+    },
+    {
+      "tmdbId": 509853,
+      "imdbId": "tt7869070",
+      "type": "movie",
+      "name": "The Fanatic",
+      "overview": "Moose è un fan(atico). Autistico col vizio dell'autografo e della collezione, è ossessionato da Hunter Dunbar, divo del cinema horror. Grazie a una dritta di Leah, giovane fotografa in cerca di scoop a Hollywood, ha finalmente l'occasione di incontrarlo. Imbucato a una festa vip scopre con grande disappunto che il suo eroe è occupato altrove. Un altrove dove si incroceranno presto e dove comincerà l'incubo di Hunter Dunbar. Ma i peggiori incubi non fanno sempre un buon film.",
+      "poster": "/8cgALhrFzEqos306gBJsbGiOLr9.jpg",
+      "year": 2019,
+      "releaseDate": "2019-08-30",
+      "rating": 4.432,
+      "popularity": 3.7962,
+      "genreKeys": [
+        "crime",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/the-fanatic-2019"
+    },
+    {
+      "tmdbId": 234004,
+      "imdbId": "tt2865120",
+      "type": "movie",
+      "name": "Ratchet & Clank",
+      "overview": "Ratchet è l'ultimo della sua specie, un temerario Lombax cresciuto senza una famiglia sul pianeta Veldin, mentre Clank è un piccolo robot dal cuore grande. Insieme formano un’irresistibile coppia di improbabili eroi, con una missione ben precisa: fermare un vile alieno, noto come Presidente Drek, che ha intenzione di distruggere ogni pianeta della galassia Solana e utilizzarne i pezzi per costruire un nuovo mondo per la sua razza. Dopo aver scoperto un'incredibile arma, i due si alleeranno con i Rangers galattici per salvare Solana dalla distruzione.",
+      "poster": "/649xP2LST4VIrZ5cLPw7Ys9movF.jpg",
+      "year": 2016,
+      "releaseDate": "2016-04-13",
+      "rating": 5.8,
+      "popularity": 6.6919,
+      "genreKeys": [
+        "action",
+        "adventure",
+        "animation",
+        "family"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/ratchet-clank-anim2016"
+    },
+    {
+      "tmdbId": 931461,
+      "imdbId": "tt13884444",
+      "type": "movie",
+      "name": "American Dreamer",
+      "overview": "Phillip Loder, professore di economia con due divorzi alle spalle e il sogno di diventare scrittore, è tormentato dal tema della felicità e dei compromessi per raggiungerla. Stanco di cercare casa, risponde a un annuncio per una villa offerta a prezzo pieno o scontata con clausola di nuda proprietà.",
+      "poster": "/9bUsa318eCnztKZlcG86s8xk9Rk.jpg",
+      "year": 2022,
+      "releaseDate": "2022-11-04",
+      "rating": 5.9,
+      "popularity": 4.0707,
+      "genreKeys": [
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/american-dreamer-2022"
+    },
+    {
+      "tmdbId": 216859,
+      "imdbId": "tt0052673",
+      "type": "movie",
+      "name": "Il prezzo del successo",
+      "overview": "",
+      "poster": "/3VjhqInHfqDO6n7YzLitqmRKEef.jpg",
+      "year": 1959,
+      "releaseDate": "1959-10-08",
+      "rating": 6.7,
+      "popularity": 1.1612,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/il-prezzo-del-successo-1959"
+    },
+    {
+      "tmdbId": 185266,
+      "imdbId": "tt0051742",
+      "type": "movie",
+      "name": "La tua pelle brucia",
+      "overview": "Un'intera famiglia è in crisi e gli sforzi della madre non servono a tener vivi gli affetti familiari: ogni componente se ne va per la sua strada. L'incidente mortale che capita al padre fa però comprendere ai figli quanto fossero legati all'uomo, malgrado i suoi torti e le sue debolezze.",
+      "poster": "/hnBT0LndvJFsNgE9x1qTnEiysUT.jpg",
+      "year": 1958,
+      "releaseDate": "1958-05-21",
+      "rating": 5.9,
+      "popularity": 1.3998,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/la-tua-pelle-brucia-1958"
+    },
+    {
+      "tmdbId": 23574,
+      "imdbId": "tt0058743",
+      "type": "movie",
+      "name": "La signora e i suoi mariti",
+      "overview": "Il destino di Luisa, nata povera, è di sposare uomini poveri che, diventati ricchissimi dopo il matrimonio, muoiono. Lei ha il complesso della vedova ricca. Commedia nera un po' pazza con spunti parodistici, non sempre felici, sui vari generi del cinema americano. La regia non è all'altezza della sceneggiatura di Betty Comden e Adolph Green.",
+      "poster": "/oMLY7wM3AVfnYdimpFi61aM5Uhx.jpg",
+      "year": 1964,
+      "releaseDate": "1964-07-02",
+      "rating": 7.081,
+      "popularity": 4.3306,
+      "genreKeys": [
+        "comedy",
+        "romance"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/la-signora-e-i-suoi-mariti-1964"
+    },
+    {
+      "tmdbId": 43141,
+      "imdbId": "tt0051913",
+      "type": "movie",
+      "name": "Bella, affettuosa, illibata cercasi",
+      "overview": "Dolly è una vedova intraprendente che si dà da fare per combinare matrimoni. Un giorno propone ad Orazio, un attempato e ricco commerciante, di conoscere una bella ragazza di New York.Orazio, che è un uomo burbero ed avaro, trova la proposta allettante e si reca a New York, lasciando il negozio ai suoi due dipendenti, Cornelio e Barnaba. Arrivato a New York, prima d'incontrare la ragazza, Orazio decide di fermarsi a salutare Irene che in un primo tempo aveva voluto sposare, ma durante la visita, scopre che la donna nasconde in casa un uomo. Amareggiato, l'uomo si allontana da quella casa e, ancora peggio, senza sapere che il rivale non è altro che Cornelio, uno dei dipendenti...",
+      "poster": "/z4lLeXtFM8ZNwwCmx3xSDsH3Pzv.jpg",
+      "year": 1958,
+      "releaseDate": "1958-07-23",
+      "rating": 7,
+      "popularity": 2.3387,
+      "genreKeys": [
+        "comedy",
+        "romance"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/bella-affettuosa-illibata-cercasi-1958"
+    },
+    {
+      "tmdbId": 35822,
+      "imdbId": "tt0043355",
+      "type": "movie",
+      "name": "Il sonnambulo",
+      "overview": "",
+      "poster": "/ltcB1taHwgatXl5heUth1AyeK8D.jpg",
+      "year": 1951,
+      "releaseDate": "1951-04-27",
+      "rating": 6,
+      "popularity": 0.9137,
+      "genreKeys": [
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/il-sonnambulo-1951"
+    },
+    {
+      "tmdbId": 61280,
+      "imdbId": "tt0076843",
+      "type": "movie",
+      "name": "Due vite una svolta",
+      "overview": "Due ex ballerine che hanno condiviso la stessa compagnia di danza si ritrovano dopo diversi anni e ricordano con nostalgia i tempi della loro promettente ma irrisolta carriera.",
+      "poster": "/8jFp8nlyJ84J38YBwFilPmyXiXj.jpg",
+      "year": 1977,
+      "releaseDate": "1977-11-14",
+      "rating": 6.6,
+      "popularity": 2.524,
+      "genreKeys": [
+        "drama",
+        "romance"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/due-vite-una-svolta-1977"
+    },
+    {
+      "tmdbId": 430446,
+      "imdbId": "tt1690967",
+      "type": "movie",
+      "name": "Domenica",
+      "overview": "Carlton Pearson, un pastore di fama internazionale, vive una crisi di fede. Rischierà la sua reputazione, la sua famiglia e il suo futuro quando metterà in discussione la dottrina della Chiesa e si ritroverà etichettato come un moderno eretico.",
+      "poster": "/oucoXiLsc07YryywgjddmU3YoDV.jpg",
+      "year": 2018,
+      "releaseDate": "2018-01-21",
+      "rating": 5.8,
+      "popularity": 1.9982,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/domenica-2018"
+    },
+    {
+      "tmdbId": 454467,
+      "imdbId": "tt5097410",
+      "type": "movie",
+      "name": "Noelle",
+      "overview": "La figlia di Kris Kringle è piena di spirito natalizio, ma vorrebbe poter fare qualcosa di \"importante\" come suo fratello Nick, in procinto di sostituire il padre questo Natale. Quando Nick, a causa della pressione, sta per sbriciolarsi come un biscotto di pan di zenzero, Noelle gli suggerisce di prendersi una pausa e di allontanarsi un po'. Nick sembra non voler più ritornare e toccherà a Noelle riportarlo indietro in tempo per salvare il Natale.",
+      "poster": "/o3ZlFb2AxutWxUJIkEtjqTP0prB.jpg",
+      "year": 2019,
+      "releaseDate": "2019-11-12",
+      "rating": 6.574,
+      "popularity": 4.5787,
+      "genreKeys": [
+        "family",
+        "comedy",
+        "fantasy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/noelle-2019"
+    },
+    {
+      "tmdbId": 9461,
+      "imdbId": "tt0070034",
+      "type": "movie",
+      "name": "I 3 dell'Operazione Drago",
+      "overview": "Lee, membro del Tempio Shaolin e maestro nelle arti marziali, viene reclutato da un agente della polizia inglese per indagare sui presunti traffici illeciti (di uomini e droga) di un certo Mr. Han. Mr. Han e' un uomo molto ricco, ex membro del Tempio Shaolin, ora corrotto e reietto; questi, ogni tre anni, organizza sulla propria isola un torneo di arti marziali, cui Lee partecipera' sotto copertura per indagare sui traffici dell'uomo, e per vendicare la morte della sorella, assassinata tempo addietro da una guardia dello stesso Han, O'Hara. Partecipano al torneo altri due contendenti americani, John Roper e Kelly Williams, due ex commilitoni che hanno combattuto assieme in Vietnam. Il primo e' in fuga per aver contratto debiti di gioco con la mafia; il secondo e' vittima di un episodio di razzismo, perpetrato ai suoi danni da un poliziotto.",
+      "poster": "/hrpX6kz6iBGUEObY1cdVT4xuIxx.jpg",
+      "year": 1973,
+      "releaseDate": "1973-08-17",
+      "rating": 7.415,
+      "popularity": 15.0114,
+      "genreKeys": [
+        "action"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/i-3-dell-operazione-drago"
+    },
+    {
+      "tmdbId": 85784,
+      "imdbId": "tt0066945",
+      "type": "movie",
+      "name": "La controfigura",
+      "overview": "Giovanni, giovane architetto, mantenuto però dal ricco padre, è sposato con la giovane e frivola Lucia. L'uomo però è morbosamente attratto da Nora, la suocera, che viene a trovare la figlia e il genero mentre sono in vacanza in Marocco con una coppia di amici. Giovanni è convinto che la suocera Nora abbia intrapreso una relazione con un giovane americano, Eddie. Deciso a verificare questo suo dubbio, entra in casa della suocera, trovando però il cadavere di Eddie, morto per ferite da arma da fuoco. Convinto che sia stata Nora ad ucciderlo, ne brucerà e nasconderà il corpo. Nora, però, era fuori città al momento dell'omicidio. Il vero killer si farà avanti e prenderà di mira Giovanni.",
+      "poster": "/uUz2Kui5qhWBPqaRrmWgJluwdGf.jpg",
+      "year": 1971,
+      "releaseDate": "1971-09-05",
+      "rating": 5,
+      "popularity": 1.4709,
+      "genreKeys": [
+        "thriller",
+        "mystery",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/la-controfigura"
+    },
+    {
+      "tmdbId": 38761,
+      "imdbId": "tt0069005",
+      "type": "movie",
+      "name": "La notte della lunga paura",
+      "overview": "Ad Ajo City, nel sud dell'Arizona, una proliferazione incontenibile di conigli distrugge ogni tipo di vegetazione. Bisogna trovare un rimedio evitando, però, effetti collaterali che potrebbero risultare disastrosi. A tale scopo, il ricercatore Roy Bennet, aiutato dalla moglie Jerry, sperimenta il dosaggio di iniezioni a base di ormoni antifecondativi. Accade però l'imprevisto.",
+      "poster": "/98KSP34eLOq5QNjmxNX39Gl7N0A.jpg",
+      "year": 1972,
+      "releaseDate": "1972-10-04",
+      "rating": 4.4,
+      "popularity": 3.5846,
+      "genreKeys": [
+        "horror",
+        "scifi"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/la-notte-della-lunga-paura"
+    },
+    {
+      "tmdbId": 24984,
+      "imdbId": "tt0066906",
+      "type": "movie",
+      "name": "Le chat - l'implacabile uomo di Saint Germain",
+      "overview": "Julien e Clémence sono due coniugi anziani che vivono in un quartiere periferico che si sta trasformando, non più villette o piccole case ma palazzi e grattacieli. I rapporti tra i coniugi non sono affatto buoni, l'atmosfera è pesante e nessuno dei due vuole lasciare la casa. Un giorno Julien porta a casa un gatto abbandonato e questo scatena la rabbia e la gelosia della moglie che si vede sempre più esclusa e ignorata.",
+      "poster": "/hVKkFooOgKS4JmG5kDiHGIprWHT.jpg",
+      "year": 1971,
+      "releaseDate": "1971-04-24",
+      "rating": 7.4,
+      "popularity": 2.4112,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/le-chat-l-implacabile-uomo-di-saint-germain"
+    },
+    {
+      "tmdbId": 18287,
+      "imdbId": "tt0067809",
+      "type": "movie",
+      "name": "L'infallibile pistolero strabico",
+      "overview": "In viaggio verso Denver, Latigo Smith capita per caso nella cittadina mineraria di Purgatory. Qui è in corso una lotta tra due società rivali; lui viene scambiato per il famoso pistolero Swifty Morgan e viene contattato da entrambi i contendenti. Quando arriva anche il vero Morgan ne succedono di tutti i colori.",
+      "poster": "/kDxgzFwLrLubxcKorV7BSQxG3NP.jpg",
+      "year": 1971,
+      "releaseDate": "1971-05-26",
+      "rating": 6.6,
+      "popularity": 3.4232,
+      "genreKeys": [
+        "comedy",
+        "western"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/l-infallibile-pistolero-strabico"
+    },
+    {
+      "tmdbId": 63460,
+      "imdbId": "tt0084861",
+      "type": "movie",
+      "name": "Police Station - Turno di notte",
+      "overview": "A Los Angeles una giovane prostituta, che nell'ambiente è conosciuta come Principessa, è ridotta a vendersi sui marciapiedi di Sunset Boulevard per mantenere se stessa e la figlia. Una sua amica e \"collega\", di nome Ginger, le confida per telefono di essere nuovamente vittima delle angherie del suo protettore un certo Ramrod. Quando Ginger viene brutalmente aggredita e in seguito perde la vita a causa delle percosse subite, il sergente Tom Walsh convince Principessa a fare da esca per catturare il pericoloso criminale.",
+      "poster": "/yUzb8549zOlEJk3HTmo7VBEUWEr.jpg",
+      "year": 1982,
+      "releaseDate": "1982-01-22",
+      "rating": 6.221,
+      "popularity": 2.1755,
+      "genreKeys": [
+        "crime",
+        "thriller",
+        "drama",
+        "action"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/police-station-turno-di-notte"
+    },
+    {
+      "tmdbId": 29787,
+      "imdbId": "tt0095652",
+      "type": "movie",
+      "name": "Monkey Shines - Esperimento nel terrore",
+      "overview": "Allan, atletico e sportivo, resta paralizzato in seguito a un incidente. Un suo amico ha l'idea di mettergli a fianco una scimmia sottoposta a esperimenti genetici e poi addestrata da una specialista, Melanie Parker. La scimmietta diventa compagna inseparabile di Allan, ma il suo attaccamento morboso sfocia in una forma di gelosia... omicida.",
+      "poster": "/dxPcx3kT3NcxslpCJCGidb6takJ.jpg",
+      "year": 1988,
+      "releaseDate": "1988-07-29",
+      "rating": 6.3,
+      "popularity": 3.1469,
+      "genreKeys": [
+        "horror",
+        "scifi",
+        "drama",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/monkey-shines-1988"
+    },
+    {
+      "tmdbId": 993424,
+      "imdbId": "tt0252732",
+      "type": "movie",
+      "name": "Monty",
+      "overview": "",
+      "poster": "/9b7HcpfFlLJMB4sSNa3SWF2Pmiy.jpg",
+      "year": 1992,
+      "releaseDate": "1992-01-01",
+      "rating": 10,
+      "popularity": 0.5242,
+      "genreKeys": [
+        "animation"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/monty-1994"
+    },
+    {
+      "tmdbId": 21430,
+      "imdbId": "tt0133122",
+      "type": "movie",
+      "name": "New Rose Hotel",
+      "overview": "Professionisti nel traffico di scienziati tra multinazionali concorrenti, X e Fox stanno pianificando da un anno la defezione dell’ingegnere genetico Hiroshi Imuri dalla Maas alla Hosaka. Per convincere il brillante ricercatore hanno però bisogno di un incentivo femminile: Sandii, un’eccitante ragazza italiana scovata nel locale notturno di Madame Rosa a Tokyo. Tutto sembra filare liscio, ma una volta ricevuto il compenso Fox e X si accorgono che è in corso una guerra senza esclusione di colpi tra i due zaibatsu e loro sono nell’occhio del mirino. Che cos’è andato storto? Chi li ha venduti?",
+      "poster": "/pMk6iJSmbt5uovZ1LEhhBZdR5cz.jpg",
+      "year": 1999,
+      "releaseDate": "1999-03-19",
+      "rating": 5.3,
+      "popularity": 2.7852,
+      "genreKeys": [
+        "drama",
+        "mystery",
+        "scifi"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/new-rose-hotel"
     }
   ],
   "series": [
@@ -291249,6 +291981,194 @@
       ],
       "extraGenreKeys": [],
       "sourceUrl": "https://vixvocal.it/opere/star-trek-la-serie-animata-1973"
+    },
+    {
+      "tmdbId": 316191,
+      "imdbId": "tt1094661",
+      "type": "series",
+      "name": "Coco Chanel",
+      "overview": "",
+      "poster": null,
+      "year": 2008,
+      "releaseDate": "2008-12-29",
+      "rating": 6.5,
+      "popularity": 0.9162,
+      "genreKeys": [],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/coco-chanel-2008"
+    },
+    {
+      "tmdbId": 298505,
+      "imdbId": "tt36064406",
+      "type": "series",
+      "name": "Coven Academy - L'accademia delle streghe",
+      "overview": "La storia segue un trio di streghe adolescenti e un gruppo di stregoni loro coetanei, alle prese con l'apprendimento della magia e con antichi conflitti sovrannaturali che minacciano la città. In questo elegante collegio, come suggerisce la sinossi ufficiale, il potere è la vera moneta di scambio, i segreti possono rivelarsi letali e innamorarsi della persona sbagliata diventa un rischio concreto.",
+      "poster": "/fRY6P6lWpwyI97WpKIf8mfaWFkZ.jpg",
+      "year": 2026,
+      "releaseDate": "2026-10-01",
+      "rating": 7.056,
+      "popularity": 140.1023,
+      "genreKeys": [
+        "mystery",
+        "drama",
+        "scifi"
+      ],
+      "extraGenreKeys": [
+        "supernatural",
+        "teen"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/coven-academy-l-accademia-delle-streghe-2026"
+    },
+    {
+      "tmdbId": 121800,
+      "imdbId": "tt27028526",
+      "type": "series",
+      "name": "Battle Spirits - Dan il Guerriero Rosso",
+      "overview": "Battle Spirits - Dan il Guerriero Rosso (バトルスピリッツ 少年激覇ダン Batoru Supirittsu Shōnen Gekiha Dan) è un anime shōnen, tratto dal gioco di carte collezionabili Battle Spirits, creato da Hajime Yatate e prodotto dalla Sunrise. La serie è andata in onda in Giappone su Nagoya TV dal 13 settembre 2009 al 5 settembre 2010. In Italia è stata trasmessa su Rai 2 dal 13 giugno al 19 agosto 2011.",
+      "poster": "/bWEhifdNTYWIzMcQM4S64p2hwzl.jpg",
+      "year": 2009,
+      "releaseDate": "2009-09-13",
+      "rating": 9,
+      "popularity": 9.612,
+      "genreKeys": [
+        "action",
+        "animation",
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/battle-spirits-dan-il-guerriero-rosso"
+    },
+    {
+      "tmdbId": 221359,
+      "imdbId": "tt23050438",
+      "type": "series",
+      "name": "Dragonero - I Paladini",
+      "overview": "Le avventure di tre ragazzi dell'Erondàr, una terra fantastica dominata dalla magia: Ian, dallo spirito libero, sua sorella Myrva, costruttrice geniale e Gmor, un orco di grande forza e animo generoso.",
+      "poster": "/vhQpF7PDMOeLUGcjnbrOeYNNHNU.jpg",
+      "year": 2022,
+      "releaseDate": "2022-12-26",
+      "rating": null,
+      "popularity": 3.0167,
+      "genreKeys": [
+        "scifi",
+        "action",
+        "animation"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/dragonero-i-paladini"
+    },
+    {
+      "tmdbId": 23259,
+      "imdbId": "tt0079840",
+      "type": "series",
+      "name": "L'avventura dei Sackett",
+      "overview": "",
+      "poster": "/ofw3BWHJIvRXTfpkdVlcrluAGHL.jpg",
+      "year": 1979,
+      "releaseDate": "1979-05-15",
+      "rating": 7.6,
+      "popularity": 5.9468,
+      "genreKeys": [
+        "western"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/lavventura-dei-sackett"
+    },
+    {
+      "tmdbId": 13278,
+      "imdbId": "tt0407384",
+      "type": "series",
+      "name": "La leggenda di Earthsea",
+      "overview": "Earthsea (anche nota come Legend of Earthsea) è una miniserie televisiva di ambientazione fantasy ispirata ai racconti di Ursula Le Guin. La serie è stata girata a Vancouver in Canada.  Ged è un giovane aspirante mago figlio di un fabbro. Salvato dal potente mago Ogion diventa il suo apprendista, ma a causa della propria impazienza decide di trasferirsi nella scuola di magia dell'Arcimago. Durate una sfida con Jasper libera un Gebbeth, creatura malvagia che lo perseguiterà per ucciderlo.",
+      "poster": "/lPUNXBVgM8p3ePfgQWHUuJfnnou.jpg",
+      "year": 2004,
+      "releaseDate": "2004-12-13",
+      "rating": 5.8,
+      "popularity": 11.294,
+      "genreKeys": [
+        "scifi"
+      ],
+      "extraGenreKeys": [
+        "supernatural"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/la-leggenda-di-earthsea-2004"
+    },
+    {
+      "tmdbId": 72644,
+      "imdbId": "tt0448965",
+      "type": "series",
+      "name": "L'Isola Misteriosa",
+      "overview": "Un gruppo di soldati nordisti imprigionati riesce a fuggire grazie a una mongolfiera. Finiranno su un'isola non segnata dalle mappe, che cela al suo interno terrificanti presenze...",
+      "poster": "/7UKMhHwHULtY8inE33yN2tlTPQi.jpg",
+      "year": 2005,
+      "releaseDate": "2005-09-17",
+      "rating": 5.3,
+      "popularity": 5.893,
+      "genreKeys": [
+        "action",
+        "scifi"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/l-isola-misteriosa"
+    },
+    {
+      "tmdbId": 242945,
+      "imdbId": "tt14675396",
+      "type": "series",
+      "name": "On the Roam",
+      "overview": "",
+      "poster": "/ivhZRKB2Z8gM2JdB1i2dEeUwaNr.jpg",
+      "year": 2024,
+      "releaseDate": "2024-01-18",
+      "rating": 7,
+      "popularity": 3.9053,
+      "genreKeys": [
+        "documentary",
+        "action"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/on-the-roam-2024"
+    },
+    {
+      "tmdbId": 889,
+      "imdbId": "tt0765491",
+      "type": "series",
+      "name": "Eureka Seven",
+      "overview": "Renton Thurston è un ragazzo di 14 anni che vive con il nonno meccanico in una città sperduta. Il suo sogno è entrare a far parte del Gekkostate, un gruppo di mercenari ricercati, e di cavalcare le Trapar insieme al loro capo Holland. Quando una giovane ragazza di nome Eureka alla guida di un robot gli distrugge la stanza, la vita di Renton cambierà completamente.",
+      "poster": "/fbdM3vtY29PkipKrBb6NuTw7VDt.jpg",
+      "year": 2005,
+      "releaseDate": "2005-04-17",
+      "rating": 7.4,
+      "popularity": 36.8862,
+      "genreKeys": [
+        "action",
+        "scifi",
+        "animation",
+        "drama"
+      ],
+      "extraGenreKeys": [
+        "romance",
+        "teen"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/eureka-seven"
+    },
+    {
+      "tmdbId": 32776,
+      "imdbId": "tt1578258",
+      "type": "series",
+      "name": "Detroit 1-8-7",
+      "overview": "",
+      "poster": "/d2Nt3lxMz082lqQQzea3yB1XBNU.jpg",
+      "year": 2010,
+      "releaseDate": "2010-09-21",
+      "rating": 6.6,
+      "popularity": 8.1432,
+      "genreKeys": [
+        "drama",
+        "crime"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/detroit-1-8-7"
     }
   ]
 }
