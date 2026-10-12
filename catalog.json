@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-05T10:43:06.708Z",
+  "updatedAt": "2026-10-12T10:54:00.754Z",
   "source": "Vix Vocal + TMDB",
   "movies": [
     {
@@ -240913,6 +240913,234 @@
       ],
       "extraGenreKeys": [],
       "sourceUrl": "https://vixvocal.it/opere/new-rose-hotel"
+    },
+    {
+      "tmdbId": 1283515,
+      "imdbId": "tt32261958",
+      "type": "movie",
+      "name": "Verity",
+      "overview": "Lowen Ashleigh (Dakota Johnson), una scrittrice in difficoltà, si trasferisce nella remota tenuta dei Crawford per fare da ghostwriter alla celebre autrice Verity Crawford (Anne Hathaway). Dopo aver scoperto quelli che sembrano essere gli inquietanti appunti autobiografici di Verity, Lowen deve fare i conti con le torbide e distorte confessioni sul marito di lei, Jeremy (Josh Hartnett), trovando difficile distinguere la finzione dalla realtà, la manipolazione dall'attrazione e l'opportunità dall'ossessione.",
+      "poster": "/cLMNbCkgzn1qlmox7FyQBgXwL4D.jpg",
+      "year": 2026,
+      "releaseDate": "2026-09-30",
+      "rating": 6.4,
+      "popularity": 93.1479,
+      "genreKeys": [
+        "mystery",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/verity-2026"
+    },
+    {
+      "tmdbId": 1248832,
+      "imdbId": "tt31450459",
+      "type": "movie",
+      "name": "Digger",
+      "overview": "Su richiesta del presidente degli Stati Uniti, il magnate del petrolio Digger Rockwell deve salvare la Terra da un disastro ambientale causato dalla sua stessa azienda.",
+      "poster": "/wisikjQcsvw0XqyQQYBsxudb38Z.jpg",
+      "year": 2026,
+      "releaseDate": "2026-09-28",
+      "rating": 7.5,
+      "popularity": 125.5344,
+      "genreKeys": [
+        "comedy",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/digger-2026"
+    },
+    {
+      "tmdbId": 56341,
+      "imdbId": "tt0069235",
+      "type": "movie",
+      "name": "Lo scopone scientifico",
+      "overview": "Ogni anno, Peppino lo stracciarolo e la moglie Antonia attendono l'arrivo a Roma dell'eccentrica miliardaria statunitense che li sfida periodicamente a giocare a scopone scientifico.",
+      "poster": "/jFDTspFzMculyLSRsrFtmQc8ovw.jpg",
+      "year": 1972,
+      "releaseDate": "1972-08-28",
+      "rating": 7.4,
+      "popularity": 1.375,
+      "genreKeys": [
+        "comedy",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/lo-scopone-scientifico-1972"
+    },
+    {
+      "tmdbId": 1292415,
+      "imdbId": "tt7708226",
+      "type": "movie",
+      "name": "Beast",
+      "overview": "La leggenda delle MMA Patton James, ora pescatore commerciale, viene richiamato nella gabbia quando suo fratello si trova in pericolo. Riunitosi con il suo vecchio allenatore Sammy, si impegna per un ultimo incontro nel ONE Championship contro il brutale campione Xavier Grau. ",
+      "poster": "/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
+      "year": 2026,
+      "releaseDate": "2026-04-10",
+      "rating": 7.524,
+      "popularity": 15.59,
+      "genreKeys": [
+        "action",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/beast-2026"
+    },
+    {
+      "tmdbId": 1147416,
+      "imdbId": "tt13701202",
+      "type": "movie",
+      "name": "Miraculous World: Londra - Ai confini del tempo",
+      "overview": "Per salvare il futuro da un terribile destino, Marinette diventa Chronobug e collabora con Bunnyx per sconfiggere un misterioso avversario che viaggia nel tempo. Chi è questo nuovo supervillain, e perché è ossessionato dallo svelare l'identità segreta da supereroina di Marinette? L'unica speranza di Marinette è sconfiggere il suo nuovo avversario per scongiurare la fine di Ladybug e del tempo stesso!",
+      "poster": "/gi1x1e287tbBIIHq7IzrwMZqkpp.jpg",
+      "year": 2024,
+      "releaseDate": "2024-11-14",
+      "rating": 7.6,
+      "popularity": 11.0004,
+      "genreKeys": [
+        "animation",
+        "family",
+        "action",
+        "adventure",
+        "fantasy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/miraculous-world-londra-ai-confini-del-tempo-2024"
+    },
+    {
+      "tmdbId": 1147400,
+      "imdbId": "tt29259099",
+      "type": "movie",
+      "name": "Miraculous World: Parigi - Le avventure di Shadybug e Claw Noir",
+      "overview": "Nel cuore di Parigi, improvvisamente, spuntano i portatori di Miraculous da un altro mondo. Provengono da un universo parallelo dove tutto è capovolto: i portatori dei Miraculous della Coccinella e del Gatto Nero sono i cattivi.",
+      "poster": "/xOJkeZuVdsIdOWIFe0b4PsRwwEw.jpg",
+      "year": 2024,
+      "releaseDate": "2024-02-11",
+      "rating": 7.326,
+      "popularity": 8.13,
+      "genreKeys": [
+        "animation",
+        "family",
+        "action",
+        "adventure",
+        "fantasy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/miraculous-world-parigi-le-avventure-di-shadybug-e-claw-noir"
+    },
+    {
+      "tmdbId": 726684,
+      "imdbId": "tt12816634",
+      "type": "movie",
+      "name": "Miraculous World: Shanghai - La leggenda di Ladydragon",
+      "overview": "Durante le vacanze scolastiche, Marinette si reca a Shanghai per incontrare Adrien. Ma dopo il suo arrivo, Marinette perde tutte le sue cose, inclusa la Miraculous che le permette di trasformarsi in Ladybug!",
+      "poster": "/qQ0VKsGRQ2ofAmswGNzZnvC1xPE.jpg",
+      "year": 2021,
+      "releaseDate": "2021-05-15",
+      "rating": 7.9,
+      "popularity": 7.6632,
+      "genreKeys": [
+        "animation",
+        "family",
+        "action",
+        "adventure",
+        "fantasy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/miraculous-world-shanghai-la-leggenda-di-ladydragon"
+    },
+    {
+      "tmdbId": 1400837,
+      "imdbId": "tt36586020",
+      "type": "movie",
+      "name": "Mammina",
+      "overview": "Un viaggio terrificante nel mondo sempre più oscuro di Bela, una ragazzina che instaura un rapporto con un’entità sinistra presente nella sua casa, che assomiglia in modo inquietante alla sua stessa madre.",
+      "poster": "/ir1esRZZk49yKaLAVQd2FgvLxLf.jpg",
+      "year": 2026,
+      "releaseDate": "2026-10-07",
+      "rating": 5.8,
+      "popularity": 149.7372,
+      "genreKeys": [
+        "horror"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/mammina-2026"
+    },
+    {
+      "tmdbId": 1284496,
+      "imdbId": "tt33323667",
+      "type": "movie",
+      "name": "Era meglio domani",
+      "overview": "Francia, 1958. Michel lavora in banca come consulente al credito per le imprese, e regolarmente rifiuta prestiti a idee di business che avranno un futuro - come il supermercato, le cinture di sicurezza o l'IKEA - a favore di quelle di breve respiro, ma che confermano la sua idea di mondo. Hélène, sua moglie, resta a casa a cucinare, passare l'aspirapolvere e lavare i panni a mano - finché tramite un concorso non vince una lavatrice \"moderna\". Il figlio Lucien studia latino e si prepara a un avvenire da maschi alfa (nonostante appaia chiaramente come un beta), la figlia Jeanne invece ha davanti a sé l'unica prospettiva di \"sposare bene\": peccato che, a 17 anni, rimanga incinta di André, il figlio dei vicini senz'arte né parte.",
+      "poster": "/sZkuAqfVpKdllY3SV8teOGffh6A.jpg",
+      "year": 2025,
+      "releaseDate": "2025-10-08",
+      "rating": 6.1,
+      "popularity": 2.4033,
+      "genreKeys": [
+        "comedy",
+        "scifi"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/era-meglio-domani-2025"
+    },
+    {
+      "tmdbId": 1236045,
+      "imdbId": "tt31049299",
+      "type": "movie",
+      "name": "Animals",
+      "overview": "Dopo il rapimento del figlio, un candidato a sindaco di Los Angeles e la moglie tentano di racimolare il riscatto affrontando scelte che rischiano di distruggere la loro vita.",
+      "poster": "/cyltXU1lAGhRFBuHQIMWBAPj8fI.jpg",
+      "year": 2026,
+      "releaseDate": "2026-10-09",
+      "rating": 7.5,
+      "popularity": 240.3403,
+      "genreKeys": [
+        "thriller",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/animals-2026"
+    },
+    {
+      "tmdbId": 37024,
+      "imdbId": "tt0101583",
+      "type": "movie",
+      "name": "Ranma ½: Le sette divinità della fortuna",
+      "overview": "Sembra una giornata normale nella palestra Tendo, fino al momento in cui arriva una graziosa ragazza cinese di nome Lychee in compagnia del suo elefante Jasmine. La ragazza è alla ricerca di un misterioso \"rotolo della fortuna\" affidata ad Happosai, ultimo documento in cui viene spiegata una non meglio definita \"tecnica definitiva\". Oltre a Lychee sulle tracce del rotolo però ci sono anche i valorosi guerrieri di Nekonron, guidati dal fortissimo principe Kirin. Tuttavia Kirin si invaghisce di Akane e la rapisce per convincerla a sposarlo. Ranma e i suoi amici partono per soccorrere la ragazza, e nel frattempo aiutare Lychee nel ritrovare la misteriosa pergamena.",
+      "poster": "/bP4a7KtRankViJyd5bb9ftWuvF0.jpg",
+      "year": 1991,
+      "releaseDate": "1991-11-02",
+      "rating": 7.3,
+      "popularity": 3.0261,
+      "genreKeys": [
+        "animation",
+        "comedy",
+        "action",
+        "romance",
+        "adventure"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/ranma-le-sette-divinita-della-fortuna-1991"
+    },
+    {
+      "tmdbId": 1129598,
+      "imdbId": "tt27682129",
+      "type": "movie",
+      "name": "Prey - La grande caccia",
+      "overview": "Una giovane coppia è costretta ad abbandonare la propria stazione missionaria cristiana nel deserto del Kalahari dopo essere stata minacciata di morte da una banda di militanti estremisti. Dopo aver fatto schiantare il loro aereo, devono combattere uomini e bestie per la loro vita.",
+      "poster": "/nJ8xOiNHaU91Ed2RFg3ntKEwSbe.jpg",
+      "year": 2024,
+      "releaseDate": "2024-03-15",
+      "rating": 5.946,
+      "popularity": 5.7237,
+      "genreKeys": [
+        "action",
+        "thriller",
+        "horror"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/prey-la-grande-caccia-2024"
     }
   ],
   "series": [
@@ -292169,6 +292397,65 @@
       ],
       "extraGenreKeys": [],
       "sourceUrl": "https://vixvocal.it/opere/detroit-1-8-7"
+    },
+    {
+      "tmdbId": 243954,
+      "imdbId": "tt13723084",
+      "type": "series",
+      "name": "Motorheads",
+      "overview": "Motorheads parla di primi amori, prime ferite, e dell'accensione della propria prima auto. Ambientata in una città della Rust Belt un tempo fiorente ma ora alla ricerca di un barlume di speranza, questa serie adrenalinica narra di un gruppo di outsider che stringe un'improbabile amicizia grazie all'amore per le corse clandestine, mentre tutti si destreggiano tra gerarchie e regole del liceo.",
+      "poster": "/jglGmYMPEiHD7tVncvif7WtCOBJ.jpg",
+      "year": 2025,
+      "releaseDate": "2025-05-20",
+      "rating": 8.4,
+      "popularity": 8.4066,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [
+        "thriller"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/motorheads-2025"
+    },
+    {
+      "tmdbId": 284833,
+      "imdbId": "tt35854736",
+      "type": "series",
+      "name": "Avatar: I sette rifugi",
+      "overview": "Una giovane Dominatrice della Terra scopre di essere il nuovo Avatar dopo Korra, in un mondo sconvolto da un cataclisma devastante. In questa nuova e pericolosa epoca, il titolo di Avatar non la identifica come la salvatrice dell'umanità, ma come la sua possibile distruttrice. Braccata da nemici umani e spirituali, la ragazza dovrà ricongiungersi con la gemella perduta, fare luce sulle loro misteriose origini e salvare i Sette Rifugi prima che crollino gli ultimi baluardi della civiltà.",
+      "poster": "/cw0nZlGdxPro0J9aZYO1tz2fZKY.jpg",
+      "year": 2026,
+      "releaseDate": "2026-10-09",
+      "rating": 9,
+      "popularity": 144.7219,
+      "genreKeys": [
+        "animation",
+        "action",
+        "scifi",
+        "family"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/avatar-i-sette-rifugi-2026"
+    },
+    {
+      "tmdbId": 240459,
+      "imdbId": "tt29921437",
+      "type": "series",
+      "name": "Spartacus: House of Ashur",
+      "overview": "E se Ashur fosse sopravvissuto e avesse ottenuto il ludus dove un tempo aveva sanguinato? Con Achillia, una gladiatrice, scatena spettacoli che sfidano Roma e sconvolgono l'élite.",
+      "poster": "/vNByuzy60v31nmUVPMA8oAtneUK.jpg",
+      "year": 2025,
+      "releaseDate": "2025-12-05",
+      "rating": 7.331,
+      "popularity": 34.5108,
+      "genreKeys": [
+        "drama",
+        "action"
+      ],
+      "extraGenreKeys": [
+        "thriller"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/spartacus-house-of-ashur"
     }
   ]
 }
