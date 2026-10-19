@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T10:54:00.754Z",
+  "updatedAt": "2026-10-19T09:02:52.267Z",
   "source": "Vix Vocal + TMDB",
   "movies": [
     {
@@ -241141,6 +241141,705 @@
       ],
       "extraGenreKeys": [],
       "sourceUrl": "https://vixvocal.it/opere/prey-la-grande-caccia-2024"
+    },
+    {
+      "tmdbId": 1288069,
+      "imdbId": "tt6262770",
+      "type": "movie",
+      "name": "Tenzing",
+      "overview": "Un uomo molto determinato intraprende un’impresa ad alto rischio, sfidando ostacoli apparentemente insormontabili, per realizzare il suo sogno: essere il primo a raggiungere la vetta del Monte Everest.",
+      "poster": "/rvYJksPOdfk0TDym3bLKJ7JeZfv.jpg",
+      "year": 2026,
+      "releaseDate": "2026-10-09",
+      "rating": 8.329,
+      "popularity": 108.4074,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/tenzing-2026"
+    },
+    {
+      "tmdbId": 1462322,
+      "imdbId": "tt36491632",
+      "type": "movie",
+      "name": "Le città di pianura",
+      "overview": "La storia di Carlobianchi e Doriano, due cinquantenni al verde con una filosofia di vita che ruota attorno all'ultimo bicchiere, e del loro incontro con Giulio, un giovane e timido studente di architettura in crisi. Quello che sembra un incontro casuale si trasforma in un road movie disordinato attraverso le pianure del Veneto: tra sbronze, cattivi consigli e una sorprendente amicizia che rimescola le carte del destino di Giulio.",
+      "poster": "/oxKw1UkPojpYoreMkjqCqjZ1dyG.jpg",
+      "year": 2025,
+      "releaseDate": "2025-09-25",
+      "rating": 7.454,
+      "popularity": 3.4959,
+      "genreKeys": [
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/le-citta-di-pianura-2025"
+    },
+    {
+      "tmdbId": 1032863,
+      "imdbId": "tt22526100",
+      "type": "movie",
+      "name": "The Love Hypothesis: Il teorema dell'amore",
+      "overview": "Basato sul best-seller del New York Times, The Love Hypothesis: Il teorema dell'amore racconta la storia di Olive, una dottoranda che bacia impulsivamente il professore più minaccioso del suo dipartimento, Adam Carlsen. Il bisogno di entrambi di una falsa relazione si trasforma in un esperimento di chimica che potrebbe in realtà risolversi nell'amore.",
+      "poster": "/5wJMjjorqHRe4cNpB2dgiUVvveF.jpg",
+      "year": 2026,
+      "releaseDate": "2026-09-23",
+      "rating": 8.019,
+      "popularity": 62.186,
+      "genreKeys": [
+        "romance",
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/the-love-hypothesis-il-teorema-dell-amore-2026"
+    },
+    {
+      "tmdbId": 1153576,
+      "imdbId": "tt27419420",
+      "type": "movie",
+      "name": "Street Fighter",
+      "overview": "1993. Un’epoca di sale giochi, monete consumate e leggende nate a colpi di joystick. Ryu (Andrew Koji) e Ken Masters (Noah Centineo), Street Fighters un tempo inseparabili, oggi sono lontani, divisi da scelte e ferite mai rimarginate. Il destino li richiama sul ring quando la misteriosa Chun-Li (Callina Liang) li arruola per il nuovo World Warrior Tournament: un torneo spietato dove i pugni decidono il futuro e la furia riscrive il destino. Ma dietro lo spettacolo della battle royale si muove un’ombra. Una cospirazione letale che costringerà Ryu e Ken non solo a combattere tra loro, ma a guardare in faccia i demoni del passato. Perché qui non esistono seconde possibilità: se perdi, è GAME OVER.",
+      "poster": "/pwUb3gdkSrlyMZWs0MFOQg3N5s7.jpg",
+      "year": 2026,
+      "releaseDate": "2026-10-13",
+      "rating": 6.289,
+      "popularity": 225.4202,
+      "genreKeys": [
+        "action",
+        "fantasy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/street-fighter-2026"
+    },
+    {
+      "tmdbId": 642885,
+      "imdbId": "tt11909878",
+      "type": "movie",
+      "name": "Hocus Pocus 2",
+      "overview": "Dopo 29 anni, la Candela dalla fiamma nera è stata accesa riportando in vita le sorelle del 17° secolo, che ora cercano vendetta. Toccherà a tre liceali impedire alle diaboliche streghe di scatenare di nuovo scompiglio su Salem prima dell’alba della vigilia di Ognissanti.",
+      "poster": "/ejmMQggGCqTvKw0HbJkfj9qFWmR.jpg",
+      "year": 2022,
+      "releaseDate": "2022-09-27",
+      "rating": 7.1,
+      "popularity": 21.2226,
+      "genreKeys": [
+        "fantasy",
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/hocus-pocus-2"
+    },
+    {
+      "tmdbId": 1309396,
+      "imdbId": "tt36749000",
+      "type": "movie",
+      "name": "La bambola",
+      "overview": "Rémi non si è mai ripreso dalla sua ultima separazione amorosa. Da allora, ha deciso di vivere con Audrey, una bambola gonfiabile, è tutto più semplice. Ma quando Patricia viene ingaggiata nell'azienda dove lavora, Audrey prende misteriosamente vita.",
+      "poster": "/atOqiWMCm1S0YQlPUoNrqjAB8Wn.jpg",
+      "year": 2026,
+      "releaseDate": "2026-04-22",
+      "rating": 6.086,
+      "popularity": 3.5042,
+      "genreKeys": [
+        "comedy",
+        "romance"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/la-bambola-2026"
+    },
+    {
+      "tmdbId": 1281331,
+      "imdbId": "tt37510326",
+      "type": "movie",
+      "name": "The Social - Il prezzo della verità",
+      "overview": "Frances Haugen, giovane ingegnere di Facebook, si avvale dell'aiuto di Jeff Horwitz, un reporter del Wall Street Journal, per intraprendere un pericoloso viaggio che finisce per rivelare i segreti più custoditi del social network.",
+      "poster": "/mJv5sV2knJtLy5ELIOilryhV59o.jpg",
+      "year": 2026,
+      "releaseDate": "2026-10-07",
+      "rating": 7,
+      "popularity": 57.4928,
+      "genreKeys": [
+        "drama",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/the-social-il-prezzo-della-verita-2026"
+    },
+    {
+      "tmdbId": 1375441,
+      "imdbId": "tt34206385",
+      "type": "movie",
+      "name": "Primetime",
+      "overview": "Nel 2006 il giornalista Chris Hansen si prepara a fare la storia della televisione con To Catch a Predator, il controverso format che, attraverso operazioni sotto copertura e telecamere nascoste, smaschera in diretta tv predatori sessuali colti sul fatto. Mentre il programma diventa un fenomeno nazionale e il suo conduttore un’icona del pubblico, il confine tra informazione, giustizia e spettacolo si fa sempre più ambiguo e il cortocircuito fra cronaca, intrattenimento e voyeurismo televisivo sempre più insostenibile.",
+      "poster": "/sqArsDFYFryd5iKuoxLvr4y5NZv.jpg",
+      "year": 2026,
+      "releaseDate": "2026-09-23",
+      "rating": 6.8,
+      "popularity": 56.5286,
+      "genreKeys": [
+        "drama",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/primetime-2026"
+    },
+    {
+      "tmdbId": 800513,
+      "imdbId": "tt14260566",
+      "type": "movie",
+      "name": "La magnifica Lillian Hall",
+      "overview": "Mentre l'amata star di Broadway Lillian Hall mette il suo cuore, la sua anima e il suo tempo nella preparazione per il suo prossimo grande ruolo, si ritrova colta di sorpresa dalla confusione e dall'oblio. Lottando contro ogni previsione per arrivare alla serata di apertura, mentre si aggrappa ai suoi ricordi e alla sua identità in dissolvenza, deve affrontare un tumultuoso viaggio emotivo, bilanciando il suo desiderio di stare sotto i riflettori e le dure esigenze del mondo reale.",
+      "poster": "/2ogNnNAmteEYlhf8iW4rPXgfYNW.jpg",
+      "year": 2024,
+      "releaseDate": "2024-06-30",
+      "rating": 7.1,
+      "popularity": 5.0726,
+      "genreKeys": [
+        "drama",
+        "adventure",
+        "mystery"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/la-magnifica-lillian-hall-2024"
+    },
+    {
+      "tmdbId": 439980,
+      "imdbId": "tt0108110",
+      "type": "movie",
+      "name": "Cose da non dire",
+      "overview": "Shari, avvocatessa in carriera, è vittima dell'ansia, di un rapporto amoroso disastroso e di una pesante incomunicabilità con la madre. Sollecitata emotivamente da un caso di custodia di minore, Shari va in crisi: la sua infanzia rimossa riaffiora. Impegnato sul fronte della lotta alla violenza sui minori, il film affronta con tatto lo scottante argomento dell'incesto.",
+      "poster": "/7Okk6SKHuF3nnFaWenmC7g4OM2t.jpg",
+      "year": 1993,
+      "releaseDate": "1993-09-27",
+      "rating": 4.2,
+      "popularity": 1.4153,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/cose-da-non-dire-1993"
+    },
+    {
+      "tmdbId": 1148365,
+      "imdbId": "tt28498219",
+      "type": "movie",
+      "name": "Matchbox: Il film",
+      "overview": "Quando un gruppo di amici si ritrova, la loro riunione prende una piega inaspettata perché si imbattono in un pericoloso complotto internazionale. E dovranno salvare il mondo.",
+      "poster": "/JFawNsqIqIZbmfn7Ud7oUvJMMm.jpg",
+      "year": 2026,
+      "releaseDate": "2026-10-05",
+      "rating": 7.811,
+      "popularity": 363.6573,
+      "genreKeys": [
+        "action",
+        "comedy",
+        "adventure"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/matchbox-il-film-2026"
+    },
+    {
+      "tmdbId": 89587,
+      "imdbId": "tt0382205",
+      "type": "movie",
+      "name": "Occhi di cristallo",
+      "overview": "Il film racconta la caccia dell'ispettore Amaldi ad uno spietato assassino che amputa un pezzo da ognuna delle sue vittime, e al cui posto lascia pezzi di una bambola a dimensioni reali dell'800. Gli indizi portano a credere che si tratti di un imbalsamatore.",
+      "poster": "/ulhaxj6bAs96G04NMzsLbx2kp6i.jpg",
+      "year": 2004,
+      "releaseDate": "2004-11-26",
+      "rating": 5.8,
+      "popularity": 2.4223,
+      "genreKeys": [
+        "thriller",
+        "crime"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/occhi-di-cristallo"
+    },
+    {
+      "tmdbId": 61642,
+      "imdbId": "tt0076715",
+      "type": "movie",
+      "name": "Uomini d'argento",
+      "overview": "Al fine di riciclare denaro sporco, un boss americano apre una banca a Lugano, ma si trova a fare i conti con un miliardario londinese, con un banchiere californiano e con la proprietaria di una miniera d'argento in Iran.È una sorta di \"stangata\" di seconda mano, con molta meno classe.",
+      "poster": "/mXivzF3yavduWzQqfs48Rn5ZLU.jpg",
+      "year": 1977,
+      "releaseDate": "1977-06-03",
+      "rating": 6.1,
+      "popularity": 4.511,
+      "genreKeys": [
+        "comedy",
+        "crime"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/uominidargento77"
+    },
+    {
+      "tmdbId": 281238,
+      "imdbId": "tt0060249",
+      "type": "movie",
+      "name": "Colpo maestro al servizio di Sua Maestà britannica",
+      "overview": "A Madrid l'attore Lang viene ingaggiato da monsieur Bernard per impersonare un certo mister Owen per un certo periodo. Trasferitosi a Parigi Lang viene addestrato per il suo ruolo, cioè sostituire Owen quale controllore dei prelievi dei diamanti presso la General Diamond di Londra.Lang permette così ai suoi compagni di entrare in possesso di una considerevole quantità di diamanti. Ma dietro l'operazione si cela una mossa del controspionaggio britannico finalizzato a dimostrare la fallacità delle misure di sicurezza e monsieur Barnard è in realtà lo stesso capo del servizio segreto britannico. Il presidente della General Diamond è così costretto ad accettare l'inserimento di agenti nella sua organizzazione.Nel frattempo viene rilevata della radioattività nei depositi di diamanti: qualcuno all'interno della General Diamond sta cercando di appropriarsi dei diamanti e Lang, alla fine, scoprirà trattarsi di un insospettabile membro dello stesso controspionaggio.",
+      "poster": "/soSQWUKCATDytxQcgqNb0VKmJpU.jpg",
+      "year": 1967,
+      "releaseDate": "1967-02-23",
+      "rating": 9,
+      "popularity": 2.5668,
+      "genreKeys": [
+        "crime"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/colpo-maestro-al-servizio-di-sua-maesta-britannica-1967"
+    },
+    {
+      "tmdbId": 73477,
+      "imdbId": "tt0061773",
+      "type": "movie",
+      "name": "Per pochi dollari ancora",
+      "overview": "Finita la guerra di Secessione alcuni sudisti combattono ancora, ignari che un gruppo di banditi vuole mandarli al macello per impossessarsi dell'oro custodito in un forte nordista. Un giovane tenente del disciolto esercito confederato sventerà il piano e salverà i suoi commilitoni.",
+      "poster": "/silleCwf1ei1k01dLlOViG75ORm.jpg",
+      "year": 1966,
+      "releaseDate": "1966-10-07",
+      "rating": 6.2,
+      "popularity": 2.7792,
+      "genreKeys": [
+        "western",
+        "war"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/per-pochi-dollari-ancora-1966"
+    },
+    {
+      "tmdbId": 212818,
+      "imdbId": "tt0053830",
+      "type": "movie",
+      "name": "Fontana di Trevi",
+      "overview": "Commedia musicale italiana. Claudio e Roberto, due ragazzotti romani che lavorano in un'agenzia turistica di fronte alla fontana di Trevi, conoscono Dolores, una ragazza spagnola. Roberto, che non si lascia scappare nessun tipo di avventura sentimentale, credendola benestante, le fa la corte. Quando i due vengono mandati a Barcellona Claudio, per compiacere l'amico, cerca in tutti i modi di facilitargli l'incontro con Dolores. A questo punto, compare Rosita, che fa colpo su Claudio.[",
+      "poster": "/lPC7MMhWhT8vOz9TqopQoUFtZUP.jpg",
+      "year": 1960,
+      "releaseDate": "1960-09-25",
+      "rating": 8,
+      "popularity": 0.9865,
+      "genreKeys": [
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/fontana-di-trevi-1960"
+    },
+    {
+      "tmdbId": 172747,
+      "imdbId": "tt0055264",
+      "type": "movie",
+      "name": "Orazi e Curiazi",
+      "overview": "La vicenda è ispirata alla leggenda della Roma antica riguardante gli Orazi e Curiazi. A porre fine alla lunga e sanguinosa guerra tra i Romani e Albani sarà un duello a cui parteciperanno tre fratelli scelti fra i guerrieri più valorosi di entrambe le parti. I Romani sono rappresentati da tre fratelli Orazi mentre gli Albani da altrettanti Curiazi. Il duello si risolverà a favore dei Romani che riusciranno a sconfiggere i loro avversari.",
+      "poster": "/36EZNk9k1yGJP9IHkJutObcXgf8.jpg",
+      "year": 1961,
+      "releaseDate": "1961-10-19",
+      "rating": 5.6,
+      "popularity": 2.3311,
+      "genreKeys": [
+        "adventure"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/orazi-e-curiazi-1961"
+    },
+    {
+      "tmdbId": 23805,
+      "imdbId": "tt0084809",
+      "type": "movie",
+      "name": "Giocattolo a ore",
+      "overview": "U.S. Bates, magnate della città, ha un figlio molto viziato, Eric, di dieci anni. Il ragazzino, arrivato per trascorre una settimana di vacanza con i genitori, può scegliersi come regalo il giocattolo che preferisce: Eric non trova di meglio che mettere gli occhi su un commesso nero, Jack.",
+      "poster": "/i6zU5ALqTRzURu356QNUhPgUgU7.jpg",
+      "year": 1982,
+      "releaseDate": "1982-12-10",
+      "rating": 5.901,
+      "popularity": 2.6097,
+      "genreKeys": [
+        "comedy",
+        "family"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/giocattolo-a-ore-1982"
+    },
+    {
+      "tmdbId": 198450,
+      "imdbId": "tt0094833",
+      "type": "movie",
+      "name": "I cannibali",
+      "overview": "",
+      "poster": "/eSZ7Z5okvU198FQijlpXmF0q8TS.jpg",
+      "year": 1988,
+      "releaseDate": "1988-11-10",
+      "rating": 7,
+      "popularity": 1.1197,
+      "genreKeys": [
+        "drama",
+        "fantasy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/i-cannibali"
+    },
+    {
+      "tmdbId": 1531453,
+      "imdbId": "tt0084881",
+      "type": "movie",
+      "name": "Capitan Harlock - L'Arcadia della mia giovinezza",
+      "overview": "La guerra contro gli Illumidiani é perduta, la libertà una chimera. Un valoroso guerriero torna, stanco ma indomito, sul suo pianeta occupato: il suo nome è Harlock. Le città sono in rovina e i governanti corrotti non hanno esitato a vendersi all’invasore. Ma c’è ancora qualcuno che combatte per la libertà: Maya, la “voce” della resistenza; Zoll, il mercenario di Tokarga deciso a vendicare il suo popolo; Emeraldas, una piratessa spaziale. E infine Tochiro, legato ad Harlock da un’amicizia che si trasmette da generazioni, il geniale costruttore di una possente astronave che porta il nome di un’utopia: Arcadia. La battaglia per la libertà sta per iniziare.",
+      "poster": "/4m5B9me0hmcJnAJrJsPHf7mg0yD.jpg",
+      "year": 1982,
+      "releaseDate": "1982-06-06",
+      "rating": 7.3,
+      "popularity": 1.651,
+      "genreKeys": [
+        "scifi",
+        "animation",
+        "fantasy",
+        "adventure"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/capitan-harlock-l-arcadia-della-mia-giovinezza"
+    },
+    {
+      "tmdbId": 1437696,
+      "imdbId": "tt37304295",
+      "type": "movie",
+      "name": "Fatherland",
+      "overview": "Il rapporto tra lo scrittore Thomas Mann (Hanns Zischler) e sua figlia Erika (Sandra Hüller), attrice, giornalista e pilota di rally. A bordo di una Buick nera intraprendono un viaggio attraverso una Germania in macerie: da Francoforte, sotto l'influenza statunitense, fino a Weimar, controllata dai sovietici. Per la prima volta dopo la guerra, Mann torna nella sua nativa Germania, dopo aver preso la difficile decisione di fuggire negli Stati Uniti per mettersi in salvo.",
+      "poster": "/7VjwmvDG5mksJBXMcmK6PudqH88.jpg",
+      "year": 2026,
+      "releaseDate": "2026-06-19",
+      "rating": 7.436,
+      "popularity": 16.8094,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/fatherland-2026"
+    },
+    {
+      "tmdbId": 1477170,
+      "imdbId": "tt36841139",
+      "type": "movie",
+      "name": "Il tempo di Anne",
+      "overview": "Anne si gode finalmente la sua libertà dopo la partenza dei figli. Ma tutto cambia quando sua figlia Louise torna a vivere con lei in seguito a un fallimento professionale e sentimentale. E siccome le sorprese non arrivano mai da sole, suo figlio Théo le annuncia che sta per diventare nonna. Tra scontri generazionali, sogni in evoluzione e nuovi slanci amorosi, Anne capisce che la vita non segue mai del tutto i piani stabiliti e che, a qualsiasi età, non si smette mai di imparare a crescere.",
+      "poster": "/27qj8GYVEgKPUlnxcnK6XJevgNd.jpg",
+      "year": 2026,
+      "releaseDate": "2026-02-11",
+      "rating": 6,
+      "popularity": 3.7995,
+      "genreKeys": [
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/il-tempo-di-anne-2026"
+    },
+    {
+      "tmdbId": 1255833,
+      "imdbId": "tt28535715",
+      "type": "movie",
+      "name": "Whalefall - Nella balena",
+      "overview": "Dopo la morte di suo padre (Josh Brolin), Jay Gardiner (Austin Abrams) si immerge al largo della costa centrale della California alla ricerca dei suoi resti, ma viene inghiottito da un'enorme balena. Mentre è intrappolato nel suo ventre con solo un’ora di ossigeno a disposizione, Jay si rende conto che le lezioni apprese a fatica dal padre potrebbero essere la chiave per la sua fuga.",
+      "poster": "/auhdhcoWhQzMovY2pa71BTgDAa7.jpg",
+      "year": 2026,
+      "releaseDate": "2026-10-14",
+      "rating": 6.7,
+      "popularity": 111.5465,
+      "genreKeys": [
+        "thriller",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/whalefall-nella-balena-2026"
+    },
+    {
+      "tmdbId": 1476682,
+      "imdbId": "tt36834010",
+      "type": "movie",
+      "name": "Gail Daughtry and the Celebrity Sex Pass",
+      "overview": "Gail e il suo collega parrucchiere nonché migliore amico Otto, sono alla ricerca della celebrità di cui lei è innamorata, l'enigmatico e seducente Jon Hamm. A loro insaputa, due sventurati scagnozzi della mafia sono sulle loro tracce per recuperare una valigetta piena di documenti segreti che sono stati accidentalmente scambiati.",
+      "poster": "/4YCJWYoj58bTEcA2NnTqnoKvyWH.jpg",
+      "year": 2026,
+      "releaseDate": "2026-07-09",
+      "rating": 6.4,
+      "popularity": 8.0136,
+      "genreKeys": [
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/gail-daughtry-and-the-celebrity-sex-pass-2026"
+    },
+    {
+      "tmdbId": 26264,
+      "imdbId": "tt0322389",
+      "type": "movie",
+      "name": "George re della giungla 2",
+      "overview": "George è sempre vissuto nella giungla, ma dopo aver passato un breve periodo a San Francisco, si innamora di Ursula. Tornato nella giungla deve combattere una dura lotta per convincere i genitori di Ursula che non vedono di buon occhio l'unione con la figlia, verrà aiutato dagli animali che gli sono amici.",
+      "poster": "/niRiHRWUdkhDAFA7J7WD9PK7648.jpg",
+      "year": 2003,
+      "releaseDate": "2003-08-18",
+      "rating": 4.5,
+      "popularity": 5.1725,
+      "genreKeys": [
+        "adventure",
+        "comedy",
+        "family"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/george-re-della-giungla-2"
+    },
+    {
+      "tmdbId": 14857,
+      "imdbId": "tt1138489",
+      "type": "movie",
+      "name": "Personal Effects",
+      "overview": "Tratto da una storia di Rick Moody, il film racconta la storia di Kutcher, un ragazzo intenzionato a vendicarsi per l'omicidio di sua sorella. Peccato che sulla sua strada incontri un'affascinante signora che ha vissuto un dramma simile al suo.",
+      "poster": "/rrHOhH51iFLCCxKmyogecd1osLo.jpg",
+      "year": 2009,
+      "releaseDate": "2009-03-05",
+      "rating": 6.049,
+      "popularity": 7.2181,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/personal-effects-2009"
+    },
+    {
+      "tmdbId": 26177,
+      "imdbId": "tt0207972",
+      "type": "movie",
+      "name": "Annie - Cercasi genitori",
+      "overview": "L'undicenne Annie ha sempre vissuto nell'orfanotrofio della crudele miss Hannigan. Dopo aver tentato invano la fuga, la piccola ha l'occasione di passare le vacanze natalizie nella villa del milionario Oliver Warbucks. Annie conquisterà il cuore di tutti, tanto che Warbucks vorrebbe adottarla: ma lei spera ancora di trovare i suoi veri genitori...",
+      "poster": "/y0XWZC1A7PbWf1gwmvbvhY9uWM2.jpg",
+      "year": 1999,
+      "releaseDate": "1999-11-07",
+      "rating": 6.507,
+      "popularity": 4.6981,
+      "genreKeys": [
+        "family",
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/annie-cercasi-genitori-1999"
+    },
+    {
+      "tmdbId": 949536,
+      "imdbId": "tt18212138",
+      "type": "movie",
+      "name": "Kill Code",
+      "overview": "Il Nord America è stato diviso in quattro quadranti principali. Una corporazione assetata di potere ha preso il controllo del sistema carcerario tradizionale, trasformando i criminali nelle nuove forze dell'ordine. Il proprietario di questa corporazione, il nanoscienziato Eion Prescott, ha creato un nanovirus chiamato Onyx, che viene distribuito ai criminali tramite orologi letali. Prima li infetta, poi li costringe a eliminarsi a vicenda per ottenere la libertà. Chi riuscirà a rovesciare l'intero sistema della corporazione dall'interno?",
+      "poster": "/bXvSKLCillha6wxY0yxoRCM2WQl.jpg",
+      "year": 2026,
+      "releaseDate": "2026-04-16",
+      "rating": 4.435,
+      "popularity": 15.0175,
+      "genreKeys": [
+        "action",
+        "thriller",
+        "scifi"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/kill-code-2026"
+    },
+    {
+      "tmdbId": 271792,
+      "imdbId": "tt0046513",
+      "type": "movie",
+      "name": "Il viale della speranza",
+      "overview": "Il viale è quello di Cinecittà che gli aspiranti attori percorrono con in cuore la speranza di \"sfondare\" nel mondo dello spettacolo. Tre giovani ragazze, Franca, Giuditta e Luisa carezzano il sogno di fare carriera nel cinema, ogniuna a suo modo: Franca, la più avvenente, sceglierà di usare la bellezza per attirare l'attenzione di un produttore; Giuditta, la più inesperta ed ingenua, si troverà a dover scegliere tra il sogno del cinema e la realtà di un matrimonio; Luisa, devota alle ragioni dell'arte, aspetterà con pazienza il momento per dimostrare il suo talento.",
+      "poster": "/z0ru9NWigirZFAIUEc2zqwdTzG9.jpg",
+      "year": 1953,
+      "releaseDate": "1953-04-09",
+      "rating": 5.9,
+      "popularity": 1.7423,
+      "genreKeys": [
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/il-viale-della-speranza-1953"
+    },
+    {
+      "tmdbId": 810792,
+      "imdbId": "tt0048532",
+      "type": "movie",
+      "name": "La ragazza di Via Veneto",
+      "overview": "Due fidanzati di modeste condizioni aspirano alla fama e alla ricchezza: lei vorrebbe fare l'indossatrice e poi l'attrice, lui il pugile. La fortuna sorride alla ragazza che viene notata da un produttore, ma il futuro sposo le mette i bastoni fra le ruote. Dopo un incontro di boxe in cui viene battuto anche il giovane rinuncia ai suoi sogni.",
+      "poster": "/4wTN1UFXWLk6zHN208AxX9U4lCE.jpg",
+      "year": 1955,
+      "releaseDate": "1955-12-28",
+      "rating": 7,
+      "popularity": 1.066,
+      "genreKeys": [
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/la-ragazza-di-via-veneto-1955"
+    },
+    {
+      "tmdbId": 555531,
+      "imdbId": "tt6642926",
+      "type": "movie",
+      "name": "Ötzi e il mistero del tempo",
+      "overview": "L’undicenne Kip è un ragazzo come tanti, intelligente e sensibile, per cui il tempo dell’infanzia sta finendo. Negli ultimi giorni prima di lasciare per sempre Bolzano e gli amici del cuore, Kip vive con loro un’esperienza straordinaria. Quando si reca al museo a salutare la mummia Ötzi per l’ultima volta, accade qualcosa di magico: Ötzi si risveglia, cominciando a rigenerarsi. Mentre Ötzi, in incognito, incontrerà il ventunesimo secolo, Kip apprenderà da lui i segreti dell’età del rame: scoprirà così che il tempo che credeva tiranno può essere un magico e sconvolgente alleato. Inseguiti per i boschi e le montagne dell’Alto Adige, Ötzi e gli amici vivranno un’avventura giocosa e spericolata, arrivando a confrontarsi coraggiosamente con le proprie paure e fragilità.",
+      "poster": "/iMTKZ7z3xuzHFzz91FHPvJFObR2.jpg",
+      "year": 2018,
+      "releaseDate": "2018-11-08",
+      "rating": 5.1,
+      "popularity": 1.6289,
+      "genreKeys": [
+        "family",
+        "adventure",
+        "fantasy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/otzi-e-il-mistero-del-tempo"
+    },
+    {
+      "tmdbId": 21453,
+      "imdbId": "tt0098692",
+      "type": "movie",
+      "name": "Wicked City - La città delle bestie",
+      "overview": "Da millenni tra la razza umana e quella dei mostri del \"Lato Oscuro\" vi è uno scontro segreto. Dopo infiniti disastri causati da questa guerra, i membri più illuminati delle due razze hanno deciso di stipulare un trattato di pace. Ma ormai il trattato sta per scadere, ed alcuni membri del \"lato oscuro\" non desiderano che venga rinnovato. Per firmare un nuovo trattato viene richiamato dall'Italia il vecchio Giuseppe Maiato, il più importante ambasciatore della razza umana, l'unico in grado di portare a buon fine la missione. Per proteggere il vecchio dagli attentati di chi non vuole la pace, vengono scelte due esperte guardie del corpo: l'umano Renzaburo Taki e la bellissima Makie, appartenente alla razza del \"Lato Oscuro\". Le donne del \"Lato Oscuro\", mostri in sembianze umane, hanno un effetto conturbante sugli uomini: Makie non fa eccezione e Taki si rende presto conto di essersi innamorato di lei.",
+      "poster": "/7iOnKfHtK9bJhZJ7U0Bki8dusIe.jpg",
+      "year": 1987,
+      "releaseDate": "1987-04-19",
+      "rating": 6.7,
+      "popularity": 4.8242,
+      "genreKeys": [
+        "animation",
+        "fantasy",
+        "horror"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/wicked-city-la-cittadellebestieincantatrici"
+    },
+    {
+      "tmdbId": 33521,
+      "imdbId": "tt0079073",
+      "type": "movie",
+      "name": "Dracula",
+      "overview": "Prima della lettura \"filologicamente corretta\" di Coppola, ecco un Dracula realizzato dal regista di \"La febbre del sabato sera\" che ne fa una figura erotico-sentimentale, in lotta con le convenzioni borghesi.",
+      "poster": "/gU0BMydJQV9HES5fRAEAPs2qw2M.jpg",
+      "year": 1979,
+      "releaseDate": "1979-07-20",
+      "rating": 6.367,
+      "popularity": 3.111,
+      "genreKeys": [
+        "romance",
+        "drama",
+        "fantasy",
+        "horror"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/dracula-1980"
+    },
+    {
+      "tmdbId": 324417,
+      "imdbId": "tt0043902",
+      "type": "movie",
+      "name": "Parigi è sempre Parigi",
+      "overview": "Un gruppo di italiani si reca a Parigi e qui ognuno cerca di trarre il massimo dalla breve vacanza, come è tipico di un certo provincialismo italiano. Ma tornano tutti un po' delusi.",
+      "poster": "/jylFFskKJLO0xGT2rM0Ki4iaZuJ.jpg",
+      "year": 1951,
+      "releaseDate": "1951-11-15",
+      "rating": 5.2,
+      "popularity": 1.5599,
+      "genreKeys": [
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/parigi-e-sempre-parigi-1951"
+    },
+    {
+      "tmdbId": 555285,
+      "imdbId": "tt9185206",
+      "type": "movie",
+      "name": "Ci sei Dio? Sono io, Margaret.",
+      "overview": "Margaret Simon si trasferisce con la sua famiglia da New York alla periferia del New Jersey. Poiché uno dei suoi genitori è cristiano e l'altro è ebreo, va alla ricerca della sua identità religiosa.",
+      "poster": "/yb6UB4WC3znlwU0L4AqMnjR9G9S.jpg",
+      "year": 2023,
+      "releaseDate": "2023-03-29",
+      "rating": 7.133,
+      "popularity": 7.3858,
+      "genreKeys": [
+        "comedy",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/ci-sei-dio-sono-io-margaret-2023"
+    },
+    {
+      "tmdbId": 23044,
+      "imdbId": "tt1331025",
+      "type": "movie",
+      "name": "The September Issue",
+      "overview": "",
+      "poster": "/gcsx9hJdVmfkrcC6a0qcxF01jqQ.jpg",
+      "year": 2009,
+      "releaseDate": "2009-08-28",
+      "rating": 6.585,
+      "popularity": 2.1976,
+      "genreKeys": [
+        "documentary"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/the-september-issue"
+    },
+    {
+      "tmdbId": 225199,
+      "imdbId": "tt0044162",
+      "type": "movie",
+      "name": "Ultimo incontro",
+      "overview": "Un corridore automobilistico vorrebbe fuggire con l'amante, moglie di un meccanico. All'ultimo momento la donna rifiuta però di partire e gli comunica la sua decisione proprio mentre lui sta per iniziare una corsa. Sconvolto, l'uomo perde il controllo della macchina e muore. Lei, ricattata da un operaio che ha scoperto la sua tragica relazione, si prostituisce. Il marito la uccide.",
+      "poster": "/kBiebfAivqCusOvPDvLOq2xXYO5.jpg",
+      "year": 1951,
+      "releaseDate": "1951-10-24",
+      "rating": 6.9,
+      "popularity": 1.4029,
+      "genreKeys": [
+        "drama",
+        "romance"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/ultimo-incontro-1951"
+    },
+    {
+      "tmdbId": 14282,
+      "imdbId": "tt0107692",
+      "type": "movie",
+      "name": "Ninja Scroll",
+      "overview": "Jubei Kibagami è un ninja vagabondo che salverà Kagero dalle grinfie di Tessai. Kagero infatti era stata presa prigioniera da Tessai, dopo che insieme ad altri ninja, Kagero era stata mandato a svolgere delle investigazioni nel villaggio di Shimoda. Tessai, una volta che Kagero riesce a scappare per continuare le sue indagini, vuole a tutti i costi prendere Jubei per vendicarsi dell’affronto subito ma alla fine verrà ucciso proprio da Jubei. Questo porterà ad avere diverse conseguenze sulla vita di Jubei.",
+      "poster": "/pepgQDbKDMATqQff6xVTgH5rXig.jpg",
+      "year": 1993,
+      "releaseDate": "1993-06-05",
+      "rating": 7.776,
+      "popularity": 6.371,
+      "genreKeys": [
+        "fantasy",
+        "animation",
+        "action",
+        "horror"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/ninja-scroll"
+    },
+    {
+      "tmdbId": 359654,
+      "imdbId": "tt5022418",
+      "type": "movie",
+      "name": "The Jam: About The Young Idea",
+      "overview": "",
+      "poster": "/rMW858uG68Gs5H7OgGXJI38STWr.jpg",
+      "year": 2015,
+      "releaseDate": "2015-08-29",
+      "rating": 8,
+      "popularity": 1.4415,
+      "genreKeys": [
+        "documentary"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/the-jam-about-the-young-idea"
     }
   ],
   "series": [
@@ -292456,6 +293155,231 @@
         "thriller"
       ],
       "sourceUrl": "https://vixvocal.it/opere/spartacus-house-of-ashur"
+    },
+    {
+      "tmdbId": 75024,
+      "imdbId": "tt2450898",
+      "type": "series",
+      "name": "Adriano Olivetti - La forza di un sogno",
+      "overview": "Adriano, figlio di Camillo Olivetti, a 12 anni inizia a lavorare come apprendista, nella fabbrica del padre, dove si producevano macchine da scrivere. Gli anni passano, Adriano, ormai adulto, inizia a gestire molto bene l'azienda, a volte entrando in conflitto con il padre, per le sue idee troppo rivoluzionarie. Durante la guerra, essendo ebrei e antifascisti, la famiglia Olivetti è in pericolo. Adriano fugge in Svizzera, e lì comincia a lavorare al progetto della comunità che consiste nel costruire una fabbrica che collabori strettamente con il territorio e i suoi abitanti. Quando la guerra finisce Adriano Olivetti riprende le redini dell'azienda e prosegue la modernizzazione della fabbrica dal punto di vista architettonico e sociale riprendendo in mano le carte del progetto.",
+      "poster": "/IHeHcNcnhwypUFQ5qRNzBn60Zl.jpg",
+      "year": 2013,
+      "releaseDate": "2013-10-28",
+      "rating": 6.9,
+      "popularity": 3.1896,
+      "genreKeys": [
+        "drama",
+        "war"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/adriano-olivetti-la-forza-di-un-sogno"
+    },
+    {
+      "tmdbId": 234717,
+      "imdbId": "tt26456880",
+      "type": "series",
+      "name": "One Trillion Dollars",
+      "overview": "Cosa fareste se foste improvvisamente la persona più ricca del mondo e doveste usare le vostre nuove ricchezze per salvare l'umanità? One Trillion Dollars, pone questa domanda sconvolgente. Un thriller internazionale in sei parti che pone le grandi domande del nostro tempo.",
+      "poster": "/bol7ARQjyhyZoCQP1V1cUTApHNc.jpg",
+      "year": 2023,
+      "releaseDate": "2023-11-23",
+      "rating": 7.4,
+      "popularity": 3.3753,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/one-trillion-dollars"
+    },
+    {
+      "tmdbId": 283428,
+      "imdbId": "tt39123061",
+      "type": "series",
+      "name": "The Ramparts of Ice",
+      "overview": "Koyuki fatica a relazionarsi con gli altri e accetta di trascorrere gli anni del liceo in solitudine... finché non arriva Minato, deciso a sciogliere il suo muro di ghiaccio.",
+      "poster": "/spPKOGhjNrOZuCUoTOzg0Q05Mum.jpg",
+      "year": 2026,
+      "releaseDate": "2026-04-02",
+      "rating": 8.7,
+      "popularity": 37.6061,
+      "genreKeys": [
+        "animation",
+        "drama"
+      ],
+      "extraGenreKeys": [
+        "romance",
+        "teen"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/the-ramparts-of-ice-2026"
+    },
+    {
+      "tmdbId": 40161,
+      "imdbId": "tt1695366",
+      "type": "series",
+      "name": "Titanic - Nascita di una leggenda",
+      "overview": "È il 1909 e il giovane ingegnere metallurgico Mark Muir parte da New York per l'Irlanda per partecipare alla costruzione del Titanic. A Belfast, Muir riallaccia il legame con il padre e conosce Sofia Silvestri, immigrata italiana di umili origini che lavora come copista al cantiere. Mentre gli operai lottano per ottenere la rappresentanza sindacale e condizioni di lavoro più umane, Mark e Sofia s'innamorano, ma la loro storia d'amore è ostacolata dalla diversa religione di appartenenza e dal differente ceto sociale.",
+      "poster": "/f6NdKV5UnEoU1ido0AG2ZVflwQ9.jpg",
+      "year": 2012,
+      "releaseDate": "2012-05-13",
+      "rating": 7.2,
+      "popularity": 10.6321,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/titanic-nascita-di-una-leggenda"
+    },
+    {
+      "tmdbId": 134095,
+      "imdbId": "tt15227418",
+      "type": "series",
+      "name": "A Murder at the End of the World",
+      "overview": "\"A Murder at the End of the World\" è una serie mystery con un nuovo tipo di detective: il segugio alle prime armi ed esperta di tecnologia della Gen Z Darby Hart. Nella nuova miniserie, Darby e altri otto ospiti vengono invitati da un milionario solitario a partecipare a un ritiro in un luogo splendido e remoto. Quando uno degli altri ospiti viene trovato morto, Darby deve mettere alla prova tutte le sue abilità in combinazione per dimostrare che si è trattato di un omicidio, tutto questo affrontando una marea di interessi contrastanti e prima che l'assassino faccia un'altra vittima.",
+      "poster": "/1mWCXJefbNU1E2XPJVM2vejMSZO.jpg",
+      "year": 2023,
+      "releaseDate": "2023-11-14",
+      "rating": 6.894,
+      "popularity": 27.8579,
+      "genreKeys": [
+        "mystery",
+        "drama",
+        "crime",
+        "scifi"
+      ],
+      "extraGenreKeys": [
+        "crime_investigation"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/a-murder-at-the-end-of-the-world"
+    },
+    {
+      "tmdbId": 222559,
+      "imdbId": "tt27124268",
+      "type": "series",
+      "name": "Sorellanza",
+      "overview": "La vita di una giornalista precipita nel caos quando protegge il fratello dalla legge, coinvolgendo inavvertitamente la propria famiglia nel piano spietato di un boss della droga.",
+      "poster": "/oKUiv9V2iB5K0sehN2HTTOl8RTg.jpg",
+      "year": 2023,
+      "releaseDate": "2023-04-07",
+      "rating": 6.5,
+      "popularity": 3.7355,
+      "genreKeys": [
+        "mystery",
+        "crime"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/sorellanza-serie23"
+    },
+    {
+      "tmdbId": 310133,
+      "imdbId": "tt39379365",
+      "type": "series",
+      "name": "4 Blocks Zero",
+      "overview": "Il prequel del pluripremiato dramma gangsteristico “4 Blocks” racconta la storia degli Hamady nella Berlino degli anni ’90: fuggiti dal Libano e presenti in Germania solo in regime di tolleranza, lottano per mettere radici in questa città. Chi sono, come ha fatto la famiglia a diventare il clan più influente della città e come Ali è diventato infine Toni?",
+      "poster": "/yvIUYRLeTF9KOQL12ojleVyqxAk.jpg",
+      "year": 2026,
+      "releaseDate": "2026-09-25",
+      "rating": 4.2,
+      "popularity": 10.0042,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/4-blocks-zero-2026"
+    },
+    {
+      "tmdbId": 292555,
+      "imdbId": null,
+      "type": "series",
+      "name": "Sotto il cielo di Roma",
+      "overview": "Roma, 1943. Mentre i nazisti occupano la Città Eterna, la storia di un popolo si intreccia con quella di un Papa. Mentre Pio XII (James Cromwell) agisce nell’ombra della diplomazia per proteggere migliaia di perseguitati tra le mura del Vaticano, tre giovani — l’ebreo Davide, la coraggiosa Miriam e il partigiano Marco — lottano per la sopravvivenza e la libertà tra le strade di una città ferita. Tra il dramma del rastrellamento del Ghetto e l'orrore delle Fosse Ardeatine, Sotto il cielo di Roma è un’epopea di fede, sacrificio e speranza che celebra il trionfo dell’umanità nel cuore del conflitto mondiale.",
+      "poster": "/r7GB604dHe7iItspjDaIRNS77TG.jpg",
+      "year": 2010,
+      "releaseDate": "2010-11-01",
+      "rating": null,
+      "popularity": 2.5534,
+      "genreKeys": [
+        "drama",
+        "war"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/sotto-il-cielo-di-roma"
+    },
+    {
+      "tmdbId": 12697,
+      "imdbId": "tt0139774",
+      "type": "series",
+      "name": "Dragon Ball GT",
+      "overview": "Cinque anni dopo gli avvenimenti di Dragon Ball Z, presso il palazzo di Dende si allenano Goku e Ub, reincarnazione del Majin Bu originale con il quale il Saiyan era partito alla fine della serie precedente. Pilaf, Mai e Shu arrivano al palazzo dove scoprono l'esistenza di un nuovo set di sfere del drago con le stelle nere ed evocano il drago Red Shenron; dopo aver notato uno strano bagliore proveniente dall'osservatorio, Goku si imbatte nella banda e ha un breve scontro al termine del quale, a seguito di un desiderio errato formulato da Pilaf, si ritrova ad essere nuovamente un bambino di dodici anni. Re Kaioh spiega che le sette sfere si sono sparse nell'universo e che vanno ricollocate al loro posto entro un anno pena la distruzione del pianeta Terra, così Goku, assieme a Trunks e all'imprevedibile nipote Pan, decide di intraprendere la ricerca dirigendosi verso lo spazio aperto.",
+      "poster": "/kxXsfMR9lQr3Gem6aDFbvmyRyqd.jpg",
+      "year": 1996,
+      "releaseDate": "1996-02-07",
+      "rating": 7.682,
+      "popularity": 3.8695,
+      "genreKeys": [
+        "animation",
+        "action",
+        "scifi"
+      ],
+      "extraGenreKeys": [
+        "supernatural"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/dragon-ball-gt"
+    },
+    {
+      "tmdbId": 27117,
+      "imdbId": "tt0400690",
+      "type": "series",
+      "name": "Ninja Scroll - Il capitolo del gioiello del drago",
+      "overview": "Giappone, XVII secolo. La famiglia Tokugawa ha assunto il controllo dell’Arcipelago, ma potenti corporazioni di ninja cercano di manovrare i destini del Paese nell’ombra. Il clan ninja di Hiruko, condannato a vivere nell’oscurità, è depositario di un importante compito: proteggere la misteriosa Gemma del Drago. Il temibile clan dei Kimon, che trama per rovesciare il governo centrale, vuole a tutti i costi la Gemma e il potere che racchiude.",
+      "poster": "/6knIUt7hf2LFO7pkn6ScRlz98ar.jpg",
+      "year": 2003,
+      "releaseDate": "2003-04-15",
+      "rating": 7.6,
+      "popularity": 9.8829,
+      "genreKeys": [
+        "scifi",
+        "action",
+        "animation"
+      ],
+      "extraGenreKeys": [
+        "horror",
+        "supernatural"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/ninja-scroll-il-capitolo-del-gioiello-del-drago-2003"
+    },
+    {
+      "tmdbId": 82570,
+      "imdbId": "tt2787764",
+      "type": "series",
+      "name": "Romeo e Giulietta",
+      "overview": "Due adolescenti si innamorano, ma le loro famiglie in conflitto e il destino stesso fanno sì che la relazione finisca in tragedia.",
+      "poster": "/cuUElzNkEsAmAiDmy1HUewHBKNL.jpg",
+      "year": 2014,
+      "releaseDate": "2014-01-21",
+      "rating": 7.1,
+      "popularity": 1.5862,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/romeo-e-giulietta"
+    },
+    {
+      "tmdbId": 303700,
+      "imdbId": "tt1977037",
+      "type": "series",
+      "name": "La certosa di Parma",
+      "overview": "Nella primavera del 1815 il giovane ed idealista Fabrizio Del Dongo scappa di casa per unirsi alle truppe che Napoleone ha riunito dopo essere fuggito dall'isola d'Elba. La sua operazione va a buon fine grazie all'aiuto di sua zia Gina.",
+      "poster": "/apf2xTaZ65qw4iKAQNIA2E6lOe8.jpg",
+      "year": 2012,
+      "releaseDate": "2012-03-04",
+      "rating": null,
+      "popularity": 3.3813,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/la-certosa-di-parma"
     }
   ]
 }
