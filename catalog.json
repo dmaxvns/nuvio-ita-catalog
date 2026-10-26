@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19T09:02:52.267Z",
+  "updatedAt": "2026-10-26T09:12:54.995Z",
   "source": "Vix Vocal + TMDB",
   "movies": [
     {
@@ -241840,6 +241840,472 @@
       ],
       "extraGenreKeys": [],
       "sourceUrl": "https://vixvocal.it/opere/the-jam-about-the-young-idea"
+    },
+    {
+      "tmdbId": 988539,
+      "imdbId": "tt14587026",
+      "type": "movie",
+      "name": "Polaris",
+      "overview": "Nel 2144, una giovane ragazza allevata da un orso polare insegue il suo destino dopo essere sfuggita alla cattura da parte di brutali guerrieri intenzionati a uccidere sua madre.",
+      "poster": "/reh2NjYkhG3EoAsrzKEatcnwlIt.jpg",
+      "year": 2022,
+      "releaseDate": "2022-07-14",
+      "rating": 4.3,
+      "popularity": 1.6785,
+      "genreKeys": [
+        "adventure",
+        "action",
+        "scifi",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/polaris-2022"
+    },
+    {
+      "tmdbId": 1541560,
+      "imdbId": "tt38128726",
+      "type": "movie",
+      "name": "Stop! That! Train!",
+      "overview": "",
+      "poster": "/w90dGS6D2lVO4aO5rdQ8QECrUGY.jpg",
+      "year": 2026,
+      "releaseDate": "2026-06-12",
+      "rating": 4.885,
+      "popularity": 8.1012,
+      "genreKeys": [
+        "action",
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/stop-that-train-2026"
+    },
+    {
+      "tmdbId": 858035,
+      "imdbId": "tt14371256",
+      "type": "movie",
+      "name": "Klara e il sole",
+      "overview": "La storia di Klara, un'Amica Artificiale il cui unico desiderio è trovare la casa perfetta. Quando Klara incontra Josie, le due scoprono fin da subito una forte affinità e, sebbene la ragazza viva un rapporto conflittuale con la madre segnato da un grave lutto, lo stupore innocente e l'incrollabile lealtà di Klara inizieranno a sanare le ferite della famiglia, riportando la luce nel complicato mondo di Josie.",
+      "poster": "/9pbXmKk4EgTkQKBdiCgiEdhI6eG.jpg",
+      "year": 2026,
+      "releaseDate": "2026-10-21",
+      "rating": 5.464,
+      "popularity": 64.9467,
+      "genreKeys": [
+        "scifi",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/klara-e-il-sole-2026"
+    },
+    {
+      "tmdbId": 1094974,
+      "imdbId": "tt28129054",
+      "type": "movie",
+      "name": "Take Cover - Al riparo",
+      "overview": "Un cecchino professionista esaurito si ritrova intrappolato in un attico interamente in vetro da un letale concorrente e deve trovare un modo per sopravvivere e scappare con poca o nessuna copertura tra lui e l'assassino.",
+      "poster": "/i8E3iDSwtUGwEeQsXHsASvNQmQ1.jpg",
+      "year": 2024,
+      "releaseDate": "2024-10-04",
+      "rating": 6.383,
+      "popularity": 4.1339,
+      "genreKeys": [
+        "action",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/take-cover-al-riparo-2024"
+    },
+    {
+      "tmdbId": 791523,
+      "imdbId": "tt2056785",
+      "type": "movie",
+      "name": "Wildwood - I segreti del bosco proibito",
+      "overview": "Wildwood, nei dintorni di Portland, è un posto da cui tenersi lontani e che dovrebbe rimanere nascosto a tutti. Prue McKeel, tuttavia, è costretta a raggiungerlo dopo che il fratellino Mac è stato rapito da uno stormo di corvi e trasportato nei meandri della foresta. Insieme allo sfortunato compagno di classe Curtis, Prue corre a salvare Mac da un pericolo che sembra uscito dalle pagine di una favola.",
+      "poster": "/kfczsvfehVNDwzWiPuKAuQclzl7.jpg",
+      "year": 2026,
+      "releaseDate": "2026-10-19",
+      "rating": 8.852,
+      "popularity": 140.2165,
+      "genreKeys": [
+        "animation",
+        "adventure",
+        "fantasy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/wildwood-i-segreti-del-bosco-proibito-2026"
+    },
+    {
+      "tmdbId": 91767,
+      "imdbId": "tt0087386",
+      "type": "movie",
+      "name": "Harry & Son",
+      "overview": "Impegnato come gruista in un'impresa di demolizione, Harry, un vedovo di mezza età, viene licenziato per un difetto alla vista e si ritrova a vivere gomito a gomito con il figlio Howard, aspirante scrittore. La convivenza tra padre e figlio è tutt'altro che facile, anche perché il ragazzo insiste per accasare lo scorbutico genitore con una simpatica vicina di casa, sua futura suocera.",
+      "poster": "/kl9yUlWRBEyXNGIXav1WIRBy5te.jpg",
+      "year": 1984,
+      "releaseDate": "1984-03-02",
+      "rating": 5.9,
+      "popularity": 2.0534,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/harry-son-1984"
+    },
+    {
+      "tmdbId": 1400940,
+      "imdbId": "tt34890576",
+      "type": "movie",
+      "name": "Clayface",
+      "overview": "La terrificante discesa di un uomo, da astro nascente di Hollywood a mostro assetato di vendetta, in una storia che esplora la perdita di identità e umanità, l’amore corrosivo e il lato oscuro dell’ambizione scientifica.",
+      "poster": "/t6snh7pOxNjqs5rwP28TZmTQ0Ul.jpg",
+      "year": 2026,
+      "releaseDate": "2026-10-19",
+      "rating": 7.576,
+      "popularity": 267.4788,
+      "genreKeys": [
+        "horror",
+        "thriller",
+        "scifi"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/clayface-2026"
+    },
+    {
+      "tmdbId": 475508,
+      "imdbId": "tt4815240",
+      "type": "movie",
+      "name": "La figlia scomparsa",
+      "overview": "L'agente Victoria Duncan si reca al campus universitario dove la figlia ed un'altra studentessa sono scomparse. per mettersi sulle loro tracce. La donna si troverà di fronte ad un muro di burocrazia e depistaggi che lasciano presagire qualcosa di molto losco.",
+      "poster": "/9ZFMMsCQgMNQ4pkJ90h1QahSNfj.jpg",
+      "year": 2017,
+      "releaseDate": "2017-09-13",
+      "rating": 4.8,
+      "popularity": 1.8203,
+      "genreKeys": [
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/la-figlia-scomparsa-2017"
+    },
+    {
+      "tmdbId": 248504,
+      "imdbId": "tt3062074",
+      "type": "movie",
+      "name": "Sharknado 2 - A volte ripiovono",
+      "overview": "Una situazione climatica del tutto eccezionale scatena tutta la sua furia mortale sulla città di New York, costringendo la popolazione a mettersi al riparo da uno sharknado ancora più pericoloso di quello che tempo prima ha colpito Los Angeles. Solo Fin e April potranno salvare la Grande Mela e i suoi più cari ed iconici luoghi.",
+      "poster": "/8duIBUgOYahDnkaccJQNItfVpsu.jpg",
+      "year": 2014,
+      "releaseDate": "2014-07-31",
+      "rating": 4.544,
+      "popularity": 8.6946,
+      "genreKeys": [
+        "thriller",
+        "scifi"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/sharknado-2-a-volte-ripiovono"
+    },
+    {
+      "tmdbId": 961323,
+      "imdbId": "tt19500164",
+      "type": "movie",
+      "name": "Nimona",
+      "overview": "Per dimostrare la propria innocenza un cavaliere accusato di un crimine unisce le forze con un'adolescente mutaforma. Ma se fosse lei il mostro che ha giurato di distruggere?",
+      "poster": "/2NQljeavtfl22207D1kxLpa4LS3.jpg",
+      "year": 2023,
+      "releaseDate": "2023-06-23",
+      "rating": 7.849,
+      "popularity": 12.8496,
+      "genreKeys": [
+        "animation",
+        "family",
+        "fantasy",
+        "adventure",
+        "scifi",
+        "action"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/nimona-2023"
+    },
+    {
+      "tmdbId": 939979,
+      "imdbId": "tt7469828",
+      "type": "movie",
+      "name": "Paradise Highway",
+      "overview": "Una camionista, Sally, è stata costretta a contrabbandare merci illecite per salvare suo fratello Dennis da una letale banda carceraria. Con gli agenti dell'FBI alle calcagna, la coscienza di Sally è messa a dura prova quando l'ultimo carico si rivela essere una ragazzina.",
+      "poster": "/2ahZgaFAbWoKMfJHhmhZDrdStgD.jpg",
+      "year": 2022,
+      "releaseDate": "2022-07-29",
+      "rating": 5.864,
+      "popularity": 4.9803,
+      "genreKeys": [
+        "thriller",
+        "crime",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/paradise-highway-2022"
+    },
+    {
+      "tmdbId": 458253,
+      "imdbId": "tt6348138",
+      "type": "movie",
+      "name": "Mister Link",
+      "overview": "Il signor Link è alto 8 piedi, pesa 620 libbre ed è coperto di pelo. Il suo aspetto mastodontico non tragga però in inganno: è divertente, dolce e adorabile. Stanco di condurre un'esistenza solitaria, recluta l'intrepido esploratore Sir Lionel Frost per guidarlo in un viaggio alla ricerca dei parenti da tempo perduti nella leggendaria valle di Shangri-La. In compagnia dell'avventurosa Adelina Fortnight, affronteranno pericoli e impareranno anche come si possa essere una famiglia anche senza legami di sangue.",
+      "poster": "/vI1SeZuE24tSRxOw5W2nhFTyajc.jpg",
+      "year": 2019,
+      "releaseDate": "2019-04-04",
+      "rating": 6.891,
+      "popularity": 7.8329,
+      "genreKeys": [
+        "family",
+        "animation",
+        "comedy",
+        "adventure",
+        "action"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/mister-link-2019"
+    },
+    {
+      "tmdbId": 838180,
+      "imdbId": "tt14008268",
+      "type": "movie",
+      "name": "Tutta colpa del cioccolato",
+      "overview": "Il festival annuale che raduna e mette in competizione i migliori maestri cioccolatai è alle porte e i piani di Aria per gareggiare e magari vincere vanno per aria quando il suo partner l'abbandona. Per fortuna all'ultimo trova un sostituto: il padre single Rhett. Insieme i due scopriranno che l'ingrediente segreto che cercavano è proprio quello che mancava nelle loro vite: l'amore.",
+      "poster": "/3kwmpDt5y0xGhkFtRzbPK0pfn37.jpg",
+      "year": 2021,
+      "releaseDate": "2021-10-27",
+      "rating": 6.5,
+      "popularity": 1.9811,
+      "genreKeys": [
+        "comedy",
+        "romance",
+        "family"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/tutta-colpa-del-cioccolato-2021"
+    },
+    {
+      "tmdbId": 254375,
+      "imdbId": "tt1626146",
+      "type": "movie",
+      "name": "Hector e la ricerca della felicità",
+      "overview": "Hector è un eccentrico ma irresistibile psichiatra di Londra, in crisi perché non riesce a capire i motivi dell'infelicità dei suoi pazienti. Un giorno, armandosi di coraggio e con una curiosità quasi infantile, Hector decide di partire in giro per il mondo per scoprire se la felicità esista ancora e quale sia il suo segreto. Ha inizio in questo modo un viaggio che, tra incontri e avventure, aiuterà Hector a ritrovare prima di tutto se stesso.",
+      "poster": "/r5Yo6kCtTritIvxSVCHQwoxN5xd.jpg",
+      "year": 2014,
+      "releaseDate": "2014-08-14",
+      "rating": 6.685,
+      "popularity": 3.1641,
+      "genreKeys": [
+        "adventure",
+        "drama",
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/hectorricercafelicita14"
+    },
+    {
+      "tmdbId": 618019,
+      "imdbId": "tt7584702",
+      "type": "movie",
+      "name": "Wake Up - Il risveglio",
+      "overview": "La storia è incentrata su uno sconosciuto (Jonathan Rhys Meyers) che si risveglia in Oklahoma in un letto d’ospedale senza ricordare chi sia e che presto scopre di essere ricercato dalla polizia per una serie di omicidi. Con l’aiuto della sua infermiera (Francesca Eastwood), che crede alla sua innocenza, fugge dall’ospedale, e insieme iniziano a cercare indizi per scagionarlo.",
+      "poster": "/bhjAXHP34b445YJSOgTIN4lmFwC.jpg",
+      "year": 2019,
+      "releaseDate": "2019-08-01",
+      "rating": 5.4,
+      "popularity": 3.1095,
+      "genreKeys": [
+        "action",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/wake-up-il-risveglio-2019"
+    },
+    {
+      "tmdbId": 360249,
+      "imdbId": "tt4738360",
+      "type": "movie",
+      "name": "The Last King",
+      "overview": "Nell'anno 1024 la Norvegia è lacerata in una guerra civile. Con l'aiuto delle Birch Legs, il re norvegese lotta per la sopravvivenza contro la chiesa di Bishopsmen, che userà tutti i mezzi disponibili per ottenere la vittoria. Mentre il re è sul letto di morte, il suo unico erede è tenuto al sicuro nel segreto più profondo. Un ragazzo che la metà del Regno vuole morto, ma per il quale due uomini sacrificheranno tutto per proteggere. I due guerrieri Birch Legs Skjervald e Torstein intraprendono un pericoloso viaggio attraverso l'aspro paesaggio invernale norvegese al fine di salvare il futuro re, bambino di due anni, da un terribile destino.",
+      "poster": "/tMkqeDmcOSa7v8mKzNdts884iz8.jpg",
+      "year": 2016,
+      "releaseDate": "2016-02-12",
+      "rating": 5.689,
+      "popularity": 3.5757,
+      "genreKeys": [
+        "action",
+        "adventure",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/the-last-king-2016"
+    },
+    {
+      "tmdbId": 934641,
+      "imdbId": "tt11833408",
+      "type": "movie",
+      "name": "Mississippi Secrets - The Minute You Wake Up Dead",
+      "overview": "Un agente di cambio in una piccola città del sud viene coinvolto in una truffa assicurativa con un vicino di casa che porta a molteplici omicidi quando una miriade di altre persone vuole entrare nel complotto. Lo sceriffo Thurmond Fowler, lo sceriffo della città da manuale per oltre quattro decenni, lavora seriamente per cercare di svelare il mistero della città e finisce per ottenere più di quanto si aspettasse.",
+      "poster": "/9iVNYLuAB1S2LeyzwHfk3bjDbrJ.jpg",
+      "year": 2022,
+      "releaseDate": "2022-11-04",
+      "rating": 5.27,
+      "popularity": 3.2464,
+      "genreKeys": [
+        "thriller",
+        "crime",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/mississippi-secrets-the-minute-you-wake-up-dead-2022"
+    },
+    {
+      "tmdbId": 14979,
+      "imdbId": "tt1112782",
+      "type": "movie",
+      "name": "The Code",
+      "overview": "Keith Ripley, ladro calcolatore ed esperto, dopo la morte del suo socio Viktor Korolenko si ritrova a dover pagare un ingente debito alla mafia russa al posto dell'amico. Decide così di tentare il colpo della sua vita contattando Gabriel Martin, un giovane ladro, scaltro d affascinante, con il quale intende rubare il famoso tesoro della zarina Aleksandra Fëdorovna Romanova, noto come le uova Fabergé.",
+      "poster": "/cxyVb0cnBDiZhbAUl4FvUpuLHO9.jpg",
+      "year": 2009,
+      "releaseDate": "2009-01-09",
+      "rating": 6,
+      "popularity": 2.9549,
+      "genreKeys": [
+        "action",
+        "thriller",
+        "crime"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/the-code-2009"
+    },
+    {
+      "tmdbId": 1098378,
+      "imdbId": "tt22741760",
+      "type": "movie",
+      "name": "Mostruosamente tuo",
+      "overview": "Dopo che la sua vita è andata in pezzi, la tenera attrice Laura Franco ritrova la sua voce quando incontra un mostro terrificante, ma stranamente affascinante, che vive nel suo armadio.",
+      "poster": "/puwSbzuWIX4u3tK2IR2AZMEBLRV.jpg",
+      "year": 2024,
+      "releaseDate": "2024-10-25",
+      "rating": 6.53,
+      "popularity": 3.339,
+      "genreKeys": [
+        "romance",
+        "comedy",
+        "horror"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/mostruosamente-tuo-2024"
+    },
+    {
+      "tmdbId": 1276210,
+      "imdbId": "tt24695266",
+      "type": "movie",
+      "name": "Ultima fermata - Rocafort St.",
+      "overview": "Laura è una ragazza giovane che ha da poco iniziato a lavorare per la rete metropolitana di Barcellona. Le hanno affidato la gestione della stazione di Rocafort, un luogo antico e apparentemente tranquillo, ma ben presto si renderà conto che questa fermata nasconde una leggenda inquietante che finirà per tormentarla.",
+      "poster": "/7huQtPNfWg4s66wWmQPhpjGmfiY.jpg",
+      "year": 2024,
+      "releaseDate": "2024-09-06",
+      "rating": 5.2,
+      "popularity": 3.6383,
+      "genreKeys": [
+        "horror",
+        "mystery"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/ultima-fermata-rocafort-st-2024"
+    },
+    {
+      "tmdbId": 885583,
+      "imdbId": "tt11228826",
+      "type": "movie",
+      "name": "Sulle orme di madre Teresa",
+      "overview": "",
+      "poster": "/okYct0WgqQNzk324ocrnzDFQVDj.jpg",
+      "year": 2022,
+      "releaseDate": "2022-09-05",
+      "rating": 6.833,
+      "popularity": 1.642,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/sulle-orme-di-madre-teresa-2022"
+    },
+    {
+      "tmdbId": 554285,
+      "imdbId": "tt6267600",
+      "type": "movie",
+      "name": "Butter's Final Meal",
+      "overview": "Un ragazzo obeso e solitario che tutti chiamano \"Butter\" sta per fare la storia. Si mangerà fino alla morte, in diretta su Internet, e tutti sono invitati a guardare. Quando fa l'annuncio online per la prima volta ai suoi compagni di classe, Butter si aspetta pietà, insulti e forse pura indifferenza. Ciò che ottiene sono cheerleader morbose che si mobilitano attorno al suo piano mortale. Eppure, man mano che il loro oscuro incoraggiamento cresce, comincia ad assomigliare molto alla popolarità. E questo è bello. Ma cosa succede quando Butter raggiunge la scadenza per il suicidio? Riuscirà a convivere con le conseguenze se non porta a termine i suoi piani?",
+      "poster": "/9tWnnYR4uWivO5lTHLbKLCYu8wH.jpg",
+      "year": 2022,
+      "releaseDate": "2022-02-25",
+      "rating": 5.6,
+      "popularity": 1.6901,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/butter-s-final-meal-2022"
+    },
+    {
+      "tmdbId": 516784,
+      "imdbId": "tt6053472",
+      "type": "movie",
+      "name": "Camper Killer",
+      "overview": "Charles ha acquistato un vecchio camper con la speranza di portare i due figli in viaggio e mantenere una promessa fatta alla moglie recentemente scomparsa. Il figlio maggiore Steve, sua moglie Jennifer, la loro figlia e il cane, sono entusiasti del viaggio, a differenza del figlio minore Jay. Lungo la strada, la famiglia dà un passaggio a Samantha e a suo fratello. Charles ha però la brillante idea di fare una deviazione del deserto, finendo per perdersi. Sarà così che il gruppo scoprirà come il camper nasconda un terribile segreto che porterà tutti a combattere per la propria sopravvivenza.",
+      "poster": "/gDA3OuRIu3FbCFdJvSvWZrgxFq9.jpg",
+      "year": 2018,
+      "releaseDate": "2018-09-14",
+      "rating": 4.149,
+      "popularity": 2.131,
+      "genreKeys": [
+        "horror",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/camper-killer-2018"
+    },
+    {
+      "tmdbId": 415766,
+      "imdbId": "tt1949605",
+      "type": "movie",
+      "name": "Mozart, un cane per due",
+      "overview": "Olive e Clay, coppia sposata, hanno idee differenti sulla loro vita. Lei - una dottoressa - vorrebbe avere dei figli, lui - aspirante star dell'hockey - è troppo concentrato sulla sua carriera.  I problemi nasceranno quando - in tribunale - i due inizieranno una guerra senza esclusione di colpi per l'affidamento del loro amato cane Mozart",
+      "poster": "/aPjqjKnav2VWvKXs8NSpvvQunOz.jpg",
+      "year": 2016,
+      "releaseDate": "2016-09-13",
+      "rating": 5.1,
+      "popularity": 2.4501,
+      "genreKeys": [
+        "drama",
+        "comedy",
+        "romance"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/mozart-un-cane-per-due-2016"
+    },
+    {
+      "tmdbId": 389425,
+      "imdbId": "tt4060866",
+      "type": "movie",
+      "name": "Code of Honor",
+      "overview": "Il colonnello Robert Sikes, ritornato dal Medio Oriente, ha un solo obiettivo: liberare la sua città dal crimine. Fino a quando la sua missione non sarà completata, si scontrerà con bande di strada, mafiosi e politici corrotti, punendo tutti. Il suo ex pupillo William Porter, però, fa squadra con il dipartimento di polizia per assicurarlo alla giustizia e impedirgli di continuare con la sua attività di giustiziere.",
+      "poster": "/zoNvd5DNrQwGjc9lVit7rJMYFQY.jpg",
+      "year": 2016,
+      "releaseDate": "2016-05-06",
+      "rating": 4.1,
+      "popularity": 2.4335,
+      "genreKeys": [
+        "action",
+        "crime",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/code-of-honor-2016"
     }
   ],
   "series": [
@@ -293380,6 +293846,121 @@
       ],
       "extraGenreKeys": [],
       "sourceUrl": "https://vixvocal.it/opere/la-certosa-di-parma"
+    },
+    {
+      "tmdbId": 241609,
+      "imdbId": "tt30459041",
+      "type": "series",
+      "name": "Your Friends & Neighbors",
+      "overview": "Quando un titano della finanza si trova all'improvviso senza lavoro e divorziato, inizia a rubare ai vicini ricchi per restare a galla. Rubare nella sua cerchia sociale stranamente lo esalta, ma rimane sempre più invischiato in una ragnatela mortale.",
+      "poster": "/assZXqLfI5XdEwRrxV3ZQ7dWD6h.jpg",
+      "year": 2025,
+      "releaseDate": "2025-04-10",
+      "rating": 7.758,
+      "popularity": 28.5662,
+      "genreKeys": [
+        "drama",
+        "crime"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/your-friends-neighbors-2025"
+    },
+    {
+      "tmdbId": 4752,
+      "imdbId": "tt0058847",
+      "type": "series",
+      "name": "Super Segretissimo",
+      "overview": "",
+      "poster": "/A9yvtVflorbf0MmzkzWkQ0nmg3U.jpg",
+      "year": 1965,
+      "releaseDate": "1965-10-02",
+      "rating": 7.5,
+      "popularity": 12.5591,
+      "genreKeys": [
+        "animation",
+        "comedy",
+        "action",
+        "crime",
+        "family"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/super-segretissimo-agente-scoiattolo"
+    },
+    {
+      "tmdbId": 10501,
+      "imdbId": "tt0061294",
+      "type": "series",
+      "name": "Shazzan",
+      "overview": "Shazzan è una serie televisiva animata americana, creata da Alex Toth e prodotta da Hanna-Barbera Productions nel 1967 per CBS.  La serie segue le avventure di due fratelli adolescenti, Chuck e Nancy, che viaggiano in un mistico mondo arabo, in sella a Kaboobie, il cammello volante.  Durante il loro viaggio affrontano diversi pericoli, ma sono sempre aiutati da Shazzan, un genio con poteri magici fuori dal mondo.  Shazzan non deve essere confuso con Shazam!, il fumetto/revival televisivo degli anni '70 del supereroe della Golden Age Captain Marvel, creato da C. C. Beck e Bill Parker.",
+      "poster": "/z2zpBnUPAosN5ijxtLLwwibPV0b.jpg",
+      "year": 1967,
+      "releaseDate": "1967-09-09",
+      "rating": 7.285,
+      "popularity": 7.765,
+      "genreKeys": [
+        "animation",
+        "scifi"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/shazzan"
+    },
+    {
+      "tmdbId": 279182,
+      "imdbId": "tt28197251",
+      "type": "series",
+      "name": "Super Cube",
+      "overview": "Wang Xiaoxiu è un ragazzo come tanti che un giorno riceve una confessione d'amore da Shen Yao, la ragazza più bella scuola che ammira fin da quando erano bambini. Questa dichiarazione attira l'attenzione del delinquente Sun Jun, anche lui infatuato di Shen, che decide per gelosia di dare una lezione al rivale. Questo causa un incidente e Wang finisce per cadere in un fiume gelido dove trova un misterioso oggetto sul fondo, il \"Super Cube\". Si tratta di un sistema spaziale creato da una civiltà cosmica che permette all'utilizzatore di ottenere poteri straordinari.",
+      "poster": "/s1h6Iqzuce2yTbOL5gxAWQe9T6p.jpg",
+      "year": 2025,
+      "releaseDate": "2025-03-21",
+      "rating": 8.1,
+      "popularity": 11.0417,
+      "genreKeys": [
+        "animation",
+        "action",
+        "scifi"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/super-cube-2025"
+    },
+    {
+      "tmdbId": 32351,
+      "imdbId": "tt1621748",
+      "type": "series",
+      "name": "Ugly Americans",
+      "overview": "In un universo alternativo di \"New York City\" creature dell'orrore, della fantasia e della fantascienza vivono tra noi come comuni cittadini.",
+      "poster": "/lGwH9KWYhU16ZYyNX7mz30M0J1U.jpg",
+      "year": 2010,
+      "releaseDate": "2010-03-17",
+      "rating": 8.196,
+      "popularity": 11.141,
+      "genreKeys": [
+        "animation",
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/ugly-americans-2010"
+    },
+    {
+      "tmdbId": 111803,
+      "imdbId": "tt13406094",
+      "type": "series",
+      "name": "The White Lotus",
+      "overview": "Una tagliente satira sociale che racconta le avventure di un gruppo di vacanzieri, ospiti di un meraviglioso resort di lusso.",
+      "poster": "/gbSaK9v1CbcYH1ISgbM7XObD2dW.jpg",
+      "year": 2021,
+      "releaseDate": "2021-07-11",
+      "rating": 7.599,
+      "popularity": 61.906,
+      "genreKeys": [
+        "comedy",
+        "drama",
+        "mystery"
+      ],
+      "extraGenreKeys": [
+        "crime_investigation"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/the-white-lotus"
     }
   ]
 }
