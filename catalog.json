@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-26T09:12:54.995Z",
+  "updatedAt": "2026-11-02T11:14:06.291Z",
   "source": "Vix Vocal + TMDB",
   "movies": [
     {
@@ -242306,6 +242306,631 @@
       ],
       "extraGenreKeys": [],
       "sourceUrl": "https://vixvocal.it/opere/code-of-honor-2016"
+    },
+    {
+      "tmdbId": 1477712,
+      "imdbId": "tt36893729",
+      "type": "movie",
+      "name": "Ice Cream Man",
+      "overview": "Un'idilliaca cittadina di villeggiatura estiva precipita nell’orrore, quando un gelataio offre ai bambini dolci prelibatezze dalle conseguenze terrificanti.",
+      "poster": "/bnZUCOLv2Br3VOxnDMo5qPOncJF.jpg",
+      "year": 2026,
+      "releaseDate": "2026-08-03",
+      "rating": 5.342,
+      "popularity": 55.9793,
+      "genreKeys": [
+        "horror",
+        "comedy",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/ice-cream-man-2026"
+    },
+    {
+      "tmdbId": 28438,
+      "imdbId": "tt0036104",
+      "type": "movie",
+      "name": "L'uomo leopardo",
+      "overview": "Una cantante di cabaret esce sul palcoscenico con un leopardo al guinzaglio. Il felino scappa e assale una ragazza. Da quel momento avvengono altre due brutali aggressioni, ma la protagonista e il suo manager non credono affatto sia colpa della bestia.",
+      "poster": "/hIpcQkg3oqi647ywjgtZaBPOgMv.jpg",
+      "year": 1943,
+      "releaseDate": "1943-05-08",
+      "rating": 6.511,
+      "popularity": 1.4651,
+      "genreKeys": [
+        "horror",
+        "mystery",
+        "crime"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/l-uomo-leopardo-1943"
+    },
+    {
+      "tmdbId": 9479,
+      "imdbId": "tt0107688",
+      "type": "movie",
+      "name": "Nightmare Before Christmas",
+      "overview": "Jack Skeletron, il sovrano della città di Halloween, vuole riprodurre la magia della città di Natale, naturalmente a modo suo, e per fare ciò rapisce proprio Babbo Natale, mettendo in pericolo il naturale equilibrio fra le festività. Riuscirà Sally, con il suo amore, a far ritornare Jack sui propri passi ed evitare così questo disastro?",
+      "poster": "/meiO5BIcMp5EXmFHuRfc9lG1gOd.jpg",
+      "year": 1993,
+      "releaseDate": "1993-10-09",
+      "rating": 7.858,
+      "popularity": 127.361,
+      "genreKeys": [
+        "fantasy",
+        "animation",
+        "family"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/nightmare-before-christmas"
+    },
+    {
+      "tmdbId": 50197,
+      "imdbId": "tt0063583",
+      "type": "movie",
+      "name": "Serafino",
+      "overview": "Il giovane Serafino Fiorin, giovane e scanzonato pastore, tornato dal servizio militare, congedato anzitempo per \"insufficienza mentale\", si trova erede di tutti i beni della zia Gesuina e comincia a beneficare i suoi amici con generosità dando l'impressione di voler dilapidare il patrimonio fra la costernazione di suo zio Agenore che riesce a farlo interdire. Questo avvenimento non turba Serafino, che, una sera, accetta di passare la notte nella camera della cugina Lidia, dove però lo aspetta lo zio Agenore, costringendolo ad accettare le nozze con la propria figlia. Giunto in chiesa per il matrimonio, Serafino fa spazientire il sacerdote e finisce per non sposare più Lidia. Gli amici lo convincono a sposare la strana prostitua Asmara, per creare insieme a lei un nuovo tipo di famiglia, adatto al suo spirito indipendente.",
+      "poster": "/60BNQoHZUyoDpp4AjdqtBHvTc5u.jpg",
+      "year": 1968,
+      "releaseDate": "1968-12-17",
+      "rating": 6,
+      "popularity": 4.3745,
+      "genreKeys": [
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/serafino-1968"
+    },
+    {
+      "tmdbId": 169592,
+      "imdbId": "tt0061808",
+      "type": "movie",
+      "name": "L'immorale",
+      "overview": "Sergio Masini, primo violino d'una grande orchestra sinfonica chiede consiglio a Don Michele, il parroco del suo quartiere a proposito della sua complicata vita sentimentale Infatti egli è regolarmente sposato con Giulia, dalla quale ha avuto tre figli: Roberto, un giovanotto diciassettenne e due bambine: Mita e Luisa; ma il suo animo romantico ed un malinteso senso di pietà l'hanno indotto a avviare altre due relazioni.",
+      "poster": "/ehrh31APwWLr8cDCQfvZ3wM4V9U.jpg",
+      "year": 1967,
+      "releaseDate": "1967-03-25",
+      "rating": 6.2,
+      "popularity": 1.0519,
+      "genreKeys": [
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/l-immorale-1967"
+    },
+    {
+      "tmdbId": 17974,
+      "imdbId": "tt0062271",
+      "type": "movie",
+      "name": "Signore & signori",
+      "overview": "Tre storie ambientate nella provincia veneta, bigotta e perbenista, che dietro la facciata di rispettabilità nasconde vizi privati e tradimenti. Un astuto dongiovanni confida ad un amico medico di essere impotente per conquistarne la moglie. Un marito schiavizzato dalla consorte si invaghisce di una cassiera. Un contadino accetta in cambio di denaro di non denunciare i ricchi borghesi che hanno approfittato di sua figlia.",
+      "poster": "/leeTmapQ4nUZQBF4YtcTRJ69LoC.jpg",
+      "year": 1966,
+      "releaseDate": "1966-02-10",
+      "rating": 7.2,
+      "popularity": 2.1294,
+      "genreKeys": [
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/signore-signori-1966"
+    },
+    {
+      "tmdbId": 327849,
+      "imdbId": "tt0052090",
+      "type": "movie",
+      "name": "La prima notte",
+      "overview": "Una giovane avventuriera si reca a Venezia. Fingendosi milionaria, cerca di trovare un riccone che la sposi. Due tizi invece tentano di derubarla dei gioielli, ma uno di loro finirà per innamorarsene.",
+      "poster": "/scrD0KytyWphJxXpbZW4kgtfQsD.jpg",
+      "year": 1959,
+      "releaseDate": "1959-02-27",
+      "rating": 6.5,
+      "popularity": 1.0644,
+      "genreKeys": [
+        "romance",
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/la-prima-notte-1959"
+    },
+    {
+      "tmdbId": 27430,
+      "imdbId": "tt0046451",
+      "type": "movie",
+      "name": "Grisbì",
+      "overview": "Max e Ritojn, due gangster legati da solida amicizia, hanno fatto un grosso colpo. Un rivale lo viene a sapere e, per impadronirsi del bottino (il \"grisbì\" del titolo), assolda dei killer.",
+      "poster": "/tllBOOpTIx3SvE7kK8Fkfipo5QQ.jpg",
+      "year": 1954,
+      "releaseDate": "1954-03-17",
+      "rating": 7.16,
+      "popularity": 2.7626,
+      "genreKeys": [
+        "crime",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/grisbi-1954"
+    },
+    {
+      "tmdbId": 144767,
+      "imdbId": "tt0044454",
+      "type": "movie",
+      "name": "Bufere",
+      "overview": "Il Prof. Mario Sanna, chirurgo rinomato, vive felice con la sua giovane moglie ed un figliolo. Una sera assiste ad uno spettacolo di varietà al quale partecipa una coppia di atleti. Nell'eseguire un difficile esercizio di trapezio, l'uomo cade e si ferisce gravemente: viene invocato l'intervento del Prof. Sanna, che salva il ferito mediante una difficile operazione.",
+      "poster": "/aDytY5zjKqu3N5ErFxwfLGWzWMO.jpg",
+      "year": 1953,
+      "releaseDate": "1953-05-29",
+      "rating": 5.9,
+      "popularity": 0.785,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/bufere-1953"
+    },
+    {
+      "tmdbId": 63224,
+      "imdbId": "tt0045302",
+      "type": "movie",
+      "name": "La follia di Roberta Donge",
+      "overview": "Ricoverato in clinica, il facoltoso uomo d'affari François Donge è in punto di morte. Secondo la versione \"ufficiale\", si tratterebbe di un avvelenamento alimentare: ma in realtà è la moglie Bebe ad aver organizzato tutto...",
+      "poster": "/yXCO7q9npnMmL62Ghq13g9CK6Ol.jpg",
+      "year": 1952,
+      "releaseDate": "1952-02-13",
+      "rating": 6.8,
+      "popularity": 1.1409,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/la-follia-di-roberta-donge-1952"
+    },
+    {
+      "tmdbId": 82170,
+      "imdbId": "tt0140381",
+      "type": "movie",
+      "name": "L'ora della verità",
+      "overview": "",
+      "poster": "/txv9IjADGvfdlxgQ51pp1WDqXpC.jpg",
+      "year": 1952,
+      "releaseDate": "1952-10-22",
+      "rating": 6,
+      "popularity": 1.2331,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/l-ora-della-verita-1952"
+    },
+    {
+      "tmdbId": 144780,
+      "imdbId": "tt0043162",
+      "type": "movie",
+      "name": "È più facile che un cammello...",
+      "overview": "Il commendator Bacchi, un ricco industriale, muore e viene condannato all'inferno per aver portato sull'orlo del suicidio un povero usciere che Bacchi nemmeno ricorda. A forza di suppliche ottiene dodici ore di nuova vita per tentare di rimediare. Torna così sulla Terra, ma l'impresa si rivela più difficile del previsto perché, finalmente soddisfatto nei suoi desideri, l'usciere diventa sempre più esoso...",
+      "poster": "/2P4eDHIGx6KwNYT1d8OasE6QM3y.jpg",
+      "year": 1950,
+      "releaseDate": "1950-10-19",
+      "rating": 6.2,
+      "popularity": 1.1335,
+      "genreKeys": [
+        "drama",
+        "fantasy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/e-piu-facile-che-un-cammello-1950"
+    },
+    {
+      "tmdbId": 95549,
+      "imdbId": "tt0038728",
+      "type": "movie",
+      "name": "Turbine d'amore",
+      "overview": "",
+      "poster": "/wJ1e0vehVcsI16NQlPqKyQxtVzk.jpg",
+      "year": 1946,
+      "releaseDate": "1946-12-18",
+      "rating": 6.8,
+      "popularity": 1.2363,
+      "genreKeys": [
+        "crime",
+        "drama",
+        "romance"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/turbine-d-amore-1946"
+    },
+    {
+      "tmdbId": 1119548,
+      "imdbId": "tt35465655",
+      "type": "movie",
+      "name": "Nel silenzio delle stanze",
+      "overview": "Normandia, 1908. Céleste è una giovane domestica che lavora nella grande villa di André, un ricco notaio, e sua moglie Victoire, una donna oppressa dalle convenzioni borghesi che la vogliono moglie modello. Un giorno Victoire scopre che Céleste è incinta e intuisce che il padre è Andre. Per evitare lo scandalo e proteggere la reputazione della coppia, la donna impone al marito una condizione: l’integrità dell’uomo sarà preservata ma un accordo segreto legherà Victoire e Céleste in un’inaspettata alleanza che porterà le due donne a sfidare il rigido ordine sociale del tempo.",
+      "poster": "/r47BxFNFATfapHfQ2m4iHYgZwVc.jpg",
+      "year": 2025,
+      "releaseDate": "2025-12-10",
+      "rating": 6,
+      "popularity": 3.609,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/nel-silenzio-delle-stanze-2025"
+    },
+    {
+      "tmdbId": 57800,
+      "imdbId": "tt1667889",
+      "type": "movie",
+      "name": "L'era glaciale 4 - Continenti alla deriva",
+      "overview": "La continua e frenetica caccia di Scrat alla sua tanto desiderata ghianda ha delle conseguenze che cambieranno il Mondo – un cataclisma continentale che vedrà ancora una volta protagonisti i nostri eroi Manny, Diego e Sid. Durante tutto questo subbuglio Sid incontrerà la sua irascibile Nonnina e il branco dovrà affrontare un vascello di Pirati determinati a non farli tornare a casa!",
+      "poster": "/mN4DCjlHaxRjq1se1t5nK0gxTs9.jpg",
+      "year": 2012,
+      "releaseDate": "2012-06-27",
+      "rating": 6.396,
+      "popularity": 18.2179,
+      "genreKeys": [
+        "animation",
+        "comedy",
+        "adventure",
+        "family"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/l-era-glaciale-4-continenti-alla-deriva-2012"
+    },
+    {
+      "tmdbId": 1273,
+      "imdbId": "tt0453556",
+      "type": "movie",
+      "name": "TMNT",
+      "overview": "Strani eventi scuotono New York, e c'è bisogno più che mai delle valorose tartarughe ninja; purtroppo Leonardo, Raffaello, Donatello e Michelangelo sono alle prese con problemi personali, si sentono persi e abbandonati. Saranno Leonardo e Splinter a sobbarcarsi l'onere di riportare l'armonia in famiglia per il bene di tutti.",
+      "poster": "/lJel4AQMpycIuYNrWQkoEgAQWim.jpg",
+      "year": 2007,
+      "releaseDate": "2007-03-23",
+      "rating": 6.212,
+      "popularity": 7.2916,
+      "genreKeys": [
+        "adventure",
+        "animation",
+        "comedy",
+        "family"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/tmnt-2007"
+    },
+    {
+      "tmdbId": 1119878,
+      "imdbId": "tt27621210",
+      "type": "movie",
+      "name": "Ice Road - La vendetta",
+      "overview": "Mike McCann, autista di camion su una strada ghiacciata, si reca in Nepal per spargere le ceneri del fratello defunto sul Monte Everest. Mentre è a bordo di un autobus turistico affollato che attraversa i mortali 3600 metri della famigerata Strada per il Cielo, McCann e la sua guida alpina incontrano un gruppo di mercenari e devono combattere per salvare se stessi, il carico di viaggiatori innocenti e la terra natale degli abitanti del villaggio.",
+      "poster": "/15usG0AHHsWDT6U9JI7FbGtLSyi.jpg",
+      "year": 2025,
+      "releaseDate": "2025-06-27",
+      "rating": 6.18,
+      "popularity": 17.8033,
+      "genreKeys": [
+        "action",
+        "thriller",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/ice-road-la-vendetta-2025"
+    },
+    {
+      "tmdbId": 523366,
+      "imdbId": "tt7080422",
+      "type": "movie",
+      "name": "Il drago argentato",
+      "overview": "Il giovane drago argentato Lung è stanco di vivere nascosto nell'ultima valle a disposizione per i suoi simili. In compagnia di Fiore di Zolfo, uno spirito di montagna, e dell'orfano Ben, decide allora di affrontare un viaggio attraverso l'Himalaya alla ricerca della leggendaria Terra ai Confini del Cielo, un luogo in cui tutti i draghi possono vivere al sicuro lontano dagli uomini.",
+      "poster": "/mS6nTtmbBew2h6ljNqvYw94bj2U.jpg",
+      "year": 2020,
+      "releaseDate": "2020-10-13",
+      "rating": 6.9,
+      "popularity": 4.6457,
+      "genreKeys": [
+        "animation",
+        "family",
+        "adventure",
+        "fantasy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/il-drago-argentato-2020"
+    },
+    {
+      "tmdbId": 21867,
+      "imdbId": "tt0091374",
+      "type": "movie",
+      "name": "Lady Jane",
+      "overview": "Alla morte di Enrico VIII, l'Inghilterra precipita in una crisi di successione. L'ambizioso John Dudley fa sposare il figlio Guildford con Lady Jane Grey per portarla al trono, ma l'amore nato fra i due giovani si scontra con le lotte per il potere.",
+      "poster": "/h0N4lG6g2r77C4yGTuvOBHhGYXP.jpg",
+      "year": 1986,
+      "releaseDate": "1986-02-07",
+      "rating": 6.9,
+      "popularity": 5.098,
+      "genreKeys": [
+        "drama",
+        "romance"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/lady-jane-1986"
+    },
+    {
+      "tmdbId": 25087,
+      "imdbId": "tt0112536",
+      "type": "movie",
+      "name": "Colpi proibiti 2",
+      "overview": "Colpi proibiti 2 è un film del 1996 diretto da Alan Mehrez, con protagonista Daniel Bernhardt.  È il seguito del film del 1988 Senza esclusione di colpi con protagonista Jean-Claude Van Damme.",
+      "poster": "/4yHbsdHLHapmWaOcOcRShqWbr4s.jpg",
+      "year": 1996,
+      "releaseDate": "1996-03-01",
+      "rating": 5.3,
+      "popularity": 2.076,
+      "genreKeys": [
+        "action",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/colpi-proibiti-2-1996"
+    },
+    {
+      "tmdbId": 14836,
+      "imdbId": "tt0327597",
+      "type": "movie",
+      "name": "Coraline e la porta magica",
+      "overview": "Coraline ha undici anni e si è da poco trasferita con la sua famiglia in una nuova casa. Tutto è ancora da esplorare, ma i suoi genitori sono troppo occupati con il lavoro per dedicarsi a lei. La spediscono a giocare in giardino, le preparano al volo la cena quando è ora, la invitano a cavarsela da sola. È così che Coraline scopre una porticina che dà su un tunnel polveroso che porta ad un altro appartamento, in tutto simile al suo, dove vivono un'altra mamma e un altro papà, che altro non fanno che occuparsi di lei. Tutto è spettacolare e desiderabile, dall'altra parte del tunnel, se non fosse che le persone hanno strani bottoni cuciti al posto degli occhi.",
+      "poster": "/1xc5dL0VupjK3Qm2kAOhWdkGphI.jpg",
+      "year": 2009,
+      "releaseDate": "2009-02-05",
+      "rating": 7.949,
+      "popularity": 78.6113,
+      "genreKeys": [
+        "animation",
+        "family",
+        "fantasy",
+        "horror"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/coraline-e-la-porta-magica-2009"
+    },
+    {
+      "tmdbId": 470472,
+      "imdbId": "tt5066056",
+      "type": "movie",
+      "name": "Matrimonio con l’ex",
+      "overview": "Eve Wilde è una star del cinema che si è oramai ritirata dalle scene. Mentre si prepara per il suo matrimonio numero quattro, Eve invita il primo marito e le loro famiglie allargate per un fine settimana estivo in campagna.",
+      "poster": "/lXXBxC8cvz9UW2P97fdzsxY7BiV.jpg",
+      "year": 2017,
+      "releaseDate": "2017-09-15",
+      "rating": 5.1,
+      "popularity": 5.5421,
+      "genreKeys": [
+        "comedy",
+        "romance"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/matrimonio-con-l-ex-2017"
+    },
+    {
+      "tmdbId": 29415,
+      "imdbId": "tt0029957",
+      "type": "movie",
+      "name": "L'angelo del male",
+      "overview": "Tornando in treno al porto francese di Le Havre, Jacques Lantier, un ferroviere tormentato, incontra per caso l'impulsivo capostazione Roubard e Séverine, sua moglie.",
+      "poster": "/9QjDYrapdUpWEwCayCD9k2HjAgB.jpg",
+      "year": 1938,
+      "releaseDate": "1938-12-23",
+      "rating": 7.059,
+      "popularity": 1.9311,
+      "genreKeys": [
+        "drama",
+        "romance",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/l-angelo-del-male-1938"
+    },
+    {
+      "tmdbId": 67443,
+      "imdbId": "tt0027342",
+      "type": "movie",
+      "name": "La bella brigata",
+      "overview": "Cinque disoccupati vivono un'esistenza di espedienti finché comprano in società un biglietto della lotteria; vincono diecimila franchi e decidono di impiegarli per costruire un alberghetto. Subito nascono però vari contrasti.",
+      "poster": "/1Lte67fTCBElypPoyPfiA5UxysW.jpg",
+      "year": 1936,
+      "releaseDate": "1936-09-01",
+      "rating": 7.5,
+      "popularity": 1.1866,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/la-bella-brigata-1936"
+    },
+    {
+      "tmdbId": 45802,
+      "imdbId": "tt0027336",
+      "type": "movie",
+      "name": "Verso la vita",
+      "overview": "In una squallida pensione gestita dal ricettatore Kostileff, un gruppo di emarginati cerca di sopravvivere. Il ladro Pépel è coinvolto in un complicato intreccio sentimentale con Vassilissa e la sorella Natacha, mentre stringe amicizia con un barone decaduto.",
+      "poster": "/alNtVzz0pe8mWuECP4m1ELLUvrT.jpg",
+      "year": 1936,
+      "releaseDate": "1936-12-11",
+      "rating": 7.2,
+      "popularity": 1.3159,
+      "genreKeys": [
+        "drama",
+        "romance",
+        "crime"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/verso-la-vita-1936"
+    },
+    {
+      "tmdbId": 26252,
+      "imdbId": "tt0029453",
+      "type": "movie",
+      "name": "Il bandito della Casbah",
+      "overview": "Pépé, parigino rifugiatosi nella Casbah di Algeri, è a capo di una banda di fuorilegge. Inutili sono tutti i tentativi di stanarlo dal quartiere dove egli si sente al sicuro. Quando l'uomo conosce la bella Gaby, spera di poterla seguire in Francia e rifarsi una vita. Ma viene catturato e, alla partenza della nave su cui si è imbarcata la donna, Pépé si suicida.",
+      "poster": "/5jxtgkERlIORTq5ke2xtIhtP3UC.jpg",
+      "year": 1937,
+      "releaseDate": "1937-01-28",
+      "rating": 7.2,
+      "popularity": 2.9562,
+      "genreKeys": [
+        "drama",
+        "crime",
+        "romance"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/il-bandito-della-casbah-1937"
+    },
+    {
+      "tmdbId": 27053,
+      "imdbId": "tt0031514",
+      "type": "movie",
+      "name": "Alba tragica",
+      "overview": "Parigi, anni Trenta. François, un tranquillo e onesto operaio, si innamora follemente di una giovane fioraia al punto da uccidere Valentin, l'uomo che da tempo la perseguita. Dopo l'omicidio François si barrica in casa, circondato dalle forze di polizia, e passa l'intera nottata a ripensare agli avvenimenti che l'hanno condotto a tale drammatica circostanza. Scorre così, lentamente, tutta la sua vita passata.",
+      "poster": "/w76HlRtAPjKOhJkyGiJptzCCrpR.jpg",
+      "year": 1939,
+      "releaseDate": "1939-06-09",
+      "rating": 7.6,
+      "popularity": 2.2967,
+      "genreKeys": [
+        "crime",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/alba-tragica-1939"
+    },
+    {
+      "tmdbId": 59981,
+      "imdbId": "tt0884726",
+      "type": "movie",
+      "name": "Il magico mondo di Oz",
+      "overview": "Dorothy Gale ha appena il tempo di aprire gli occhi e felicitarsi per essere tornata sana e salva nella fattoria di zia Emma e zio Henry, nel Kansas, quando un tipo losco si presenta alla loro porta per dichiarare la casa inagibile, causa tornado, e intimare loro di andarsene entro sera. Mentre cerca un modo per opporsi all'ingiustizia di quella situazione, Dorothy viene però letteralmente rapita da un arcobaleno, che la riporta nel magico mondo di Oz. I suoi amici Spaventapasseri, Leone e Uomo di latta sono in pericolo e con loro tutta la città di Smeraldo, minacciata da un Giullare malvagio, impossessatosi del bastone magico che fu della terribile Strega dell'Ovest. Neppure Glinda può fare qualcosa questa volta: Dorothy è l'unica speranza rimasta ad Oz di poter tornare ad essere la terra incantata di prima.",
+      "poster": "/jpCekcDvK8XKaD0D72d0DGr4luF.jpg",
+      "year": 2014,
+      "releaseDate": "2014-05-08",
+      "rating": 6.2,
+      "popularity": 4.8174,
+      "genreKeys": [
+        "animation",
+        "family",
+        "fantasy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/il-magico-mondo-di-oz-2013"
+    },
+    {
+      "tmdbId": 109815,
+      "imdbId": "tt0070224",
+      "type": "movie",
+      "name": "L'invito",
+      "overview": "Dopo aver ereditato una fortuna, l'impiegato Rémi invita i colleghi in una splendida villa. La festa, complice l'alcol, fa cadere le convenzioni sociali e rivela aspetti insospettati dei partecipanti.",
+      "poster": "/vhEY9G0BttOGTKHNybjeuh5q4e2.jpg",
+      "year": 1973,
+      "releaseDate": "1973-09-13",
+      "rating": 5.9,
+      "popularity": 4.6394,
+      "genreKeys": [
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/l-invito-1973"
+    },
+    {
+      "tmdbId": 129213,
+      "imdbId": "tt3508188",
+      "type": "movie",
+      "name": "Ghost Sweeper Mikami: La resurrezione di Nosferatu",
+      "overview": "Durante il feudalesimo nipponico il malvagio vampiro Nosferatu viene sconfitto dal prode samurai Akechi Mitsuhide ed imprigionato in un santuario scintoista. Quasi 500 anni più tardi, il demone viene accidentalmente risvegliato da una goccia di sangue di Mikami e, insieme al fedele Ranmaru, si mette nuovamente all'opera per conquistare il mondo. Il municipio di Tokyo viene trasformato in un castello mentre un'orda di zombie assetati di sangue invade la città. Il mondo è nelle mani dei Ghost Sweeper.",
+      "poster": "/23lq70I6XMDv3Flx76PneS365sM.jpg",
+      "year": 1994,
+      "releaseDate": "1994-12-04",
+      "rating": 6.1,
+      "popularity": 2.1031,
+      "genreKeys": [
+        "animation",
+        "action",
+        "adventure",
+        "comedy",
+        "fantasy",
+        "horror"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/ghost-sweeper-mikami-la-resurrezione-di-nosferatu-1994"
+    },
+    {
+      "tmdbId": 44470,
+      "imdbId": "tt0113376",
+      "type": "movie",
+      "name": "I gusti del terrore",
+      "overview": "Una tranquilla cittadina di provincia, dove tutto sembra filare sui binari del tran tran quotidiano. E così è, fino all'apparizione del furgoncino del gelataio, tanto che un momento di innocente piacere si trasforma in un incubo grondante sangue. Un urlo nella notte, ed ecco la prima vittima innocente. La polizia sospetta subito del gelataio.",
+      "poster": "/zUMfAvZdYLLCg6IvgjYV5xedv5d.jpg",
+      "year": 1995,
+      "releaseDate": "1995-05-09",
+      "rating": 5.442,
+      "popularity": 3.127,
+      "genreKeys": [
+        "comedy",
+        "horror"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/i-gusti-del-terrore-1995"
+    },
+    {
+      "tmdbId": 129568,
+      "imdbId": "tt0078917",
+      "type": "movie",
+      "name": "Buone notizie",
+      "overview": "Un anonimo funzionario di una società televisiva conduce una vita ordinaria, pur versando con la propria moglie in un'evidente crisi coniugale, caratterizzata da una forte incomunicabilità. Un giorno, il protagonista viene contattato da un vecchio amico che non vedeva da tempo, con il quale s'incontra. Questi gli confida di essere minacciato da misteriosi sicari. Dopo alcune traversie, tra le quali un'avventura erotica con la moglie dell'amico, quest'ultimo, prima di morire, gli fa pervenire una busta con la dicitura \"da non aprire\". La busta contiene una serie di bigliettini che ripetono enigmaticamente la stessa frase. Al funerale, celebrato con rito ebraico, il protagonista ritrova la moglie che gli confida di aspettare un figlio dall'amico ucciso.",
+      "poster": "/A3CoBhpDVlmmHAg0KfRd5LE5cGm.jpg",
+      "year": 1979,
+      "releaseDate": "1979-11-24",
+      "rating": 6.2,
+      "popularity": 0.9284,
+      "genreKeys": [
+        "comedy",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/buone-notizie-1979"
+    },
+    {
+      "tmdbId": 67651,
+      "imdbId": "tt0025191",
+      "type": "movie",
+      "name": "Golgota",
+      "overview": "Una ricostruzione della passione di Gesù Cristo così come viene raccontata nei Vangeli.",
+      "poster": "/xyazZOkjiRcmqkflEyH5yZKcB4R.jpg",
+      "year": 1935,
+      "releaseDate": "1935-04-12",
+      "rating": 7.3,
+      "popularity": 5.0233,
+      "genreKeys": [
+        "adventure",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/golgota-1935"
+    },
+    {
+      "tmdbId": 13205,
+      "imdbId": "tt0447854",
+      "type": "movie",
+      "name": "Bambi 2 - Bambi e il grande principe della foresta",
+      "overview": "Bambi è rimasto orfano della madre e viene cresciuto dal padre, il quale, pur non avendo esperienza in materia, riesce ad insegnare al figlio a sopravvivere nella foresta, comportandosi con dignità e orgoglio, caratteristiche che devono essere proprie del figlio del Grande Principe della foresta.",
+      "poster": "/sjeB2MxgJFjqJxc4ZZXwC1rpkkC.jpg",
+      "year": 2006,
+      "releaseDate": "2006-01-26",
+      "rating": 6.5,
+      "popularity": 5.587,
+      "genreKeys": [
+        "animation",
+        "drama",
+        "family"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/bambi-2"
     }
   ],
   "series": [
@@ -293961,6 +294586,108 @@
         "crime_investigation"
       ],
       "sourceUrl": "https://vixvocal.it/opere/the-white-lotus"
+    },
+    {
+      "tmdbId": 74389,
+      "imdbId": "tt0121305",
+      "type": "series",
+      "name": "Il furto della gioconda",
+      "overview": "Il furto della Gioconda è uno sceneggiato televisivo in 3 puntate, trasmesso per la prima volta dalla RAI nel 1978 per la regia di Renato Castellani, basato sul fatto vero del furto della Gioconda, avvenuto al museo del Louvre ad opera di Vincenzo Peruggia nel 1911.",
+      "poster": "/q7z90glCCLcv2DalczL7rnkjErD.jpg",
+      "year": 1978,
+      "releaseDate": "1978-02-01",
+      "rating": 10,
+      "popularity": 1.8792,
+      "genreKeys": [
+        "crime",
+        "drama"
+      ],
+      "extraGenreKeys": [
+        "crime_investigation"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/il-furto-della-gioconda-1978"
+    },
+    {
+      "tmdbId": 292741,
+      "imdbId": "tt26598805",
+      "type": "series",
+      "name": "Nocturne",
+      "overview": "Quando una vittima del famigerato serial killer Jurek Walter viene ritrovata viva, il detective Jonah Lynn affronta una corsa contro il tempo per trovare l'unica persona ancora dispersa, mentre la sua pupilla, Saga Bauer, opera sotto copertura per ottenere risposte dall'assassino in persona.",
+      "poster": "/v3lygwSQZHw9IGGQvbeZeNYHspp.jpg",
+      "year": 2026,
+      "releaseDate": "2026-10-29",
+      "rating": 7.593,
+      "popularity": 100.559,
+      "genreKeys": [
+        "crime",
+        "drama",
+        "mystery"
+      ],
+      "extraGenreKeys": [
+        "thriller",
+        "crime_investigation"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/nocturne-2026"
+    },
+    {
+      "tmdbId": 94404,
+      "imdbId": "tt11147852",
+      "type": "series",
+      "name": "Dorohedoro",
+      "overview": "Con l'aiuto dell'amica Nikaido, lo smemorato Cayman vuole uccidere lo stregone che ha trasformato la sua testa in quella di un rettile: a Hole questa è una vera minaccia.",
+      "poster": "/mmpGV6laOLyNeo21aOFM9oB9HYw.jpg",
+      "year": 2020,
+      "releaseDate": "2020-01-13",
+      "rating": 8.35,
+      "popularity": 22.183,
+      "genreKeys": [
+        "animation",
+        "action",
+        "comedy",
+        "scifi"
+      ],
+      "extraGenreKeys": [
+        "horror",
+        "supernatural"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/dorohedoro-2020"
+    },
+    {
+      "tmdbId": 31010,
+      "imdbId": "tt0120756",
+      "type": "series",
+      "name": "Moby Dick",
+      "overview": "",
+      "poster": "/fOiEbZuo7KZQhcCbn5EQ4wPsdTN.jpg",
+      "year": 1998,
+      "releaseDate": "1998-03-15",
+      "rating": 5.9,
+      "popularity": 4.1996,
+      "genreKeys": [
+        "drama",
+        "action"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/moby-dick-1998"
+    },
+    {
+      "tmdbId": 46390,
+      "imdbId": "tt0106010",
+      "type": "series",
+      "name": "Una miss scacciafantasmi",
+      "overview": "Nel 1999 Tokyo è infestata da fantasmi e spiriti che terrorizzano gli uffici nei grattacieli o abitano case abbandonate. Per combatterli sono nati gli acchiappafantasmi, uomini con capacità soprannaturali che li sconfiggono a pagamento. Tra questi c'è la giovane Reiko Mikami, affascinante e avida di denaro, con i suoi due aiutanti, l'adolescente Tadao Yokoshima, spontaneo e immaturo, e la ragazza fantasma Okinu.",
+      "poster": "/3do3uAfIkzXEffSmF3Giuu2trh8.jpg",
+      "year": 1993,
+      "releaseDate": "1993-04-11",
+      "rating": 7.9,
+      "popularity": 14.6006,
+      "genreKeys": [
+        "animation",
+        "scifi",
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/una-miss-scacciafantasmi-mikami"
     }
   ]
 }
