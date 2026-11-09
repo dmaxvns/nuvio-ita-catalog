@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-02T11:14:06.291Z",
+  "updatedAt": "2026-11-09T11:37:45.734Z",
   "source": "Vix Vocal + TMDB",
   "movies": [
     {
@@ -242931,6 +242931,605 @@
       ],
       "extraGenreKeys": [],
       "sourceUrl": "https://vixvocal.it/opere/bambi-2"
+    },
+    {
+      "tmdbId": 1242434,
+      "imdbId": "tt31194612",
+      "type": "movie",
+      "name": "Highest 2 Lowest",
+      "overview": "Quando un potente magnate della musica diventa il bersaglio di un ricatto, si ritrova a lottare per la sua famiglia e la sua eredità, mentre affronta un dilemma morale che potrebbe costargli tanto.",
+      "poster": "/k60lRQMoQyL1Lha2Z6k6Er9kdgX.jpg",
+      "year": 2025,
+      "releaseDate": "2025-08-14",
+      "rating": 5.5,
+      "popularity": 5.2672,
+      "genreKeys": [
+        "crime",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/highest-2-lowest"
+    },
+    {
+      "tmdbId": 680495,
+      "imdbId": "tt10645860",
+      "type": "movie",
+      "name": "La famiglia segreta",
+      "overview": "Il mondo perfetto di Allison Winters cade a pezzi quando suo marito muore per un improvviso attacco di cuore. Quello che non si aspettava era che lui annunciasse sul letto di morte di avere una famiglia segreta. Sei mesi dopo Jenna e suo figlio adolescente Joshua arrivano sulla soglia di casa di Allison, determinati a far parte della sua vita e anche quella della figlia Hollie... costi qual che costi!",
+      "poster": "/2laVEwzkImIRh0eE2LihCxZIf5q.jpg",
+      "year": 2020,
+      "releaseDate": "2020-02-28",
+      "rating": 6,
+      "popularity": 0.7773,
+      "genreKeys": [
+        "thriller",
+        "crime"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/la-famiglia-segreta-2020"
+    },
+    {
+      "tmdbId": 40833,
+      "imdbId": "tt0138797",
+      "type": "movie",
+      "name": "King Cobra",
+      "overview": "",
+      "poster": "/p5s5Vt1RLiqI3HQ9WaDm32e8zWH.jpg",
+      "year": 1999,
+      "releaseDate": "1999-08-10",
+      "rating": 4.8,
+      "popularity": 1.2594,
+      "genreKeys": [
+        "horror",
+        "scifi"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/king-cobra-1999"
+    },
+    {
+      "tmdbId": 12493,
+      "imdbId": "tt0057565",
+      "type": "movie",
+      "name": "Anatomia di un rapimento",
+      "overview": "Il figlio di un autista viene rapito, ma è il frutto di un errore di persona. Il vero oggetto del desiderio per lo studente protagonista era il figlio di un industriale. Il commissario di polizia indaga in ricerca del rapitore e si addentrerà nei gironi di un inferno senza uscita.",
+      "poster": "/jHZtd9bNoMNojJXq2wQnvkmC47o.jpg",
+      "year": 1963,
+      "releaseDate": "1963-03-01",
+      "rating": 8.4,
+      "popularity": 9.9064,
+      "genreKeys": [
+        "drama",
+        "crime",
+        "thriller",
+        "mystery"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/anatomia-di-un-rapimento"
+    },
+    {
+      "tmdbId": 1301421,
+      "imdbId": "tt32565993",
+      "type": "movie",
+      "name": "Pecore sotto copertura",
+      "overview": "George (Hugh Jackman) è un pastore che ogni sera legge romanzi gialli alle sue amate pecore, convinto che non possano comprenderlo. Quando però un misterioso incidente sconvolge la tranquillità della fattoria, le pecore decidono di dover diventare loro stesse delle detective. Seguendo gli indizi e indagando sui sospetti umani, dimostrano che anche le pecore possono essere brillanti investigatrici.",
+      "poster": "/hWELMex5ZbcdULp4M8CECiWBBkO.jpg",
+      "year": 2026,
+      "releaseDate": "2026-04-30",
+      "rating": 7.891,
+      "popularity": 19.0603,
+      "genreKeys": [
+        "comedy",
+        "family",
+        "mystery"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/pecore-sotto-copertura-2026"
+    },
+    {
+      "tmdbId": 378236,
+      "imdbId": "tt4877122",
+      "type": "movie",
+      "name": "Emoji - Accendi le emozioni",
+      "overview": "Dietro tutte le app di messaggistica si nasconde Messaggiopolis, una vivace città in cui vivono le emoticon, che sperano di essere selezionate dal proprietario dello smartphone. Ogni emoji ha una sola espressione facciale ma ciò non vale per Gene, una esuberante icona nata senza filtri e dotata di espressioni multiple. Determinato a diventare \"normale\" per essere simile alle altre emoticon, Gene chiede aiuto al miglior amico Gimme-5 e alla famigerata hacker Rebel. I tre si imbarcheranno in un avventuroso viaggio tra app per trovare il Codice che potrà risolvere il problema di Gene. Quando però un pericolo maggiore minaccia tutto lo smartphone, avranno per le mani il destino di tutte le emoticon e del loro universo.",
+      "poster": "/vl3OFrBFcyqehODsuFCsjA3guWM.jpg",
+      "year": 2017,
+      "releaseDate": "2017-07-23",
+      "rating": 5.4,
+      "popularity": 6.1352,
+      "genreKeys": [
+        "animation",
+        "family",
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/emoji-accendi-le-emozioni-2017"
+    },
+    {
+      "tmdbId": 12242,
+      "imdbId": "tt0279967",
+      "type": "movie",
+      "name": "Mulan 2",
+      "overview": "Durante i preparativi per le nozze Shang e Mulan vengono mandati in missione segreta per fare da scorta a tre principesse. Mulan, contravvenendo agli ordini dell'imperatore, decide di aiutare le tre giovani principesse a fuggire per evitare il matrimonio combinato e coronare il loro sogno d'amore.",
+      "poster": "/mIHE3BKyAKG8ocRAoZuCQN1NTv9.jpg",
+      "year": 2004,
+      "releaseDate": "2004-11-03",
+      "rating": 6.523,
+      "popularity": 5.2301,
+      "genreKeys": [
+        "animation",
+        "comedy",
+        "family",
+        "adventure"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/mulan-2"
+    },
+    {
+      "tmdbId": 42448,
+      "imdbId": "tt0071598",
+      "type": "movie",
+      "name": "Harry e Tonto",
+      "overview": "Harry è un insegnante in pensione sulla settantina che vive nell'Upper West Side di New York City, dove lui e la sua defunta moglie hanno cresciuto i suoi figli, dove ha vissuto tutta la sua vita. Quando l'edificio in cui vive viene demolito per far posto a un garage, Harry e il suo amato gatto Tonto iniziano un viaggio attraverso gli Stati Uniti, visitando i suoi figli, vedendo un mondo che non sembrava aver mai avuto il tempo di vedere prima, facendo nuovi amici e dire addio ai vecchi amici.",
+      "poster": "/2JIy2g5UoHBnmNnFpSU7oq5xdTG.jpg",
+      "year": 1974,
+      "releaseDate": "1974-08-12",
+      "rating": 7.1,
+      "popularity": 1.4566,
+      "genreKeys": [
+        "adventure",
+        "comedy",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/harry-e-tonto-1974"
+    },
+    {
+      "tmdbId": 974262,
+      "imdbId": "tt20202136",
+      "type": "movie",
+      "name": "Descendants: L’Ascesa di Red",
+      "overview": "Dopo il colpo di stato della Regina di Cuori a Auradon, sua figlia, la ribelle Red, e la figlia di Cenerentola, la perfezionista Chloe, uniscono le forze per viaggiare indietro nel tempo e provare a impedire l'evento traumatico che ha portato la madre di Red a diventare cattiva.",
+      "poster": "/jaYo0psDw6b1DMLH7pcXJwKpepv.jpg",
+      "year": 2024,
+      "releaseDate": "2024-07-11",
+      "rating": 6.7,
+      "popularity": 11.9306,
+      "genreKeys": [
+        "fantasy",
+        "adventure",
+        "family",
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/descendants-l-ascesa-di-red"
+    },
+    {
+      "tmdbId": 636594,
+      "imdbId": "tt10540146",
+      "type": "movie",
+      "name": "Yaya e Lennie: The Walking Liberty",
+      "overview": "In seguito ad un misterioso sconvolgimento, il mondo, più sviluppato di come lo conosciamo oggi, è finito. La natura si è ripresa prepotentemente il pianeta ed ora la giungla riveste tutta la terra. Una nuova società sta cercando di risorgere, l’Istituzione, i cui adepti cercano di ripristinare l’ordine. Ma c’è chi si oppone con forza a questo processo di “civilizzazione”: i dissidenti stanno preparando la loro rivoluzione! Questa è la storia di due spiriti liberi della giungla, che vogliono solo trovare il loro posto nel mondo, senza prendere le parti di nessuno. Yaya, una ragazzina di colore di circa quindici anni, sveglia, carattere rozzo, spirito indomito. E poi Lennie, un uomo di circa trent’anni, alto due metri e mezzo, affetto da un grave ritardo mentale.",
+      "poster": "/dNGEPJPX7adKYP5NoMe7L0ryRGJ.jpg",
+      "year": 2021,
+      "releaseDate": "2021-11-04",
+      "rating": 6.5,
+      "popularity": 0.5769,
+      "genreKeys": [
+        "animation",
+        "scifi",
+        "adventure"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/yaya-e-lennie-the-walking-liberty"
+    },
+    {
+      "tmdbId": 26266,
+      "imdbId": "tt0367088",
+      "type": "movie",
+      "name": "Spymate",
+      "overview": "Amelia, una giovane genia e figlia di un agente segreto di alto livello, inventa involontariamente un marchingegno che la rende il bersaglio di uno scienziato malvagio.",
+      "poster": "/kIH7SSDDLgqShwtPo78WkIRSd1G.jpg",
+      "year": 2006,
+      "releaseDate": "2006-02-24",
+      "rating": 6.2,
+      "popularity": 1.3483,
+      "genreKeys": [
+        "adventure",
+        "comedy",
+        "family"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/spymate-2006"
+    },
+    {
+      "tmdbId": 152042,
+      "imdbId": "tt2205948",
+      "type": "movie",
+      "name": "Puella Magi Madoka Magica Parte 1: L'inizio della storia",
+      "overview": "Due studentesse Madoka Kaname e Sayaka Miki, sono avvicinate da uno strano essere di nome Kyubey, questi offre loro di diventare delle giovani maghe... ma Homura Akemi, un loro compagna di scuola, cercherà in tutti i modi di impedire loro di sottoscrivere un tale contratto. In questo mondo nascosti ai più esistono creature che possiedono il potere di concedere un desiderio a una ragazza da loro prescelta. Tuttavia quest'ultima per poterlo esprimere deve scegliere di sottoscrivere un contratto e diventare così una maga. Il loro scopo è di lottare contro le streghe, creature malvagie nate da maledizioni, responsabili di omicidi, suicidi ed ogni genere di crudeltà.",
+      "poster": "/txjNyzmFO1PZnRMR0GYRlSCF9d9.jpg",
+      "year": 2012,
+      "releaseDate": "2012-10-05",
+      "rating": 7.613,
+      "popularity": 2.8431,
+      "genreKeys": [
+        "thriller",
+        "animation",
+        "fantasy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/puella-magi-madoka-magica-parte-1-l-inizio-della-storia-2012"
+    },
+    {
+      "tmdbId": 152044,
+      "imdbId": "tt2194724",
+      "type": "movie",
+      "name": "Puella Magi Madoka Magica: Parte 2 - La Storia Infinita",
+      "overview": "Mami, Saiyaka e Kyoko sono morte e la terribile strega nota come “Notte di Valpurgis” sta per attivare. L’unica speranza di poterla sconfiggere è che Madoka diventi una maga ma Homura è disposta a tutto pur di evitare che ciò avvenga. Anche se questo dovesse significare combattere da sola",
+      "poster": "/utwmcxBUb1aXHLjLWq0P6FliJsF.jpg",
+      "year": 2012,
+      "releaseDate": "2012-10-13",
+      "rating": 7.547,
+      "popularity": 2.7383,
+      "genreKeys": [
+        "thriller",
+        "animation",
+        "fantasy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/puella-magi-madoka-magica-parte-2-la-storia-infinita-2012"
+    },
+    {
+      "tmdbId": 347881,
+      "imdbId": "tt4210080",
+      "type": "movie",
+      "name": "The Confirmation",
+      "overview": "Anthony, otto anni, è un po 'a disagio nel passare il weekend con suo padre Walt falegname e alcolista. Sua madre Bonnie e il suo nuovo marito Kyle vanno insieme in un ritiro cattolico. Walt è altrettanto a disagio nel passare il tempo con Anthony, soprattutto dal momento che il loro primo giorno insieme è una serie di eventi caratteristicamente sfortunati, tra cui il suo camion che crolla, il suo padrone di casa che lo blocca fuori di casa e il furto della sua cassetta degli attrezzi, di cui ha bisogno per un lavoro imminente. Mentre Walt e Anthony decidevano di trovare il tizio che rubava gli strumenti e improvvisava le loro altre disgrazie, cominciavano a scoprire un vero rapporto, facendo diventare Walt un padre migliore e Anthony un ragazzo più maturo e ben instradato.",
+      "poster": "/pJEp8nV2GvQycVshfM2F9P7pYQp.jpg",
+      "year": 2016,
+      "releaseDate": "2016-03-18",
+      "rating": 6.4,
+      "popularity": 1.3175,
+      "genreKeys": [
+        "drama",
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/the-confirmation-2016"
+    },
+    {
+      "tmdbId": 1114894,
+      "imdbId": "tt9603060",
+      "type": "movie",
+      "name": "Star Trek: Section 31",
+      "overview": "L'Imperatrice Philippa Georgiou si unisce a una divisione segreta della Flotta Stellare incaricata di proteggere la Federazione Unita dei Pianeti e affronta i peccati del suo passato.",
+      "poster": "/vD2BusqtJNBjtQ2FUPVwjNh4HmF.jpg",
+      "year": 2025,
+      "releaseDate": "2025-01-15",
+      "rating": 4.665,
+      "popularity": 2.8446,
+      "genreKeys": [
+        "scifi",
+        "adventure",
+        "action"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/star-trek-section-31-2025"
+    },
+    {
+      "tmdbId": 10927,
+      "imdbId": "tt0395947",
+      "type": "movie",
+      "name": "Gaya",
+      "overview": "Gaya è un mondo fantastico, dove piccole creature simili agli umani vivono in pace, circondate da paesaggi da fiaba. Ma una minaccia incombe: qualcuno ha rubato la Dalamite, la magica pietra senza la quale il loro universo è condannato all'estinzione. Il coraggioso Zino e il suo amico Bob intraprendono una missione per recuperare la pietra. Il viaggio li porta in un mondo misterioso e spaventoso: la nostra realtà. Qui, insieme ad Alanta, la bella figlia del sindaco di Gaya, scoprono di non essere altro che i personaggi di una serie televisiva, e che il loro mondo è frutto della fantasia di uno sceneggiatore ed esiste solo sullo schermo. Ma prima di riflettere su questo, i nostri eroi hanno altri problemi da risolvere: chi ha rubato la Dalamite? Come recuperarla? E soprattutto, come tornare a Gaya?",
+      "poster": "/npLKwWHtBbWIue7g9UqekfkId35.jpg",
+      "year": 2004,
+      "releaseDate": "2004-03-18",
+      "rating": 5.3,
+      "popularity": 1.2378,
+      "genreKeys": [
+        "animation",
+        "fantasy",
+        "scifi"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/gaya-2004"
+    },
+    {
+      "tmdbId": 12589,
+      "imdbId": "tt0268397",
+      "type": "movie",
+      "name": "Jimmy Neutron - Ragazzo prodigio",
+      "overview": "Jimmi Neutron sta cercandio di stabilire un contatto con una civiltà aliena. A sua insaputa, il satellite che ha lanciato (ok è un tostapane, ma funziona) è stato effettivamente intercettato dagli alieni.....",
+      "poster": "/gwPxSQrR8NYkbCYtiMf3eKOfBMW.jpg",
+      "year": 2001,
+      "releaseDate": "2001-12-14",
+      "rating": 6.123,
+      "popularity": 4.2274,
+      "genreKeys": [
+        "family",
+        "comedy",
+        "adventure",
+        "animation",
+        "scifi"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/jimmy-neutron-ragazzo-prodigio-2001"
+    },
+    {
+      "tmdbId": 74916,
+      "imdbId": "tt0411077",
+      "type": "movie",
+      "name": "The Number One Girl",
+      "overview": "",
+      "poster": "/ozu5mGnXbHD2lyOMbEKnOVfNNJr.jpg",
+      "year": 2006,
+      "releaseDate": "2006-05-16",
+      "rating": 3.7,
+      "popularity": 0.7089,
+      "genreKeys": [
+        "action",
+        "drama",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/the-number-one-girl-2006"
+    },
+    {
+      "tmdbId": 11198,
+      "imdbId": "tt0103950",
+      "type": "movie",
+      "name": "City Hunter - Il film",
+      "overview": "Mentre sono sulle tracce della figlia scomparsa di un magnate dell'editoria, il detective Ryu e la sua giovane assistente Kaori si ritrovano su una nave da crociera. Tutto sembra filare liscio fino a quando non salgono a bordo dei sequestratori americani che vogliono chiedere un riscatto per liberare la nave. Riuscirà Ryu a salvare la situazione e a riempirsi lo stomaco?",
+      "poster": "/bVmHjpfXBewgWzIUzkBuvX2keYj.jpg",
+      "year": 1993,
+      "releaseDate": "1993-01-14",
+      "rating": 6.583,
+      "popularity": 3.7462,
+      "genreKeys": [
+        "action",
+        "adventure",
+        "comedy",
+        "romance"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/city-hunter-il-film-1993"
+    },
+    {
+      "tmdbId": 212162,
+      "imdbId": "tt2457282",
+      "type": "movie",
+      "name": "Puella Magi Madoka Magica: Parte 3 - La storia della ribellione",
+      "overview": "Dopo che Madoka si è sacrificata per eliminare le Streghe e riscrivere le Leggi dell'Universo, nella città di Mitakihara sembra che nulla di tutto ciò sia mai accaduto e le ragazze magiche si ritrovano nuovamente insieme a sconfiggere i malefici Nightmares. Ma Homura, l'unica che sembra ricordare cosa sia avvenuto in realtà a Madoka, non è convinta di ciò che vede e decide di scoprire se la realtà in cui vivono le ragazze sia effettivamente tale o un'illusione magica.",
+      "poster": "/6FucJWVwSnOXUAXWkdDAB3F5ewP.jpg",
+      "year": 2013,
+      "releaseDate": "2013-10-26",
+      "rating": 7.76,
+      "popularity": 3.6699,
+      "genreKeys": [
+        "mystery",
+        "animation",
+        "fantasy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/puella-magi-madoka-magica-parte-3-la-storia-della-ribellione-2013"
+    },
+    {
+      "tmdbId": 1255030,
+      "imdbId": "tt32065103",
+      "type": "movie",
+      "name": "I segreti dei Neanderthal",
+      "overview": "Questo documentario analizza i misteri dei Neandertal e ciò che i reperti fossili ci rivelano riguardo alle loro vite e alla loro scomparsa.",
+      "poster": "/j0CWLFH50qVjEbPZ1TowFxjOVFW.jpg",
+      "year": 2024,
+      "releaseDate": "2024-05-02",
+      "rating": 6.6,
+      "popularity": 1.4229,
+      "genreKeys": [
+        "documentary",
+        "mystery"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/i-segreti-dei-neanderthal-2024"
+    },
+    {
+      "tmdbId": 482810,
+      "imdbId": "tt7989594",
+      "type": "movie",
+      "name": "Maison Ikkoku - Naufragio sull'isola Ikkoku",
+      "overview": "Nel 1991 è uscito Naufragio sull'isola Ikkoku dalla durata di 23 minuti che rappresenta una puntata inedita. Quest'ultimo è stato distribuito in Italia da Yamato Video, con un diverso cast di doppiatori ed è stato trasmesso in TV per la prima volta il 12 novembre 2010 su Man-ga",
+      "poster": "/ccEPVQ2t9SXm2fsbfoxBvk2qalv.jpg",
+      "year": 1991,
+      "releaseDate": "1991-01-31",
+      "rating": 5,
+      "popularity": 1.0472,
+      "genreKeys": [
+        "animation"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/maison-ikkoku-naufragio-sull-isola-ikkoku-1991"
+    },
+    {
+      "tmdbId": 21537,
+      "imdbId": "tt0070017",
+      "type": "movie",
+      "name": "Il segreto della palma d'acciaio",
+      "overview": "Durante l'occupazione giapponese, un ex attore del teatro cinese (Wong Ching), si ribella alle truppe nipponiche che spadroneggiano nel suo villaggio, violentando e malmenando donne, bambini e anziani.",
+      "poster": "/xj52YSSS6FYs8PhKujclseCqQ06.jpg",
+      "year": 1973,
+      "releaseDate": "1973-01-12",
+      "rating": 5.628,
+      "popularity": 1.2041,
+      "genreKeys": [
+        "action",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/il-segreto-della-palma-d-acciaio-1973"
+    },
+    {
+      "tmdbId": 829774,
+      "imdbId": "tt14097180",
+      "type": "movie",
+      "name": "Somewhere in Queens",
+      "overview": "Leo e Angela Russo vivono una vita semplice nel Queens, circondati dalla loro prepotente famiglia italo-americana. Quando il figlio trova il successo nella squadra di pallacanestro del liceo, Leo fa a pezzi la famiglia nel tentativo di far sì che ciò accada.",
+      "poster": "/zXr6AziPii0NFpbTANNpLrOPxRP.jpg",
+      "year": 2023,
+      "releaseDate": "2023-04-21",
+      "rating": 6.331,
+      "popularity": 1.2403,
+      "genreKeys": [
+        "comedy",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/somewhere-in-queens"
+    },
+    {
+      "tmdbId": 891621,
+      "imdbId": "tt15799564",
+      "type": "movie",
+      "name": "Wild Horse Nine",
+      "overview": "Cile, 1973. Chris e Lee sono due agenti della CIA distaccati in Sud America, costretti ad affrontare un complicato viaggio da Santiago all'Isola di Pasqua che metterà a dura prova la loro fiducia reciproca.",
+      "poster": "/og5qagWp4ZqVl28nbBwiBHZprJM.jpg",
+      "year": 2026,
+      "releaseDate": "2026-10-30",
+      "rating": 8.122,
+      "popularity": 65.0724,
+      "genreKeys": [
+        "comedy",
+        "crime",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/wild-horse-nine-2026"
+    },
+    {
+      "tmdbId": 170391,
+      "imdbId": "tt0095364",
+      "type": "movie",
+      "name": "La luna spezzata",
+      "overview": "Un giovane torna dal Vietnam orrendamente sfigurato. Rifiuta di farsi vedere dalla fidanzata con la quale intrattiene solo rapporti epistolari. Il suo unico punto di contatto col mondo diviene un contadino nero che gli dà una mano nella vecchia fattoria di famiglia in Virginia.",
+      "poster": "/tv7JiErI5v0e3GkL0M0mXe5XhRH.jpg",
+      "year": 1988,
+      "releaseDate": "1988-05-06",
+      "rating": 4.8,
+      "popularity": 0.785,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/la-luna-spezzata-1988"
+    },
+    {
+      "tmdbId": 1011477,
+      "imdbId": "tt1674782",
+      "type": "movie",
+      "name": "Karate Kid: Legends",
+      "overview": "Dopo una tragedia familiare, il ragazzo prodigio del kung fu, Li Fong (Ben Wang), è costretto a lasciare la sua casa di Pechino e a trasferirsi a New York con la madre. Li Fong cerca di liberarsi del suo passato e integrarsi con i suoi nuovi compagni di classe. Malgrado non voglia combattere, i guai sembrano raggiungerlo ovunque: infatti, per aiutare un suo nuovo amico in difficoltà, è costretto a partecipare a una gara di karate. Tuttavia, le sue abilità non bastano. A questo punto, l'insegnante di kung fu di Li Fong, Mr. Han (Jackie Chan), chiede aiuto al primo “Karate Kid”, Daniel LaRusso (Ralph Macchio). Il ragazzo imparerà un nuovo modo di combattere fondendo gli stili dei due maestri in uno solo per la resa dei conti nelle arti marziali.",
+      "poster": "/i9cWi61gXApOhPSfxwGduLkYrDr.jpg",
+      "year": 2025,
+      "releaseDate": "2025-05-08",
+      "rating": 6.983,
+      "popularity": 14.6768,
+      "genreKeys": [
+        "action",
+        "adventure",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/karate-kid-legends-2025"
+    },
+    {
+      "tmdbId": 261036,
+      "imdbId": "tt2637378",
+      "type": "movie",
+      "name": "Match - Incontro inatteso",
+      "overview": "",
+      "poster": "/4DpIWptBtqyeZD1mNS25N1XeZgI.jpg",
+      "year": 2014,
+      "releaseDate": "2014-04-18",
+      "rating": 5.8,
+      "popularity": 1.0678,
+      "genreKeys": [
+        "comedy",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/match-incontro-inatteso-2014"
+    },
+    {
+      "tmdbId": 893228,
+      "imdbId": "tt14950412",
+      "type": "movie",
+      "name": "Sezione 8",
+      "overview": "Dopo aver vendicato l'omicidio della sua famiglia, un ex soldato viene liberato dalla prigione e reclutato da un'oscura agenzia governativa.",
+      "poster": "/3rJDTaxBKLZ6XLvcVK7V20Eaj2d.jpg",
+      "year": 2022,
+      "releaseDate": "2022-09-23",
+      "rating": 6.1,
+      "popularity": 2.2932,
+      "genreKeys": [
+        "action",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/sezione-8"
+    },
+    {
+      "tmdbId": 38954,
+      "imdbId": "tt0097067",
+      "type": "movie",
+      "name": "City Hunter - Amore, destino e una 357 Magnum",
+      "overview": "Nina Shtenberg, una famosa pianista della Germania Ovest, arriva in Giappone per un concerto assieme al nonno Klaus. Su consiglio di Maki Imuro, Mina contatta Ryo Saeba perché ritrovi suo padre, che non ha mai conosciuto, ma che sa trovarsi in Giappone. Il padre in realtà è Johan Von Herzen, un killer professionista della Germania Est, al quale Saeko sta dando la caccia in quanto implicato nell'omicidio di un informatore e nella ricerca di un microfilm contenente importanti informazioni top secret sulle reti di spionaggio della Germania Orientale in estremo oriente.",
+      "poster": "/1ceulFRUL4gnk554sXGMMevSCLy.jpg",
+      "year": 1989,
+      "releaseDate": "1989-06-17",
+      "rating": 6.4,
+      "popularity": 1.165,
+      "genreKeys": [
+        "animation",
+        "action",
+        "crime",
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/city-hunter-amore-destino-e-una-357-magnum-1989"
+    },
+    {
+      "tmdbId": 37691,
+      "imdbId": "tt0212826",
+      "type": "movie",
+      "name": "Bread and Roses",
+      "overview": "Maya, ha raggiunto Los Angeles in forma clandestina correndo anche dei gravi rischi e ha trovato un lavoro in un'impresa di pulizie grazie alla sorella Rosa. Un giorno aiuta uno sconosciuto a sfuggire dalle mani di Perez, il capo degli operai. Si tratta di Sam, un sindacalista che vorrebbe che i lavoratori scioperassero contro un'impresa che aumenta gli introiti e diminuisce gli stipendi. Ma non è facile spingere alla protesta chi ha assoluto bisogno di quel lavoro e, come Rosa, non vuole tornare a vivere in una condizione di cui Maya non ha mai saputo nulla..",
+      "poster": "/aNk0yx0xRcs66OdByiy2pJaFhI6.jpg",
+      "year": 2000,
+      "releaseDate": "2000-09-14",
+      "rating": 6.3,
+      "popularity": 1.1234,
+      "genreKeys": [
+        "comedy",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/bread-and-roses"
+    },
+    {
+      "tmdbId": 28123,
+      "imdbId": "tt0120051",
+      "type": "movie",
+      "name": "Complotto per un uomo solo",
+      "overview": "",
+      "poster": "/8xkkY7FkpjPEB2gQ3MAlmVdq3h4.jpg",
+      "year": 1998,
+      "releaseDate": "1998-07-01",
+      "rating": 5.9,
+      "popularity": 1.1174,
+      "genreKeys": [
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/complotto-per-un-uomo-solo-1998"
     }
   ],
   "series": [
@@ -294688,6 +295287,219 @@
       ],
       "extraGenreKeys": [],
       "sourceUrl": "https://vixvocal.it/opere/una-miss-scacciafantasmi-mikami"
+    },
+    {
+      "tmdbId": 609,
+      "imdbId": "tt0058808",
+      "type": "series",
+      "name": "La fattoria dei giorni felici",
+      "overview": "Ambientata ad Hooterville (Illinois), la storia è quella dei coniugi Douglas, che decidono di abbandonare New York per trasferirsi in una fattoria di 160 acri: l'avvocato Oliver è entusiasta; la moglie Lisa è disperata perché non potrà più dedicarsi allo shopping a Park Avenue. Strano a dirsi sarà proprio lei ad adattarsi meglio allo spirito della campagna mentre Oliver continua a ragionare come se fosse in città.",
+      "poster": "/1tCh5D0dyPw8tiknprgbljAAEPw.jpg",
+      "year": 1965,
+      "releaseDate": "1965-09-15",
+      "rating": 7.2,
+      "popularity": 27.4481,
+      "genreKeys": [
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/la-fattoria-dei-giorni-felici"
+    },
+    {
+      "tmdbId": 106393,
+      "imdbId": "tt9795876",
+      "type": "series",
+      "name": "Star Trek: Prodigy",
+      "overview": "Dopo aver trovato una nave abbandonata della Flotta Stellare, un giovane equipaggio si unisce per esplorare la galassia e sfuggire alle grinfie di un malvagio capo.",
+      "poster": "/Aqub3PSzLm2F398vitkbkxjopjO.jpg",
+      "year": 2021,
+      "releaseDate": "2021-10-28",
+      "rating": 7.185,
+      "popularity": 15.9776,
+      "genreKeys": [
+        "animation",
+        "scifi"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/star-trek-prodigy-2021"
+    },
+    {
+      "tmdbId": 257519,
+      "imdbId": "tt32252887",
+      "type": "series",
+      "name": "Bait - Fuori parte",
+      "overview": "Una commedia su Shah Latif, un attore in difficoltà. La sua ultima occasione per sfondare si presenta sotto forma del provino della vita. Lo seguiamo nel corso di quattro giorni folli, mentre la sua vita gli sfugge di mano e la sua famiglia, l'ex ragazza e il mondo intero si sentono in diritto di chiedersi se è giusto per quel ruolo.",
+      "poster": "/ptskAgXV006qYencSrz2hiRmrmf.jpg",
+      "year": 2026,
+      "releaseDate": "2026-03-25",
+      "rating": 6.65,
+      "popularity": 7.1184,
+      "genreKeys": [
+        "drama",
+        "comedy",
+        "scifi"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/bait-fuori-parte-2026"
+    },
+    {
+      "tmdbId": 94498,
+      "imdbId": "tt11714178",
+      "type": "series",
+      "name": "Appare-Ranman!",
+      "overview": "Alla fine del XIX secolo, il geniale inventore Appare Sorano e il cauto samurai Kosame Isshiki si ritrovano alla deriva nel Pacifico, sbarcando in America. Senza soldi per tornare in Giappone, i due si iscrivono alla Trans-America Wild Race, una folle corsa automobilistica da Los Angeles a New York. A bordo di un veicolo a vapore, affronteranno concorrenti spietati e fuorilegge.",
+      "poster": "/pD5B3C3wefzUOw4RD0jAyZyGBB2.jpg",
+      "year": 2020,
+      "releaseDate": "2020-04-10",
+      "rating": 7.1,
+      "popularity": 5.4829,
+      "genreKeys": [
+        "animation",
+        "action"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/appare-ranman"
+    },
+    {
+      "tmdbId": 43018,
+      "imdbId": "tt0090479",
+      "type": "series",
+      "name": "Maison Ikkoku - Cara dolce Kyoko",
+      "overview": "Lo studente Yusaku Godai tenta invano di studiare per l'esame d'ammissione all'università, ma è esasperato dai dispetti e dalla confusione provocati dagli strambi inquilini della pensione in cui soggiorna. E' quasi deciso ad andarsene, ma ecco che arriva un validissimo motivo per restare in quell'assurdo luogo: la nuova amministratrice della pensione, Kyoko Otonashi, giovane e bella vedova di cui Godai si innamora immediatamente.",
+      "poster": "/crF2x9kWtcL0iwkNQoTsaYX46HK.jpg",
+      "year": 1986,
+      "releaseDate": "1986-03-26",
+      "rating": 7.7,
+      "popularity": 19.0178,
+      "genreKeys": [
+        "animation",
+        "comedy",
+        "romance"
+      ],
+      "extraGenreKeys": [
+        "romance"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/maison-ikkoku-cara-dolce-kyoko-1986sm"
+    },
+    {
+      "tmdbId": 85948,
+      "imdbId": "tt9184820",
+      "type": "series",
+      "name": "Star Trek: Lower Decks",
+      "overview": "Le vite dell'equipaggio di supporto in servizio su una delle navi meno importanti della Flotta Stellare, la U.S.S. Cerritos, nel 2380. I guardiamarina Mariner, Boimler, Rutherford e Tendi devono tenere il passo con i loro doveri e le loro vite sociali, spesso mentre la nave è scossa da una moltitudine di anomalie fantascientifiche.",
+      "poster": "/i7Em3r7KCyNfkOwMkyqN8UMvK8S.jpg",
+      "year": 2020,
+      "releaseDate": "2020-08-06",
+      "rating": 7.634,
+      "popularity": 29.825,
+      "genreKeys": [
+        "scifi",
+        "animation",
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/star-trek-lower-decks-2020"
+    },
+    {
+      "tmdbId": 39218,
+      "imdbId": "tt1773185",
+      "type": "series",
+      "name": "Puella Magi Madoka Magica",
+      "overview": "Due studentesse Madoka Kaname e Sayaka Miki, sono avvicinate da uno strano essere di nome Kyubey; questi offre loro di diventare delle giovani maghe... ma Homura Akemi, un loro compagna di scuola, cercherà in tutti i modi di impedire loro di sottoscrivere un tale contratto. È un incontro che potrebbe cambiare il suo destino... è l'inizio della storia di una nuova maga.",
+      "poster": "/qYPUVIhKYirbmVrdEJBZ3ZYpTeE.jpg",
+      "year": 2011,
+      "releaseDate": "2011-01-07",
+      "rating": 8.1,
+      "popularity": 11.7217,
+      "genreKeys": [
+        "animation",
+        "drama",
+        "scifi"
+      ],
+      "extraGenreKeys": [
+        "thriller",
+        "supernatural"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/madoka-magica-serie2011"
+    },
+    {
+      "tmdbId": 44777,
+      "imdbId": "tt0185655",
+      "type": "series",
+      "name": "Starzinger",
+      "overview": "La storia ruota attorno alla Principessa della Luna, Aurora, e i suoi tre compagni cyborg: Coog, Hakka e Gorgo, che devono raggiungere il Grande Pianeta e ripristinare l'Energia Galattica, che si sta affievolendo a causa dell'anzianità della sua regina: in conseguenza di questo tutte le forme di vita di tutti i pianeti stanno diventando aggressive e sanguinarie, e la civiltà sta regredendo.",
+      "poster": "/IMwZF0erNgbBgZABFEEwzTKjF7.jpg",
+      "year": 1978,
+      "releaseDate": "1978-04-02",
+      "rating": 8.531,
+      "popularity": 11.1084,
+      "genreKeys": [
+        "action",
+        "animation",
+        "scifi"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/starzinger78"
+    },
+    {
+      "tmdbId": 38603,
+      "imdbId": "tt1882240",
+      "type": "series",
+      "name": "Beelzebub",
+      "overview": "Tatsumi Oga è uno studente del primo anno del Liceo Ishiyama, una scuola per delinquenti. Un giorno gli capita di raccogliere dal fiume un bambino, che non è altri che Beelzebub, il figlio del re dei demoni, destinato una volta diventato adulto a distruggere l'umanità. Oga ha la fama di essere il più cattivo della scuola, per questo è stato prescelto per occuparsi di allevare il bambino con l'aiuto della tata demoniaca Hilda. E se dovesse rifiutarsi, Oga verrebbe immediatamente ucciso! Il giovane delinquente si ritroverà così costretto a fare da genitore al piccolo Beel, cercando comunque un modo per passare l'incarico a un altro delinquente che possa soddisfare i requisiti necessari.",
+      "poster": "/pKD21lpNb6LzdXi3FfqDirxPGEo.jpg",
+      "year": 2011,
+      "releaseDate": "2011-01-09",
+      "rating": 8.2,
+      "popularity": 22.4491,
+      "genreKeys": [
+        "animation",
+        "comedy",
+        "drama"
+      ],
+      "extraGenreKeys": [
+        "horror",
+        "supernatural",
+        "teen"
+      ],
+      "sourceUrl": "https://vixvocal.it/opere/beelzebub"
+    },
+    {
+      "tmdbId": 251091,
+      "imdbId": "tt32019314",
+      "type": "series",
+      "name": "Star Wars: Tales of the Empire",
+      "overview": "Un viaggio nel temibile Impero Galattico attraverso gli occhi di due guerriere su cammini diversi. Dopo aver perso tutto, la giovane Morgan Elsbeth si fa largo nel mondo imperiale in espansione percorrendo un cammino di vendetta, mentre l'ex Jedi Barriss Offee fa ciò che deve per sopravvivere a una galassia in rapido cambiamento. Le loro scelte definiscono i loro destini.",
+      "poster": "/qA28nLteurVboSSzltuyYt1lvlC.jpg",
+      "year": 2024,
+      "releaseDate": "2024-05-04",
+      "rating": 7.355,
+      "popularity": 6.763,
+      "genreKeys": [
+        "animation",
+        "scifi",
+        "action"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/starwarstalesoftheempire-anim24"
+    },
+    {
+      "tmdbId": 2999,
+      "imdbId": "tt0083488",
+      "type": "series",
+      "name": "I predatori dell'idolo d'oro",
+      "overview": "Anno 1938. Jake Cutter è un ex pilota di caccia che lavora per una piccola compagnia aerea sull'isola immaginaria di Boragora, parte dell'arcipelago di Marivella nel Pacifico meridionale. Indossa la sua giacca di pelle consunta, una reliquia del suo passato di mercenario. I suoi partner sono il suo migliore amico e meccanico Corky e il cane Jack. Con il suo aereo fa trasporti di contrabbando da isola a isola o missioni di salvataggio di passeggeri smarritisi. Un punto d'incontro popolare è il Monkey Bar, di proprietà del francese Bon Chance Louie. Qui lavora anche la bella cantante Sarah che è una spia americana. Jack, che vive sopra il locale in una piccola stanza è l'unico che conosce la sua vera identità.",
+      "poster": "/yuWusb0dvhuw6fuKlVCgXgIh93g.jpg",
+      "year": 1982,
+      "releaseDate": "1982-09-22",
+      "rating": 7.4,
+      "popularity": 7.4829,
+      "genreKeys": [
+        "action",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/i-predatori-dell-idolo-d-oro"
     }
   ]
 }
