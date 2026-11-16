@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09T11:37:45.734Z",
+  "updatedAt": "2026-11-16T11:18:03.840Z",
   "source": "Vix Vocal + TMDB",
   "movies": [
     {
@@ -243530,6 +243530,633 @@
       ],
       "extraGenreKeys": [],
       "sourceUrl": "https://vixvocal.it/opere/complotto-per-un-uomo-solo-1998"
+    },
+    {
+      "tmdbId": 1567605,
+      "imdbId": "tt38773219",
+      "type": "movie",
+      "name": "Scrooge e gli spiriti del Natale",
+      "overview": "",
+      "poster": "/drg45KOBksTrv9qQA0EmNuFgHG9.jpg",
+      "year": 2026,
+      "releaseDate": "2026-11-11",
+      "rating": 7.7,
+      "popularity": 127.9295,
+      "genreKeys": [
+        "fantasy",
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/scrooge-e-gli-spiriti-del-natale-2026"
+    },
+    {
+      "tmdbId": 1117898,
+      "imdbId": "tt2321555",
+      "type": "movie",
+      "name": "Il gatto col cappello",
+      "overview": "Scopri Il Gatto col Cappello come non l’hai mai visto prima! Dal meraviglioso e stravagante mondo di Dr. Seuss, Il Gatto col Cappello arriva per la prima volta sul grande schermo da protagonista di un film d’animazione: un’avventura epica, inedita e piena di brio, dove regnano magia, caos e tanta allegria. Facendo ciò che gli riesce meglio, il Gatto porta gioia ai bambini con il suo umorismo esilarante, unico e irriverente, trasportandoli in un viaggio fantastico verso un mondo mai visto prima.",
+      "poster": "/reGVZn7oCOXM5oaOTjV4MZhFwqT.jpg",
+      "year": 2026,
+      "releaseDate": "2026-10-31",
+      "rating": 6.9,
+      "popularity": 59.2981,
+      "genreKeys": [
+        "animation",
+        "fantasy",
+        "adventure",
+        "family",
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/il-gatto-col-cappello-2026"
+    },
+    {
+      "tmdbId": 1214130,
+      "imdbId": "tt26720001",
+      "type": "movie",
+      "name": "Frankie e le creature dimenticate",
+      "overview": "Stitch Head è stata la prima creatura riportata a una “quasi vita” dal folle professor Erasmus. Negli anni successivi è diventato il custode della sempre più ampia collezione di creature trascurate del suo padrone, con il compito di insegnare loro a reprimere il proprio “mostro interiore” e a nascondersi nel castello — lontano dagli sguardi indiscreti e dalle mani impazienti della folla del villaggio nella valle sottostante. Ma quando il sudicio impresario di circo Fulbert Freakfinder arriva offrendogli un ruolo da protagonista nel suo spettacolo di mostri, Stitch Head viene tentato dalla promessa di amore e accettazione.",
+      "poster": "/AaDoLXs4D22i65OLw7HxMkj5sKN.jpg",
+      "year": 2025,
+      "releaseDate": "2025-10-16",
+      "rating": 7.1,
+      "popularity": 2.548,
+      "genreKeys": [
+        "animation",
+        "adventure",
+        "family",
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/frankie-e-le-creature-dimenticate-2025"
+    },
+    {
+      "tmdbId": 434775,
+      "imdbId": "tt6410564",
+      "type": "movie",
+      "name": "Il terzo omicidio",
+      "overview": "Mikuma, accusato di omicidio, rischia la pena di morte. Al processo è rappresentato da Shigemori che inizia a dubitare della sua colpevolezza.",
+      "poster": "/sA6c6GRKtEPXq7KjWMUJX11e18C.jpg",
+      "year": 2017,
+      "releaseDate": "2017-09-09",
+      "rating": 6.644,
+      "popularity": 2.1098,
+      "genreKeys": [
+        "drama",
+        "mystery",
+        "crime"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/il-terzo-omicidio-2017"
+    },
+    {
+      "tmdbId": 25461,
+      "imdbId": "tt0316188",
+      "type": "movie",
+      "name": "Long Way Home",
+      "overview": "",
+      "poster": "/cMHMtMBca8VNxjYICc1WHK1Qqe5.jpg",
+      "year": 2003,
+      "releaseDate": "2003-03-28",
+      "rating": 6.8,
+      "popularity": 0.717,
+      "genreKeys": [
+        "drama",
+        "romance"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/long-way-home-2003"
+    },
+    {
+      "tmdbId": 45512,
+      "imdbId": "tt0069103",
+      "type": "movie",
+      "name": "Per una manciata di soldi",
+      "overview": "Un ingenuo cowboy del giorno d'oggi viene continuamente truffato. Decide, quindi, d'affidarsi a un amico che si vanta d'essere un furbacchione. Insieme tenteranno di combinare buoni affari, ma finiranno al verde.",
+      "poster": "/s5OPAK1IO3gkXrDMHi0m82iFCnR.jpg",
+      "year": 1972,
+      "releaseDate": "1972-02-01",
+      "rating": 5.6,
+      "popularity": 1.1301,
+      "genreKeys": [
+        "comedy",
+        "western",
+        "adventure"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/per-una-manciata-di-soldi-1972"
+    },
+    {
+      "tmdbId": 133715,
+      "imdbId": "tt0053583",
+      "type": "movie",
+      "name": "La pelle degli eroi",
+      "overview": "",
+      "poster": "/tUJCxJ0wS2arR8C2ucaAPOHxfpk.jpg",
+      "year": 1960,
+      "releaseDate": "1960-08-26",
+      "rating": 6.7,
+      "popularity": 0.7712,
+      "genreKeys": [
+        "action",
+        "adventure",
+        "drama",
+        "war"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/la-pelle-degli-eroi-1960"
+    },
+    {
+      "tmdbId": 43192,
+      "imdbId": "tt0045886",
+      "type": "movie",
+      "name": "Il mago Houdini",
+      "overview": "All'inizio del 1900, lo straordinario Houdini si era guadagnato una reputazione internazionale per i suoi trucchi teatrali e le sue audaci imprese di liberazione da catene, corde, manette e... le carceri di Scotland Yard.",
+      "poster": "/2KUUCXmKDEzMPU4JfVL3HF1fQfI.jpg",
+      "year": 1953,
+      "releaseDate": "1953-07-02",
+      "rating": 6.6,
+      "popularity": 1.2894,
+      "genreKeys": [
+        "drama",
+        "romance"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/il-mago-houdini-1953"
+    },
+    {
+      "tmdbId": 60853,
+      "imdbId": "tt0043687",
+      "type": "movie",
+      "name": "Pelle di rame",
+      "overview": "Jim Thorpe è un ragazzo indiano che frequenta con scarso profitto un college della Pennsylvania, ma il suo insegnante di educazione fisica scopre in lui straordinarie doti di atleta. Jim vince le Olimpiadi di Stoccolma del 1912, si sposa, ma la morte del suo unico figlio lo fa sprofondare nell'alcolismo. Grazie al suo antico \"coach\", diventa allenatore dei ragazzi della sua parrocchia.",
+      "poster": "/ktnQN6DdZufF7tL49HgFwPi7s3k.jpg",
+      "year": 1951,
+      "releaseDate": "1951-08-24",
+      "rating": 6.5,
+      "popularity": 1.5594,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/pelle-di-rame-1951"
+    },
+    {
+      "tmdbId": 397884,
+      "imdbId": "tt0042837",
+      "type": "movie",
+      "name": "Peggy la studentessa",
+      "overview": "",
+      "poster": "/2U425hScWWnozC03MZzE25ICIqO.jpg",
+      "year": 1950,
+      "releaseDate": "1950-07-01",
+      "rating": 6,
+      "popularity": 0.5612,
+      "genreKeys": [
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/peggy-la-studentessa-1950"
+    },
+    {
+      "tmdbId": 82101,
+      "imdbId": "tt0039636",
+      "type": "movie",
+      "name": "Il lutto si addice ad Elettra",
+      "overview": "Strage familiare: il giovane Orin uccide l'amante della madre Cristina che a sua volta ha avvelenato il marito Ezra, e la madre si suicida dal dolore. Unito da un morboso affetto alla sorella, Orin si uccide a sua volta.",
+      "poster": "/hxQhre6YJDGtVGNRxtET5KWFTSQ.jpg",
+      "year": 1947,
+      "releaseDate": "1947-11-19",
+      "rating": 6.2,
+      "popularity": 0.7239,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/il-lutto-si-addice-ad-elettra-1947"
+    },
+    {
+      "tmdbId": 495193,
+      "imdbId": "tt1799516",
+      "type": "movie",
+      "name": "Benji",
+      "overview": "Un cane tenace viene in soccorso di una famiglia distrutta quando un ragazzino e la sorella si trovano in serio pericolo.",
+      "poster": "/79pacM3h5FoETnfuRC6O2qPfzn4.jpg",
+      "year": 2018,
+      "releaseDate": "2018-03-16",
+      "rating": 6.9,
+      "popularity": 1.9694,
+      "genreKeys": [
+        "drama",
+        "family",
+        "adventure",
+        "crime"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/benji-2018"
+    },
+    {
+      "tmdbId": 33245,
+      "imdbId": "tt0113443",
+      "type": "movie",
+      "name": "Un party per Nick",
+      "overview": "Quando Nick scopre di avere l’Aids e lo confessa al suo fidanzato Brandon, questi lo abbandona. Dopo un anno, l’uomo, dovendo fare i conti con un sistema immunitario in rovina decide di mettere fine alla propria vita e di organizzare una festa d’addio per salutare i suoi amici e familiari...",
+      "poster": "/kyhFPjyYTrcy2NtgAUkhWhTMAHW.jpg",
+      "year": 1996,
+      "releaseDate": "1996-03-22",
+      "rating": 6.3,
+      "popularity": 1.2572,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/un_party_per_nick-1996"
+    },
+    {
+      "tmdbId": 458131,
+      "imdbId": "tt4807408",
+      "type": "movie",
+      "name": "Migliori nemici",
+      "overview": "Ann Atwater è una schietta attivista per i diritti civili. C.P. Ellis, invece, è un leader del Ku Klux Klan locale. Nel 1971, durante una calda estate, formeranno un improbabile legame per combattere contro la segregazione razziale nelle scuole di Durham, nella Carolina del Nord. Gli eventi che seguiranno cambieranno le loro esistenze per sempre.",
+      "poster": "/rasYAJCzBGzcngStMDDBvBEa0he.jpg",
+      "year": 2019,
+      "releaseDate": "2019-04-05",
+      "rating": 7.422,
+      "popularity": 2.5707,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/migliori-nemici"
+    },
+    {
+      "tmdbId": 1007757,
+      "imdbId": "tt29552248",
+      "type": "movie",
+      "name": "Swapped - Al tuo posto",
+      "overview": "Una piccola creatura del bosco e un maestoso uccello si scambiano improvvisamente di corpo e devono fare squadra per sopravvivere all'avventura più folle della loro vita.",
+      "poster": "/uCRXsCpMZJDrxAAXJC2xHOz6r9T.jpg",
+      "year": 2026,
+      "releaseDate": "2026-05-01",
+      "rating": 8.831,
+      "popularity": 28.6221,
+      "genreKeys": [
+        "adventure",
+        "animation",
+        "family",
+        "fantasy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/swapped-al-tuo-posto"
+    },
+    {
+      "tmdbId": 1563588,
+      "imdbId": "tt37664358",
+      "type": "movie",
+      "name": "L'hangar rosso",
+      "overview": "Cile, 11 settembre 1973, colpo di stato militare. Il capitano Jorge Silva, ex capo dell’intelligence dell’Aeronautica, viene incaricato di trasformare l’Accademia in cui sta addestrando i giovani cadetti in un centro di detenzione e tortura. Mentre gli hangar si riempiono di prigionieri e la repressione diventa sempre più brutale, Silva si ritrova a un bivio: obbedire agli ordini e appoggiare il nuovo regime, o disobbedire e aiutare chi lotta per sopravvivere?",
+      "poster": "/owA1QtBUMmJ5DBN4eLL4fmrUxRH.jpg",
+      "year": 2026,
+      "releaseDate": "2026-05-08",
+      "rating": 7.81,
+      "popularity": 2.5486,
+      "genreKeys": [
+        "drama",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/l-hangar-rosso-2026"
+    },
+    {
+      "tmdbId": 1024210,
+      "imdbId": "tt14631276",
+      "type": "movie",
+      "name": "The Social Experiment",
+      "overview": "",
+      "poster": "/4OxCa8ybFLyh1pgX7181DU4nBHj.jpg",
+      "year": 2022,
+      "releaseDate": "2022-10-27",
+      "rating": 4,
+      "popularity": 0.3805,
+      "genreKeys": [
+        "scifi",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/the-social-experiment-2022"
+    },
+    {
+      "tmdbId": 1553969,
+      "imdbId": "tt38551209",
+      "type": "movie",
+      "name": "Sheep in the Box",
+      "overview": "In un futuro prossimo, a Yokohama, la coppia dei Komoto, che ha tragicamente perso il figlio di sette anni Kakeru, decide di avvalersi di REbirth, un programma pensato per le famiglie nella loro situazione: riceveranno in prova gratuita un androide guidato dall'intelligenza artificiale, con le fattezze e i ricordi di Kakeru, destinato a diventare un surrogato in tutto e per tutto del figlio perduto. Il padre Kensuke è inizialmente scettico, laddove la madre Otone si affeziona istantaneamente al nuovo Kakeru, scegliendo di vivere nell'autosuggestione. Finché una visita della madre e della sorella non riportano Otone alla realtà, mentre il nuovo Kakeru stringe segretamente amicizia con altri suoi \"simili\".",
+      "poster": "/yYFPOWP1Kry7w6BfPTTkgG1E70m.jpg",
+      "year": 2026,
+      "releaseDate": "2026-05-29",
+      "rating": 6.386,
+      "popularity": 3.8072,
+      "genreKeys": [
+        "drama",
+        "scifi"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/sheep-in-the-box-2026"
+    },
+    {
+      "tmdbId": 252830,
+      "imdbId": "tt2909476",
+      "type": "movie",
+      "name": "A Certain Justice",
+      "overview": "L'ex militare John Nguyen torna dalla guerra in Iraq cercando la pace dopo la traumatica esperienza come soldato. Un giorno in un locale salva una prostituta da violenti criminali che per vendicarsi dichireranno guerra a John e alla sua famiglia. L'uomo tornerà ad utilizzare la strategia e la forza per combattere la sua nuova guerra.",
+      "poster": "/AwtKX0bf7fCCeBzbCcWELhADTaH.jpg",
+      "year": 2014,
+      "releaseDate": "2014-08-04",
+      "rating": 4.5,
+      "popularity": 0.9438,
+      "genreKeys": [
+        "action",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/a-certain-justice"
+    },
+    {
+      "tmdbId": 11511,
+      "imdbId": "tt0116756",
+      "type": "movie",
+      "name": "Kazaam - il gigante rap",
+      "overview": "Un giorno Max Conner, dodicenne ragazzo di città, mentre cerca di sfuggire ad una banda di bulletti di quartiere, inciampa in una scatola, da cui emerge un enorme e potente genio di 3000 anni di nome Kazaam. Costui gli offre tre desideri, Max non crede all'offerta, però i due, dopo alcune disavventure passate insieme, diventano una coppia inseparabile.",
+      "poster": "/6BJqrrV8BEKsorzy3rtuR80hg9y.jpg",
+      "year": 1996,
+      "releaseDate": "1996-07-17",
+      "rating": 4.2,
+      "popularity": 1.4987,
+      "genreKeys": [
+        "fantasy",
+        "comedy",
+        "family"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/kazaam-il-gigante-rap-1996"
+    },
+    {
+      "tmdbId": 41409,
+      "imdbId": "tt1610528",
+      "type": "movie",
+      "name": "Airline Disaster",
+      "overview": "Un gruppo di terroristi dirotta l'aereo su cui sta volando il fratello del Presidente degli Stati Uniti. Lei, adesso, deve scegliere se privilegiare i suoi legami familiari o pensare alla sicurezza nazionale.",
+      "poster": "/ppY5lbBXBPOfd671jsKtdXLcbYo.jpg",
+      "year": 2010,
+      "releaseDate": "2010-06-29",
+      "rating": 5,
+      "popularity": 0.7147,
+      "genreKeys": [
+        "action",
+        "adventure",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/airline-disaster-2010"
+    },
+    {
+      "tmdbId": 452323,
+      "imdbId": "tt6293042",
+      "type": "movie",
+      "name": "Outrage Coda",
+      "overview": "La guerra tra i clan Sanno e Hanabishi, entrambi appartenenti alla Yakuza, è vinta dai secondi. Otomo è quindi costretto a lasciare il Giappone. Tornerà anni dopo per risolvere, una volta per tutte, i conti lasciati aperti.",
+      "poster": "/5XcKzCHr8D9c1lBBbEW2mhYH8tO.jpg",
+      "year": 2017,
+      "releaseDate": "2017-10-07",
+      "rating": 6.788,
+      "popularity": 1.9529,
+      "genreKeys": [
+        "action",
+        "crime",
+        "thriller",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/outrage-coda-2017"
+    },
+    {
+      "tmdbId": 199556,
+      "imdbId": "tt2179226",
+      "type": "movie",
+      "name": "Absolute Deception",
+      "overview": "Quando Miles, informatore chiave dell'agente dell'Fbi John Nelson (Cuba Gooding Jr.), viene sequestrato e assassinato, tutto ciò che resta di lui è un dito mozzato. Alla ricerca di informazioni utili, Nelson si reca a New York dalla vedova di Miles, la giornalista Rebecca Scott (Emmanuelle Vaugier), che nonostante le perplessità accetta di aiutarlo a scoprire cosa il marito nascondesse. I due ben presto si ritroveranno alle prese con sconosciuti aggressori e con un miliardario in cerca di vendetta e dei suoi soldi rubati.",
+      "poster": "/oFOE7oUnrDJyvvh3j3roInfEXRE.jpg",
+      "year": 2013,
+      "releaseDate": "2013-06-10",
+      "rating": 5.324,
+      "popularity": 1.3279,
+      "genreKeys": [
+        "action"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/absolute-deception"
+    },
+    {
+      "tmdbId": 46934,
+      "imdbId": "tt1183911",
+      "type": "movie",
+      "name": "Mr. Nice",
+      "overview": "Adattamento cinematografico dell'omonima autobiografia di Howard Marks, il più celebre spacciatore di droga nella storia inglese. Alla metà degli anni Ottanta, Marks aveva 43 alias, 89 linee telefoniche e 25 società, tutte utilizzate per riciclare il denaro guadagnato con la droga. Marks inizò a spacciare durante gli anni di dottorato in filosofia ad Oxford, finendo presto col muovere grandi quantità di hashish in Europa e in America utilizzando le casse delle attrezzature delle rock band in tour come veicolo. Ebbe contatti con la CIA, l'MI6, l'IRA e la Mafia. Catturato dalla DEA e condannato a 25 anni di reclusione, fu rilasciato sulla parola nel 1995 dopo 7 anni passati al fresco.",
+      "poster": "/4MFbFZYRNX0MmjtW326qtW1LwJN.jpg",
+      "year": 2010,
+      "releaseDate": "2010-10-07",
+      "rating": 6.1,
+      "popularity": 1.2923,
+      "genreKeys": [
+        "comedy",
+        "crime",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/mr-nice"
+    },
+    {
+      "tmdbId": 115666,
+      "imdbId": "tt0100262",
+      "type": "movie",
+      "name": "13° Piano: Fermata per l'Inferno",
+      "overview": "Elaine Kalisher è giornalista che scrive per una rivista di turismo. Si reca al Wessex Hotel per fare un articolo sullo stesso. Appena arrivata viene accolta da Judith Teller, che lavora nell'albergo; si offre di aiutarla e le dice che l'albergo è tutto a sua disposizione. Tranne il piano dove l'ascensore non ferma.",
+      "poster": "/wy953lWAjoLyh6Pvh7igmQI43Ok.jpg",
+      "year": 1990,
+      "releaseDate": "1990-10-31",
+      "rating": 5.4,
+      "popularity": 1.1535,
+      "genreKeys": [
+        "horror",
+        "thriller",
+        "mystery"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/13-piano-fermata-per-l-inferno-1990"
+    },
+    {
+      "tmdbId": 192813,
+      "imdbId": "tt2518926",
+      "type": "movie",
+      "name": "Age of Dinosaurs",
+      "overview": "Grazie all'uso di una rivoluzionaria tecnologia, una società biotech crea una serie di dinosauri viventi. Quando però le creature fuggono da un'esposizione terrorizzando la città di Los Angeles, un ex vigile del fuoco dovrà adoperarsi per salvare la figlia dal caos creatosi.",
+      "poster": "/uTHMlbIYbC860HfD128QCaJbs0X.jpg",
+      "year": 2013,
+      "releaseDate": "2013-05-11",
+      "rating": 3.846,
+      "popularity": 1.1129,
+      "genreKeys": [
+        "action",
+        "scifi",
+        "horror"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/age-of-dinosaurs-2013"
+    },
+    {
+      "tmdbId": 118683,
+      "imdbId": "tt2119474",
+      "type": "movie",
+      "name": "Maximum Conviction",
+      "overview": "L'agente speciale Tom Steele e il suo partner Manning ricevono l'incarico di smantellare un carcere di massima sicurezza e sorvegliare due pericolose detenute da poco arrivate. In breve tempo però si ritrovano a fronteggiare l'assalto di un gruppo di mercenari d'élite, arrivati nella prigione in cerca delle due donne, le cui vere identità costringono Steele e Manning a fronteggiare qualcosa di molto più grande di ciò che potessero mai immaginare.",
+      "poster": "/uVzFbz7WTjXTt7c9L41oNeyhc8K.jpg",
+      "year": 2012,
+      "releaseDate": "2012-10-25",
+      "rating": 4.9,
+      "popularity": 1.5539,
+      "genreKeys": [
+        "action",
+        "adventure",
+        "crime",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/maximum-conviction"
+    },
+    {
+      "tmdbId": 41997,
+      "imdbId": "tt1564571",
+      "type": "movie",
+      "name": "Meteor Apocalypse - Pioggia di Fuoco",
+      "overview": "Un gigantesco meteorite entra nell'orbita terrestre e inizia a disintegrarsi, inondando l'intero pianeta di detriti.",
+      "poster": "/dQmxTUlLYvy7tCkSctD4QpalPsb.jpg",
+      "year": 2010,
+      "releaseDate": "2010-02-23",
+      "rating": 4.9,
+      "popularity": 1.0528,
+      "genreKeys": [
+        "action",
+        "scifi",
+        "thriller"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/meteor-apocalypse-pioggia-di-fuoco-2010"
+    },
+    {
+      "tmdbId": 506863,
+      "imdbId": "tt7515456",
+      "type": "movie",
+      "name": "Hurricane",
+      "overview": "1940. La Gran Bretagna si trova da sola in Europa ad affrontare l'avanzata del rampante impero nazista. La gente si chiede cosa riserva il futuro ma in soccorso della nazione intervengono una serie di polacchi coraggiosi, piloti dell'aeronautica che hanno visto la loro nazione finire schiacciata tra Russia e Germania. Pronti a entrare in azione, dovranno prima di tutto guadagnarsi la fiducia degli inglesi per poi dimostrare di quale pasta e coraggio siano fatti.",
+      "poster": "/6ErvR7tnpYD3bJ57SuLi9Ielxxp.jpg",
+      "year": 2018,
+      "releaseDate": "2018-09-07",
+      "rating": 5.861,
+      "popularity": 1.7141,
+      "genreKeys": [
+        "war",
+        "drama",
+        "action"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/hurricane-2018"
+    },
+    {
+      "tmdbId": 144121,
+      "imdbId": "tt0043335",
+      "type": "movie",
+      "name": "Il magnifico fuorilegge",
+      "overview": "Finita la guerra civile, alcuni gruppi di confederati si sono dati alla macchia unendosi ai fuorilegge. Per ripulire il paese da queste bande, il governo federale invia contro di loro dei reparti dell'esercito. Uno di questi è comandato dal maggiore Jeff Clanton che, dopo aver dato per qualche tempo la caccia alla famigerata banda Quantrell, riesce costringerla alla resa.",
+      "poster": "/gNN8ZgvnRGQsLS6FzrcF5GGKJZd.jpg",
+      "year": 1951,
+      "releaseDate": "1951-08-09",
+      "rating": 6.5,
+      "popularity": 1.6659,
+      "genreKeys": [
+        "western"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/il-magnifico-fuorilegge-1951"
+    },
+    {
+      "tmdbId": 662940,
+      "imdbId": "tt9897258",
+      "type": "movie",
+      "name": "Rosa Pietra Stella",
+      "overview": "A Portici, alla periferia di Napoli, Carmela è una giovane madre sola che vive in condizioni precarie, sotto perenne minaccia di sfratto, insieme alla madre e alla figlia undicenne Maria. Scaltra e battagliera, Carmela deve però arrangiarsi come può per sbarcare il lunario ed evitare che i servizi sociali le portino via Maria. Tra lavori occasionali, come quello di hostess, e abboccamenti meno che leciti con un avvocato per procurare permessi di soggiorno agli stranieri, Carmela si fa aiutare come può dalla sorella Nunzia e da Tarek, un uomo algerino dal cuore gentile.",
+      "poster": "/qrNd2Lp3u2ilHpQ5K27Z8HILMKG.jpg",
+      "year": 2020,
+      "releaseDate": "2020-08-27",
+      "rating": 6.4,
+      "popularity": 0.5975,
+      "genreKeys": [
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/rosa-pietra-stella"
+    },
+    {
+      "tmdbId": 151911,
+      "imdbId": "tt0029924",
+      "type": "movie",
+      "name": "Marco il ribelle",
+      "overview": "",
+      "poster": "/zvE961Nkem8niL1Q5dxkarei7jx.jpg",
+      "year": 1938,
+      "releaseDate": "1938-06-17",
+      "rating": 5.8,
+      "popularity": 0.4154,
+      "genreKeys": [
+        "war",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/marco-il-ribelle-1938"
+    },
+    {
+      "tmdbId": 163332,
+      "imdbId": "tt0044893",
+      "type": "movie",
+      "name": "Lasciami sognare",
+      "overview": "Il cantante Danny e l'impresario Mike formano una coppia squattrinata. Insieme conoscono la ballerina Joy che fa loro ottenere una scrittura e di cui Danny si innamora. Joy invece ama Mike e questo ostacolo sembra separare i due amici.",
+      "poster": "/uBgp887jy88dkrluBlMmiAi4Yfi.jpg",
+      "year": 1952,
+      "releaseDate": "1952-02-08",
+      "rating": 4.4,
+      "popularity": 0.6095,
+      "genreKeys": [
+        "crime",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/lasciami-sognare-1952"
+    },
+    {
+      "tmdbId": 130102,
+      "imdbId": "tt0045845",
+      "type": "movie",
+      "name": "Mani in alto!",
+      "overview": "Il pistolero Billy Ringo decide di appendere le armi al chiodo, comprare un ranch e sposare Arlene Reach. Suo fratello Matt, padre di Chip, il nipote che Ringo sta cercando di mantenere sulla retta via, insieme ad altri tre fuorilegge, Dixon, Hollaway e Hoke, incastra Ringo per fargli compiere una rapina in banca con loro. Fingendo di schierarsi con loro, dopo aver accidentalmente ucciso Matt, Ringo informa lo sceriffo Wyatt Earp del loro piano di rapinare un vagone espresso della Wells Fargo. Alla rapina segue uno scontro a fuoco e i tre fuorilegge vengono uccisi e Ike Clinton, il capobanda, viene consegnato da Ringo allo sceriffo Earp. Scritto da Les Adams",
+      "poster": "/bsA3cLVGQJlXddsOa9qulfZaA3.jpg",
+      "year": 1953,
+      "releaseDate": "1953-07-24",
+      "rating": 6.4,
+      "popularity": 0.5824,
+      "genreKeys": [
+        "western"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/mani-in-alto-1953"
     }
   ],
   "series": [
@@ -295500,6 +296127,112 @@
       ],
       "extraGenreKeys": [],
       "sourceUrl": "https://vixvocal.it/opere/i-predatori-dell-idolo-d-oro"
+    },
+    {
+      "tmdbId": 43966,
+      "imdbId": "tt0074050",
+      "type": "series",
+      "name": "Sandokan",
+      "overview": "Sandokan è una miniserie televisiva del 1976 diretta da Sergio Sollima, interpretata da Kabir Bedi, Philippe Leroy, Carole André, Andrea Giordana e Adolfo Celi e tratta dai romanzi del ciclo indo-malese di Emilio Salgari. La sceneggiatura si ispira in buona parte ai libri Le Tigri di Mompracem e I pirati della Malesia.",
+      "poster": "/opwgDUOaUHxWPUqeW1mw93tMxyS.jpg",
+      "year": 1976,
+      "releaseDate": "1976-01-06",
+      "rating": 7.211,
+      "popularity": 3.3795,
+      "genreKeys": [
+        "action"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/sandokan-1976"
+    },
+    {
+      "tmdbId": 120317,
+      "imdbId": "tt11639300",
+      "type": "series",
+      "name": "Le indagini di Roy Grace",
+      "overview": "La storia del sovrintendente investigativo Roy Grace, che vive a Brighton, un funzionario di polizia che lavora sodo e che ha dedicato la vita al lavoro.",
+      "poster": "/r9hE4eF8IGbcoyl419Nfllkv6Ag.jpg",
+      "year": 2021,
+      "releaseDate": "2021-03-14",
+      "rating": 6.774,
+      "popularity": 13.8778,
+      "genreKeys": [
+        "crime",
+        "drama"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/le-indagini-di-roy-grace-2021"
+    },
+    {
+      "tmdbId": 201380,
+      "imdbId": "tt15466144",
+      "type": "series",
+      "name": "Uncoupled",
+      "overview": "Scioccato quando il fidanzato storico lo lascia, un agente immobiliare di New York affronta la prospettiva di ricominciare da capo e di nuovi appuntamenti a quarant'anni.",
+      "poster": "/ckwIGJghs2AuUcjyhByRlXNMBYZ.jpg",
+      "year": 2022,
+      "releaseDate": "2022-07-29",
+      "rating": 6.554,
+      "popularity": 3.6969,
+      "genreKeys": [
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/uncoupled-2022"
+    },
+    {
+      "tmdbId": 124394,
+      "imdbId": "tt11761176",
+      "type": "series",
+      "name": "Power Book III: Raising Kanan",
+      "overview": "Ambientato a South Jamaica, nel Queens, nel 1991, \"Raising Kanan\" è un prequel del franchise \"Power\". È un dramma familiare che ruota attorno alla crescita di Kanan Stark.",
+      "poster": "/7ByyA3tZNe5r5eLg9Oa6Z3n9o5D.jpg",
+      "year": 2021,
+      "releaseDate": "2021-07-18",
+      "rating": 8.1,
+      "popularity": 16.4093,
+      "genreKeys": [
+        "drama",
+        "crime"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/power-book-iii-raising-kanan-2021"
+    },
+    {
+      "tmdbId": 40808,
+      "imdbId": "tt0149515",
+      "type": "series",
+      "name": "Il Ritorno di Sandokan",
+      "overview": "Lady Dora Parker arriva in India, nel territorio dell'Assam, insieme al suo fotografo Alfred Higgins per scrivere un articolo sul pirata Sandokan, soprannominato la \"Tigre della Malesia\". Il destino vuole proprio che Sandokan incontri la donna, salvandola da un gruppo di banditi.",
+      "poster": "/7OjUJ83oSbMHREREfV0j7miruZi.jpg",
+      "year": 1996,
+      "releaseDate": "1996-10-06",
+      "rating": 7.3,
+      "popularity": 2.3449,
+      "genreKeys": [
+        "drama",
+        "action"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/il-ritorno-di-sandokan"
+    },
+    {
+      "tmdbId": 32023,
+      "imdbId": "tt1299365",
+      "type": "series",
+      "name": "How to Make It in America",
+      "overview": "Cercando di farsi un nome nella competitiva scena della moda di New York, Ben Epstein e il suo amico e socio in affari Cam Calderon usano le loro conoscenze di strada e le loro connessioni per realizzare le loro ambizioni. Con l'aiuto del cugino di Cam, Rene, che sta cercando di commercializzare la sua bevanda ad alta energia, e il loro amico ben collegato Domingo, i fiorenti imprenditori si preparano a diventare grandi, incontrando ostacoli lungo la strada che richiederanno tutto il loro ingegno per essere superati.",
+      "poster": "/xSKGT90ScJbHsL6FvMn7Aiov6tS.jpg",
+      "year": 2010,
+      "releaseDate": "2010-02-14",
+      "rating": 7.255,
+      "popularity": 6.1484,
+      "genreKeys": [
+        "drama",
+        "comedy"
+      ],
+      "extraGenreKeys": [],
+      "sourceUrl": "https://vixvocal.it/opere/how-to-make-it-in-america-2010"
     }
   ]
 }
